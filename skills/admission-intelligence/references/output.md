@@ -18,7 +18,7 @@ cases.json 结构示例（字段值下方仅为结构说明，实际文件不得
 
 ```json
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "researched_on": "YYYY-MM-DD",
   "scope": {"institution": "...", "program": "...", "tracks": [], "years": []},
   "sources": [{"id": "S1", "url": "...", "title": "...", "source_type": "official_profile", "accessed_on": "YYYY-MM-DD", "published_on": null, "access_state": "full_text", "locator": "..."}],
@@ -26,23 +26,33 @@ cases.json 结构示例（字段值下方仅为结构说明，实际文件不得
     "id": "C1", "public_name_or_handle": "...",
     "identity_link": {"basis": "...", "source_ids": ["S1"]},
     "fields": {
-      "enrollment_status": {"value": null, "status": "unknown", "source_ids": []},
-      "track": {"value": null, "status": "unknown", "source_ids": []},
-      "undergraduate_school": {"value": null, "status": "unknown", "source_ids": []},
-      "undergraduate_major": {"value": null, "status": "unknown", "source_ids": []},
-      "undergraduate_start": {"value": null, "status": "unknown", "source_ids": []},
-      "undergraduate_end": {"value": null, "status": "unknown", "source_ids": []},
-      "masters_start": {"value": null, "status": "unknown", "source_ids": []},
-      "masters_graduation": {"value": null, "status": "unknown", "source_ids": []},
-      "work_duration_before_application": {"value": null, "status": "unknown", "source_ids": [], "cutoff": null, "calculation": null},
-      "application_narrative": {"value": null, "status": "unknown", "source_ids": []}
+      "enrollment_status": {"value": null, "status": "unknown", "source_ids": [], "evidence": []},
+      "track": {"value": null, "status": "unknown", "source_ids": [], "evidence": []},
+      "undergraduate_school": {"value": null, "status": "unknown", "source_ids": [], "evidence": []},
+      "undergraduate_major": {"value": null, "status": "unknown", "source_ids": [], "evidence": []},
+      "undergraduate_start": {"value": null, "status": "unknown", "source_ids": [], "evidence": []},
+      "undergraduate_end": {"value": null, "status": "unknown", "source_ids": [], "evidence": []},
+      "masters_start": {"value": null, "status": "unknown", "source_ids": [], "evidence": []},
+      "masters_graduation": {"value": null, "status": "unknown", "source_ids": [], "evidence": []},
+      "work_duration_before_application": {"value": null, "status": "unknown", "source_ids": [], "cutoff": null, "calculation": null, "evidence": []},
+      "application_narrative": {"value": null, "status": "unknown", "source_ids": [], "evidence": []}
     },
     "experiences": [], "primary_archetype": null, "tags": [], "conflicts": []
   }],
-  "archetypes": [{"label": "...", "status": "inferred", "case_ids": [], "source_ids": [], "scope": "...", "limitations": "..."}]
+  "archetypes": [{"label": "...", "status": "inferred", "case_ids": [], "source_ids": [], "evidence": [], "scope": "...", "limitations": "..."}]
 }
 ```
 
 experiences 每项保存类型（full_time／part_time／internship／research／project）、单位／岗位、原始起止日期、相对申请时间（before_application／before_enrollment_only／during_program／after_program／unknown）、status 与 source_ids。可附公开 GPA 原始量表和教育地区等相关字段，使用同样证据结构。
 
+## 机器检查约定
+
+新记录使用 schema_version 1.1；历史 1.0 记录保留原样，不伪称通过新检查。每个非 unknown 字段的 source_ids 至少一个，evidence 至少一项并为每个 source_id 提供 `{source_id, locator}`。未知字段 value 为 null。字段层冲突需在 case.conflicts 中保存 `{field, values: [{value, source_ids, evidence}]}`，保留两种以上不同值。
+
+access_state 为 full_text／partial_text／snippet_only／blocked／failed；阻止访问或失败的来源不得支持字段，摘要单列有限证据，不许升级 documentary 事实。来源 id、案例 id 唯一；来源 URL 为 http 或 https。experiences 使用 full_time／part_time／self_employed／internship／research／project／employment_unspecified。经历同样提供 evidence 定位。
+
+画像 case_ids 必须非空，不能包括拒录、候补、未知准入状态，不能混入明确排除的项目版本；轨道未知案例只能组成注明轨道未确认的路径，不加入已确认轨道的比例。
+
 所有 source_ids 必须存在；推断画像必须指向实际 case_ids；unknown 的值用 null，而不是 0、无工作或自动估算。冲突值保存各来源，不能丢弃冲突后输出已确认。
+
+字段 status 使用 documented／self_reported／secondary／calculated／inferred／unknown／conflicting。enrollment_status.value 使用 offer_self_reported／offer_documented／enrolled／graduated／waitlisted／rejected；无准入证据时使用 null、status unknown。预计入学与毕业在附注或日期对象中标 planned／expected，不当作完成。计算年限必须附 cutoff 与 calculation。

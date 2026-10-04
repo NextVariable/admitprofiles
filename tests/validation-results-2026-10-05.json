@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-10-05",
+  "official_reference_source": "https://github.com/agentskills/agentskills/tree/main/skills-ref/src/skills_ref",
+  "official_reference_validator": "passed",
+  "official_validator_files_sha256": {
+    "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "errors.py": "5780d314db735400c3959d20ed19a8c59445786d35a1a1b7cf368f01576d91f4",
+    "models.py": "c6645fcfc04c78e773657856e8c6058e43951ce283e9b303ca721df1acac6a7b",
+    "parser.py": "9a74c9a90eb217b82bec27570332eab74547acfbee2973c0a8bcd23f6c7bc211",
+    "validator.py": "b5ee3d8537c83c959c31c2cb080a5227646ede5aea545f1ac835ed3c4645f6c5"
+  },
+  "skill_creator_quick_validate": "passed",
+  "helper_unit_tests": {
+    "passed": 24,
+    "failed": 0
+  },
+  "live_record_consistency": "passed",
+  "skill_main_lines": 71,
+  "limitations": [
+    "one bounded live program test",
+    "no independent repeated agent execution",
+    "no multi-program reliability result",
+    "no automated truth verification"
+  ]
+}
