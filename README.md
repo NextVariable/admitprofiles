@@ -15,14 +15,14 @@ git clone https://github.com/NextVariable/admission-intelligence.git
 cd admission-intelligence
 ```
 
-私有仓库需要具有访问权限的 GitHub 账号。在 macOS／Linux 上，将技能链接到 Codex 的技能目录；目标已存在时，先保留原版本，避免覆盖：
+私有仓库需要具有访问权限的 GitHub 账号。按 [Codex 官方安装目录说明](https://learn.chatgpt.com/docs/build-skills)，在 macOS／Linux 上，将技能链接到 Codex 的个人技能目录；目标已存在时，先保留原版本，避免覆盖：
 
 ```sh
-mkdir -p "$HOME/.codex/skills"
-ln -s "$PWD/skills/admission-intelligence" "$HOME/.codex/skills/admission-intelligence"
+mkdir -p "$HOME/.agents/skills"
+ln -s "$PWD/skills/admission-intelligence" "$HOME/.agents/skills/admission-intelligence"
 ```
 
-也可将 `skills/admission-intelligence` 整个目录复制到自己的技能目录，无需复制研究与测试资料。移动仓库后需更新链接；新会话中确认技能已被发现。
+也可将 `skills/admission-intelligence` 整个目录复制到自己的技能目录（已有 `~/.codex/skills` 安装可以继续使用，避免重复安装同名技能），无需复制研究与测试资料。移动仓库后需更新链接；新会话中确认技能已被发现。
 
 ```text
 使用 $admission-intelligence 研究 Northwestern MSIS。
@@ -45,10 +45,12 @@ python3 -m unittest discover -s tests -v
 python3 tests/check_records.py
 ```
 
-当前有 53 项回归测试，包含 752 种嵌套输入变异、5,000 组随机工作区间及 200 组既有对照。GitHub Actions 在 Python 3.11、3.12、3.13 上运行回归与记录检查。批量测试数量不是实际录取研究数量，也不是模型输出正确率。
+当前 61 项回归测试覆盖结构、引用、日期、独立安装和包内资源，批量检查包含 752 种嵌套输入变异、5,000 组随机工作区间及 200 组既有对照。GitHub Actions 在 Python 3.11、3.12、3.13 上运行回归与记录检查。批量测试数量不是实际录取研究数量，也不是模型输出正确率。
 
-`validate_cases.py` 检查记录结构与引用一致性；`work_months.py` 计算已提供月级日期区间的并集。两者均不验证网页真实性、正文支持性或模型研究质量。人工来源复查与独立研究试运行的证据见 [评估说明](tests/skill-evaluation.md)和 [历史验证记录](docs/history/README.md)。旧版 1.0 记录保留并明确跳过新版结构检查；独立初稿保留供审计，不应作为最终报告引用。
+`validate_cases.py` 检查记录结构与引用一致性；`work_months.py` 计算已提供月级日期区间的并集。两者均不验证网页真实性、正文支持性或模型研究质量。人工来源复查与独立研究试运行的证据见 [评估说明](evals/README.md)和 [历史验证记录](docs/history/README.md)。旧版 1.0 记录保留并明确跳过新版结构检查；独立初稿保留供审计，不应作为最终报告引用。
+
+维护者规范与项目架构见 [贡献指南](CONTRIBUTING.md)和 [架构说明](docs/architecture.md)。
 
 ## 仓库结构
 
-可安装的技能与辅助脚本位于 [skills/admission-intelligence](skills/admission-intelligence/SKILL.md)，研究材料位于 [research](research/README.md)，自动回归及评估证据位于 [tests](tests/skill-evaluation.md)，设计与历次修正记录位于 [docs/history](docs/history/README.md)。运行时不依赖研究存档或测试日志。
+可安装的技能与辅助脚本位于 [skills/admission-intelligence](skills/admission-intelligence/SKILL.md)，研究材料位于 [research](research/README.md)，可执行自动回归位于 [tests](tests)，独立评估及历史日志位于 [evals](evals/README.md)，设计与历次修正记录位于 [docs/history](docs/history/README.md)。运行时不依赖研究存档或测试日志。

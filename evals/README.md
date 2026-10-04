@@ -17,4 +17,8 @@
 
 完整验收应在至少三个不同类型项目上独立执行，保留实际产物与渠道日志，对字段支持性逐项复核。触发准确率与结果质量分别评估，不给未执行的场景打通过标签。
 
-截至第四轮，已保存32个合成情景独立处理、三个项目的有限跨渠道研究，以及Berkeley/Northwestern共26项独立来源支持复查。Brown新试运行在未读旧报告的情况下执行，发现经历键名不明确和证据状态混用，已修正。它们提供部分执行证据，仍不等于平台隐式触发准确率测试，也没有完成三个不同类型项目最近三届的完整重复验收。具体记录见 `tests/forward-evaluations/` 与 `第四轮验证与GitHub交付-2026-10-05.md`。
+截至第四轮，已保存32个合成情景独立处理、三个项目的有限跨渠道研究，以及Berkeley/Northwestern共26项独立来源支持复查。Brown新试运行在未读旧报告的情况下执行，发现经历键名不明确和证据状态混用，已修正。它们提供部分执行证据，仍不等于平台隐式触发准确率测试，也没有完成三个不同类型项目最近三届的完整重复验收。具体记录见 `evals/forward-evaluations/` 与 [第四轮验证](../docs/history/第四轮验证与GitHub交付-2026-10-05.md)。
+
+回归运行日志和机器结果保存在 [results](results)，独立评估审查保存在 [forward-evaluations](forward-evaluations)。历史记录中的 tests/validation-* 与 tests/forward-evaluations/ 是原路径，现已迁入本目录，原始内容未改写。此目录不随技能安装，也不在技能入口中自动加载。
+
+本次架构复审记录见 [独立复核](forward-evaluations/architecture-review-2026-10-05.md)，61项回归与安装检查的实际结果见 [机器记录](results/architecture-audit-2026-10-05.json)。新增结果不覆盖旧轮次。

@@ -57,9 +57,9 @@ access_state 为 full_text／partial_text／snippet_only／blocked／failed；�
 
 所有 source_ids 必须存在；推断画像必须指向实际 case_ids；unknown 的值用 null，而不是 0、无工作或自动估算。冲突值保存各来源，不能丢弃冲突后输出已确认。
 
-字段 status 使用 documented／self_reported／secondary／calculated／inferred／unknown／conflicting。enrollment_status.value 使用 offer_self_reported／offer_documented／enrolled／graduated／waitlisted／rejected；无准入证据时使用 null、status unknown。预计入学与毕业在附注或日期对象中标 planned／expected，不当作完成。计算年限必须附 cutoff 与 calculation。
+字段 status 使用 documented／self_reported／secondary／calculated／inferred／unknown／conflicting。enrollment_status.value 使用 offer_self_reported／offer_documented／enrolled／graduated／waitlisted／rejected；无准入证据时使用 null、status unknown。预计入学与毕业在附注或日期对象中标 planned／expected，不当作完成。计算年限必须附 cutoff 与 calculation；calculation 使用非空方法文字，不接受空格或布尔值。
 
-身份连接 identity_link 必须含非空 basis 与对应 source_ids、evidence。画像准入状态必须直接记载或自报，不能靠 inferred／calculated／conflicting 字段入组；每个成员至少有一个字段来源被画像引用。这个连接只检查出处关系，仍需人工核实这些来源是否支持分类。来源与研究访问日期使用有效 YYYY-MM-DD。JSON不允许重复键或NaN／Infinity。未知字段若保留来源，同样需要字段定位。
+身份连接 identity_link 必须含非空 basis 与对应 source_ids、evidence。画像准入状态必须直接记载或自报，不能靠 inferred／calculated／conflicting 字段入组；每个成员至少有一个直接记载、自报或二手字段来源被画像引用；unknown、inferred、calculated、conflicting 字段不能单独支持成员连接。这个连接只检查出处关系，仍需人工核实这些来源是否支持分类。来源与研究访问日期使用有效 YYYY-MM-DD。JSON不允许重复键或NaN／Infinity。未知字段若保留来源，同样需要字段定位。
 
 画像也可引用成员experiences中的直接记载、自报或二手经历出处，不强迫将工作经历复制到学历字段才能通过检查；unknown、inferred或calculated经历不能单独充当成员来源连接。经历是否确实属于该人且是否支持申请前分类，仍须按身份与时间边界复核。
 
@@ -68,3 +68,19 @@ access_state 为 full_text／partial_text／snippet_only／blocked／failed；�
 同一人物的同一冲突字段只保存一条冲突记录，将所有不同值及出处归入其 values。已知文字值不可留空；同一字段不重复保存相同 source_id 与 locator。来源访问日期不得晚于本次 researched_on；后续补查时更新研究日期并保留旧版。计算年限的 cutoff 使用有效的 YYYY、YYYY-MM 或 YYYY-MM-DD，保持来源精度；月级计算器仍只接受 YYYY-MM。两项工具都拒绝重复 JSON 键及非有限数字。
 
 学历层级未确认的已知学校／学科，可保存为fields.prior_education的value，注明degree_level未确认，使用相同的status、source_ids与evidence；undergraduate字段保持unknown。观察日期可另存fields.enrollment_observation，value含事件类型与日期，不把它当作实际开学日。自定义顶层扩展（如leads）不在验证器保证范围内；未核实线索默认记录于search-log.md，不凭一次结构通过宣称扩展已验证。数字形式年限不得为负数、布尔值或非有限数，单位仍需在value对象或附注里明确。
+
+## 交付前复核与个人匹配
+
+脚本路径始终相对于本SKILL.md所在目录解析，不相对于当前项目工作目录；调用时使用解析后的完整路径。
+
+需要记录文件时按格式生成，交付前运行 `python3 scripts/validate_cases.py <cases.json>`。它检查结构和引用，不检查网页是否真实或是否支持结论；正文支持性仍逐项人工核查。若需要计算完整月级工作日期，先读 [证据规则](evidence.md)，再运行 `python3 scripts/work_months.py <intervals.json>`；不要为运行计算器补出缺失日期。两者仅依赖 Python 3 标准库。
+
+先用自然中文概括已观察到的主要画像、样本覆盖和结论边界，再说明每类，随后给具体案例。用户要求具体背景对照时用表格；不需要时用完整段落。读者无需先看方法才能知道研究结论。
+
+报告开头明确哪些目标字段已经查到、哪些仍缺失，不能把字段很多但几乎全为未知的输出称为背景已还原。人物学历含多次本科或申请前硕士时分别记录，避免漏掉已有研究生教育。
+
+在事实旁放可打开的来源链接，明确是官网、LinkedIn、本人复盘或论坛自报；不能只在结尾堆链接。保留访问日期、来源定位、字段证据和缺失／冲突。完整研究在项目目录保存 report.md、cases.json 与 search-log.md，按项目和研究日期分目录；不覆盖旧研究。后续更新引用旧记录但重新核查变动部分，并记录修正。
+
+用户只问项目时，至此结束。有申请者真实背景且用户要求匹配时，再解释已有路径的联系、证据缺口和差异化：以具体贡献而非稀缺标签说明价值，允许判断不匹配；缺事实先问或保留未知，不从先前聊天候选标签生成个人事实。默认不生成 SOP、不提供录取概率。
+
+完成前检查：身份和学位是否一致，申请后经历是否误作申请条件，年限是否重复／推算，分类能否回到案例，链接是否真正支持对应字段，未知和来源冲突是否仍可见。正式报告与小样本试运行区分，结构检查不代表研究结果已全面验证。

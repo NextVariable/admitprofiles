@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-05",
+  "baseline_commit": "2c9e36cc704d942be4c99320c55b0e467b1c9fc5",
+  "unit_tests": {
+    "passed": 61,
+    "nested_mutations": 752,
+    "random_intervals": 5000,
+    "existing_interval_oracles": 200
+  },
+  "record_consistency": {
+    "passed": 9,
+    "legacy_skipped": 1
+  },
+  "package_isolation": "passed: copied skill, Python -I, two CLIs and readonly input",
+  "local_links": "passed: package references and current repository entry documents",
+  "static_checks": "ruff 0.12.0 check and format passed",
+  "official_quick_validator": "passed",
+  "independent_review": "three reproduced issues fixed; important rules retained",
+  "cloud_checks": "GitHub Actions runs on the final committed revision; see repository workflow for actual result",
+  "not_proven": [
+    "live research quality after restructuring",
+    "implicit invocation accuracy",
+    "full recent three-cohort coverage"
+  ]
+}
