@@ -9,6 +9,7 @@ ruff check .
 ruff format --check .
 python3 -m unittest discover -s tests -v
 python3 tests/check_records.py
+python3 tests/check_source_audit.py
 ```
 
 提交前核对差异、包内引用和从独立目录执行的行为；校验器结构通过不代表网页支持结论。新增研究保留报告、证据和检索记录，修正版使用独立目录，并更新 research/README.md。禁止覆盖独立初稿或旧研究以掩盖修正。

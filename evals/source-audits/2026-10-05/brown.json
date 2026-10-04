@@ -1,0 +1,3527 @@
+{
+  "audit_date": "2026-10-05",
+  "model": "GPT-6 family; exact deployment identifier not exposed to this agent",
+  "inventory_path": "/private/tmp/admission-round6-brown-prime-units.json",
+  "inventory_baseline_commit": "7c0e6f071a455418267a20ff7ef2b468862bbf86",
+  "unit_count": 170,
+  "verdict_counts": {
+    "supported": 84,
+    "inaccessible": 13,
+    "unknown_preserved": 72,
+    "overstated": 1
+  },
+  "source_reopen_status": {
+    "official_and_personal_urls_reopened": 9,
+    "reddit_original_url": "failed_cache_miss; old.reddit inaccessible; .json failed_cache_miss",
+    "distinct_urls_in_inventory": 10
+  },
+  "units": [
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/sources/0",
+      "verdict": "supported",
+      "rationale": "官网主页可以支持学位和两种版本，但网页当前招生文案会滚动，不能外推旧招生周期。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。",
+      "checked_urls": [
+        "https://prime.brown.edu/"
+      ],
+      "evidence_locators": [
+        "主页第31-55行：Sc.M.、residential/fully online、夏季先线上；2028申请字样动态更新"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S1",
+        "url": "https://prime.brown.edu/",
+        "title": "PRIME",
+        "publisher": "Brown University",
+        "source_type": "official_program",
+        "accessed_on": "2026-10-05",
+        "published_on": null,
+        "access_state": "full_text",
+        "locator": "Introduction: ScM, School of Engineering, residential/fully online"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/sources/1",
+      "verdict": "supported",
+      "rationale": "官方访谈正文直接支持身份及列出的学历/经历；其动机是本人访谈自述，未给申请日期或PRIME个人入学年。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第33-50行：Class of 25、本科/已有硕士、CWEP、2019-05起海军任职及在读第二学期"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S2",
+        "url": "https://prime.brown.edu/people/megan-d",
+        "title": "Megan D.",
+        "publisher": "Brown University",
+        "source_type": "official_profile",
+        "accessed_on": "2026-10-05",
+        "published_on": null,
+        "access_state": "full_text",
+        "locator": "Q&A undergraduate and application motivation, lines 35-50"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/sources/2",
+      "verdict": "supported",
+      "rationale": "官方访谈支持学位和曾就读；第41行只说 wanted in-resident，不能证明实际入学轨道。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/joseph-d"
+      ],
+      "evidence_locators": [
+        "人物页第33-47行：Class of 24、UC Davis Managerial Economics、希望住校及PRIME经历"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S3",
+        "url": "https://prime.brown.edu/people/joseph-d",
+        "title": "Joseph D.",
+        "publisher": "Brown University",
+        "source_type": "official_profile",
+        "accessed_on": "2026-10-05",
+        "published_on": null,
+        "access_state": "full_text",
+        "locator": "Q&A lines 35-47"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/sources/3",
+      "verdict": "supported",
+      "rationale": "官网页支持身份、本科专业及申请机会；PRIME@Work仅是未来期待，不是申请前实习。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/jacob-f"
+      ],
+      "evidence_locators": [
+        "人物页第33-61行：Class of 24、West Point学历、Technical Scholar Program、在读期待"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S4",
+        "url": "https://prime.brown.edu/people/jacob-f",
+        "title": "Jacob F.",
+        "publisher": "Brown University",
+        "source_type": "official_profile",
+        "accessed_on": "2026-10-05",
+        "published_on": null,
+        "access_state": "full_text",
+        "locator": "Biography lines 35-61"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/sources/4",
+      "verdict": "inaccessible",
+      "rationale": "原 Reddit URL 当前直接打开 cache miss，旧版 full_text/发表日期的当时访问状态无法重演；失败不证明旧记录造假，今天不能复核正文。",
+      "checked_urls": [
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/"
+      ],
+      "evidence_locators": [
+        "检索结果 `[Friday April 03 2026]` 与标题及 Brown PRIME accepted 文本；原帖 URL 直开 cache miss，old.reddit 和 .json 亦失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S5",
+        "url": "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/",
+        "title": "2025 grad struggling to find a job",
+        "publisher": "Reddit",
+        "source_type": "forum_self_report",
+        "accessed_on": "2026-10-05",
+        "published_on": null,
+        "access_state": "full_text",
+        "locator": "Original post by Plenty-Initiative-49, lines 17-35",
+        "date_note": "Direct full text exposes only relative time; exact 2026-04-03 date available from search cache only, separate S8."
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/sources/5",
+      "verdict": "supported",
+      "rationale": "同页确有年份自相矛盾；不能挑一行作为个人入学年或完整招生规则。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。",
+      "checked_urls": [
+        "https://prime.brown.edu/format-resources"
+      ],
+      "evidence_locators": [
+        "Format | Resources 第50-54、91-121行：双版本、summer课程、2028 heading写2026但表格写2027"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S6",
+        "url": "https://prime.brown.edu/format-resources",
+        "title": "Format | Resources",
+        "publisher": "Brown University",
+        "source_type": "official_program",
+        "accessed_on": "2026-10-05",
+        "published_on": null,
+        "access_state": "full_text",
+        "locator": "Program Dates"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/sources/6",
+      "verdict": "supported",
+      "rationale": "同页 Class of 2027 2026年九月开放与 Class of 2028 2026-27截止混杂；2025 summer start 为不一致文案。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。",
+      "checked_urls": [
+        "https://prime.brown.edu/faqs"
+      ],
+      "evidence_locators": [
+        "FAQs 第33、42、82-100、121-131行：Class of 2027/2028混杂、申请截止、六月开学与本科专业语气"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S7",
+        "url": "https://prime.brown.edu/faqs",
+        "title": "FAQs",
+        "publisher": "Brown University",
+        "source_type": "official_program",
+        "accessed_on": "2026-10-05",
+        "published_on": null,
+        "access_state": "full_text",
+        "locator": "Application cohort header and deadline panel"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/sources/7",
+      "verdict": "supported",
+      "rationale": "搜索结果显示标题、日期和相关摘录；snippet_only 正确保留为索引状态，原帖当前不能直接打开。",
+      "checked_urls": [
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/"
+      ],
+      "evidence_locators": [
+        "检索结果 `[Friday April 03 2026]` 与标题及 Brown PRIME accepted 文本；原帖 URL 直开 cache miss，old.reddit 和 .json 亦失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S8",
+        "url": "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/",
+        "title": "Original Reddit post indexed date",
+        "publisher": "Reddit",
+        "source_type": "forum_self_report",
+        "accessed_on": "2026-10-05",
+        "published_on": null,
+        "access_state": "snippet_only",
+        "locator": "Search query Brown PRIME 2026 admitted undergraduate: Friday April 03 2026"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/0/identity_link",
+      "verdict": "supported",
+      "rationale": "Megan D. 的姓名/简称和 PRIME 学生或毕业身份在同一 Brown 官方人物页正文直接相连。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第33-50行：Class of 25、本科/已有硕士、CWEP、2019-05起海军任职及在读第二学期"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "basis": "同一原始页面同时列出身份及 Brown PRIME 项目，不跨站同名合并",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Class of 25 and PRIME Q&A"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/0/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "访谈直接确认当时在读；不自动声称2026仍在读。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第45-50行：第二学期和 since I joined PRIME"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "enrolled",
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Q&A: second semester at PRIME; since I joined PRIME"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/0/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Megan D. 的 track 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_school",
+      "verdict": "supported",
+      "rationale": "明确UCF本科。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第37-38行：University of Central Florida及Bachelor"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "University of Central Florida",
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Undergraduate question: Bachelor and Master of Science"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "明确电气工程本科与已有硕士。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第37-38行：Bachelor and Master of Science in Electrical Engineering"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Electrical Engineering",
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Undergraduate question"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Megan D. 的 undergraduate_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_end",
+      "verdict": "supported",
+      "rationale": "依原文顺序，本科2019、此前硕士2022；未推出入学年份。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第37-38行：Bachelor and Master (2019, 2022)"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "2019",
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Bachelor and Master of Science (2019, 2022)"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/0/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Megan D. 的 masters_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/0/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Megan D. 的 masters_graduation 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/0/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Megan D. 的 work_duration_before_application 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": [],
+        "cutoff": null,
+        "calculation": null
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/0/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Megan D. 的 application_narrative 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/0/fields/prior_education",
+      "verdict": "supported",
+      "rationale": "已有硕士为申请前教育，值得保留。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第37-38行：UCF Master of Science Electrical Engineering (2022)"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": {
+          "school": "University of Central Florida",
+          "degree": "Master of Science",
+          "major": "Electrical Engineering",
+          "completed": "2022"
+        },
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Bachelor and Master of Science (2019, 2022)"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/0/fields/cohort_label",
+      "verdict": "supported",
+      "rationale": "仅毕业届/班级标签，不足以证明入学或完成授位日期。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第33-35行：Class of 25"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Class of '25",
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Heading"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/0/experiences/0",
+      "verdict": "supported",
+      "rationale": "海军全职任职及起点可核；没有申请截止日，未据此算精确工作年限或把现任主管职级回填申请时。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第42-44行：从2019-05起 full-time for Navy，访谈时的负责人职务"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "type": "full_time",
+        "organization": "U.S. Navy",
+        "role": "employment",
+        "start": "2019-05",
+        "end": null,
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Application motivation: working full-time since May 2019"
+          }
+        ],
+        "relative_timing": "unknown"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/0/experiences/1",
+      "verdict": "supported",
+      "rationale": "本科期间兼职可核；日期和申请前月数不可核。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第39-41行：本科期间 Lockheed Martin MFC 的 CWEP 兼职"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "type": "part_time",
+        "organization": "Lockheed Martin MFC",
+        "role": "CWEP",
+        "start": null,
+        "end": null,
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Undergraduate enjoyment: part-time throughout undergraduate career"
+          }
+        ],
+        "relative_timing": "unknown"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/1/identity_link",
+      "verdict": "supported",
+      "rationale": "Joseph D. 的姓名/简称和 PRIME 学生或毕业身份在同一 Brown 官方人物页正文直接相连。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/joseph-d"
+      ],
+      "evidence_locators": [
+        "人物页第33-47行：Class of 24、UC Davis Managerial Economics、希望住校及PRIME经历"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "basis": "同一原始页面同时列出身份及 Brown PRIME 项目，不跨站同名合并",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "Class of 24 and PRIME experience Q&A"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/1/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "直接表明曾参加PRIME；没有学位授予证明。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/joseph-d"
+      ],
+      "evidence_locators": [
+        "人物页第42-47行：PRIME experience、time at Brown"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "enrolled",
+        "status": "documented",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "PRIME experience and time at Brown questions"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/1/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Joseph D. 的 track 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": [],
+        "note": "desired residential format is explicit; actual track remains unconfirmed"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_school",
+      "verdict": "supported",
+      "rationale": "明确本科院校。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/joseph-d"
+      ],
+      "evidence_locators": [
+        "人物页第36-37行：University of California, Davis"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "University of California, Davis",
+        "status": "documented",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "Undergraduate question"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "明确本科学位领域。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/joseph-d"
+      ],
+      "evidence_locators": [
+        "人物页第36-37行：degree in Managerial Economics"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Managerial Economics",
+        "status": "documented",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "Undergraduate question: got a degree"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Joseph D. 的 undergraduate_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Joseph D. 的 undergraduate_end 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/1/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Joseph D. 的 masters_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/1/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Joseph D. 的 masters_graduation 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/1/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Joseph D. 的 work_duration_before_application 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": [],
+        "cutoff": null,
+        "calculation": null
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/1/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Joseph D. 的 application_narrative 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/1/fields/cohort_label",
+      "verdict": "supported",
+      "rationale": "只支持届别，不支持入学年。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/joseph-d"
+      ],
+      "evidence_locators": [
+        "人物页第33-35行：PRIME Class of 24"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Class of '24",
+        "status": "documented",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "Heading"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/1/fields/format_preference",
+      "verdict": "supported",
+      "rationale": "作为偏好而非实际轨道，表述得到本人访谈支持。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/joseph-d"
+      ],
+      "evidence_locators": [
+        "人物页第40-41行：wanted in-resident one-year program"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "residential",
+        "status": "self_reported",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "Application motivation: wanted in-resident one-year program"
+          }
+        ],
+        "note": "stated desired in-resident one-year format; actual enrollment track not independently explicit"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/2/identity_link",
+      "verdict": "supported",
+      "rationale": "Jacob F. 的姓名/简称和 PRIME 学生或毕业身份在同一 Brown 官方人物页正文直接相连。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/jacob-f"
+      ],
+      "evidence_locators": [
+        "人物页第33-61行：Class of 24、West Point学历、Technical Scholar Program、在读期待"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "basis": "同一原始页面同时列出身份及 Brown PRIME 项目，不跨站同名合并",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "Class of 24 and PRIME Q&A"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/2/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "支持当时在读/项目参与，不能声称已毕业。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/jacob-f"
+      ],
+      "evidence_locators": [
+        "人物页第51-61行：选择PRIME、未来期待参与项目"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "enrolled",
+        "status": "documented",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "Official alumni spotlight links this profile; Biography PRIME experience questions"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/2/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Jacob F. 的 track 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_school",
+      "verdict": "supported",
+      "rationale": "明确本科院校。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/jacob-f"
+      ],
+      "evidence_locators": [
+        "人物页第37-40行：United States Military Academy, West Point"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "United States Military Academy, West Point",
+        "status": "documented",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "Undergraduate School"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "明确专业与辅修。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/jacob-f"
+      ],
+      "evidence_locators": [
+        "人物页第37-40行：Systems Engineering、Regional Studies-Europe minor"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Systems Engineering; minor Regional Studies-Europe",
+        "status": "documented",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "Undergraduate Major"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Jacob F. 的 undergraduate_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Jacob F. 的 undergraduate_end 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/2/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Jacob F. 的 masters_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/2/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Jacob F. 的 masters_graduation 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/2/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Jacob F. 的 work_duration_before_application 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": [],
+        "cutoff": null,
+        "calculation": null
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/2/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Jacob F. 的 application_narrative 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/2/fields/cohort_label",
+      "verdict": "supported",
+      "rationale": "只支持届别。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/jacob-f"
+      ],
+      "evidence_locators": [
+        "人物页第33-35行：PRIME Class of 24"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Class of '24",
+        "status": "documented",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "Heading"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/2/fields/application_route",
+      "verdict": "supported",
+      "rationale": "本人自述West Point渠道，不能转述为录取原因或学校提供奖学金。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/jacob-f"
+      ],
+      "evidence_locators": [
+        "人物页第51-56行：Technical Scholar Program 使其获得申请机会"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "West Point Technical Scholar Program provided opportunity to apply for graduate school",
+        "status": "self_reported",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "What led you to apply: Technical Scholar Program"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/3/identity_link",
+      "verdict": "inaccessible",
+      "rationale": "搜索摘要可见Brown PRIME accepted，但原帖无法重开，不能复核作者 handle 与帖子正文的同页连接；旧访问状态不被当前失败反证。",
+      "checked_urls": [
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/"
+      ],
+      "evidence_locators": [
+        "检索结果 `[Friday April 03 2026]` 与标题及 Brown PRIME accepted 文本；原帖 URL 直开 cache miss，old.reddit 和 .json 亦失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "basis": "同一原始页面同时列出身份及 Brown PRIME 项目，不跨站同名合并",
+        "source_ids": [
+          "S5"
+        ],
+        "evidence": [
+          {
+            "source_id": "S5",
+            "locator": "Original Reddit post author and admission list"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/3/fields/enrollment_status",
+      "verdict": "inaccessible",
+      "rationale": "原 Reddit URL 本次直开失败；搜索结果显示部分文本，但无法核对原帖署名/全部上下文与 enrollment_status 的全文证据。旧版当时 full_text 状态未被当前失败反证。",
+      "checked_urls": [
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/"
+      ],
+      "evidence_locators": [
+        "检索结果 `[Friday April 03 2026]` 与标题及 Brown PRIME accepted 文本；原帖 URL 直开 cache miss，old.reddit 和 .json 亦失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "offer_self_reported",
+        "status": "self_reported",
+        "source_ids": [
+          "S5"
+        ],
+        "evidence": [
+          {
+            "source_id": "S5",
+            "locator": "Programs applied to: Brown PRIME - accepted"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/3/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Plenty-Initiative-49 的 track 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_school",
+      "verdict": "inaccessible",
+      "rationale": "原 Reddit URL 本次直开失败；搜索结果显示部分文本，但无法核对原帖署名/全部上下文与 undergraduate_school 的全文证据。旧版当时 full_text 状态未被当前失败反证。",
+      "checked_urls": [
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/"
+      ],
+      "evidence_locators": [
+        "检索结果 `[Friday April 03 2026]` 与标题及 Brown PRIME accepted 文本；原帖 URL 直开 cache miss，old.reddit 和 .json 亦失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "University of Texas at Dallas",
+        "status": "self_reported",
+        "source_ids": [
+          "S5"
+        ],
+        "evidence": [
+          {
+            "source_id": "S5",
+            "locator": "UTD CS PhD accepted; did my undergrad here"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_major",
+      "verdict": "unknown_preserved",
+      "rationale": "Plenty-Initiative-49 的 undergraduate_major 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Plenty-Initiative-49 的 undergraduate_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_end",
+      "verdict": "inaccessible",
+      "rationale": "原 Reddit URL 本次直开失败；搜索结果显示部分文本，但无法核对原帖署名/全部上下文与 undergraduate_end 的全文证据。旧版当时 full_text 状态未被当前失败反证。",
+      "checked_urls": [
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/"
+      ],
+      "evidence_locators": [
+        "检索结果 `[Friday April 03 2026]` 与标题及 Brown PRIME accepted 文本；原帖 URL 直开 cache miss，old.reddit 和 .json 亦失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "2025",
+        "status": "self_reported",
+        "source_ids": [
+          "S5"
+        ],
+        "evidence": [
+          {
+            "source_id": "S5",
+            "locator": "Post title: 2025 grad"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/3/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Plenty-Initiative-49 的 masters_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/3/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Plenty-Initiative-49 的 masters_graduation 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/3/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Plenty-Initiative-49 的 work_duration_before_application 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": [],
+        "cutoff": null,
+        "calculation": null
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/3/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Plenty-Initiative-49 的 application_narrative 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/3/fields/admission_cycle",
+      "verdict": "supported",
+      "rationale": "搜索结果显示2026-04-03及 results this cycle；作为推断并明确入学未确认可保留，无法当前直开原帖复核。",
+      "checked_urls": [
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/"
+      ],
+      "evidence_locators": [
+        "检索结果 `[Friday April 03 2026]` 与标题及 Brown PRIME accepted 文本；原帖 URL 直开 cache miss，old.reddit 和 .json 亦失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "搜索缓存所指2026申请季；实际入学年未确认",
+        "status": "inferred",
+        "source_ids": [
+          "S8"
+        ],
+        "evidence": [
+          {
+            "source_id": "S8",
+            "locator": "搜索提取日期Friday April 03 2026；正文只说results this cycle"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/cases/3/fields/indexed_post_date",
+      "verdict": "supported",
+      "rationale": "仅搜索结果日期行显示 Friday April 03 2026；secondary/snippet 限定正确，原帖精确日期仍未正文确认。",
+      "checked_urls": [
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/"
+      ],
+      "evidence_locators": [
+        "检索结果 `[Friday April 03 2026]` 与标题及 Brown PRIME accepted 文本；原帖 URL 直开 cache miss，old.reddit 和 .json 亦失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "2026-04-03",
+        "status": "secondary",
+        "source_ids": [
+          "S8"
+        ],
+        "evidence": [
+          {
+            "source_id": "S8",
+            "locator": "检索结果日期行Friday April 03 2026"
+          }
+        ],
+        "note": "indexed date only, direct article exact date unverified"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/cases.json#/program_conflicts/0",
+      "verdict": "supported",
+      "rationale": "官网确有混写：Format页2028标题说2026但表格2027；FAQ顶端2027申请开放与截止段2028及summer 2025相冲。保存冲突和“不据此给个人定入学年”正确。",
+      "checked_urls": [
+        "https://prime.brown.edu/format-resources",
+        "https://prime.brown.edu/faqs"
+      ],
+      "evidence_locators": [
+        "Format | Resources 第113-121行",
+        "FAQs 第33、82-100行"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "field": "program_dates",
+        "alternatives": [
+          "Format: Class of 2028, study beginning summer 2026; table summer 2027",
+          "FAQ: Class of 2027 open September 1 2026; Class of 2028 summer 2025 start"
+        ],
+        "resolution": "未解决；不输出确定新招生入学日期，不据此推算人物入学年",
+        "source_ids": [
+          "S6",
+          "S7"
+        ],
+        "evidence": [
+          {
+            "source_id": "S6",
+            "locator": "Program Dates heading and table"
+          },
+          {
+            "source_id": "S7",
+            "locator": "Header and deadline panel"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/report.md#report",
+      "verdict": "inaccessible",
+      "rationale": "最终稿已修正Joseph实际轨道为unknown，并把论坛精确日期改为索引线索；官网人物段可核。Reddit原帖本次无法重开，不能复核作者/完整正文，也不能因今天访问失败否定报告所述历史“主审补核”。报告明确是时间限制、有限试运行，不能当三届完整画像。",
+      "checked_urls": [
+        "https://prime.brown.edu/",
+        "https://prime.brown.edu/people/megan-d",
+        "https://prime.brown.edu/people/joseph-d",
+        "https://prime.brown.edu/people/jacob-f",
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/",
+        "https://prime.brown.edu/format-resources",
+        "https://prime.brown.edu/faqs"
+      ],
+      "evidence_locators": [
+        "Megan第33-50行",
+        "Joseph第36-47行",
+        "Jacob第37-61行",
+        "Format第113-121行",
+        "FAQs第33、82-100行",
+        "Reddit搜索摘要；原帖直开失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": "本次独立试运行只能给出有限研究：已确认 Brown PRIME 为工程学院的 Innovation Management and Entrepreneurship 理学硕士 ScM，有 residential 与 fully online 两种模式。四个已记录身份中，三人有官方 PRIME 身份与本科学校专业，另一人是搜索缓存所指 2026 申请季的论坛 offer 自报。个人确切入学年份全部未核实，因此没有完成 2024、2025、2026 最近三个已入学年级的分层研究，也不能称三届录取画像。三位官网人物只作为届别明确、入学年未知的历史补充。GPA、本科入学时间、精确申请前工作年限和文书原文均缺失；未形成稳定分类或比例。[项目官网](https://prime.brown.edu/)\n\n已观察到的路径包括 UCF 电气工程本科及同校已有硕士、产业在职后继续学习；UC Davis 管理经济学本科进入创业方向；West Point 系统工程本科通过 Technical Scholar Program 获得申请研究生的机会。这些是单人路径，不是招生偏好。官网访谈中的项目选择动机也不是 SOP 内容。\n\n[Megan D. 的官方访谈](https://prime.brown.edu/people/megan-d)明确记载 UCF 电气工程学士 2019 年、硕士 2022 年，在本科期间参与 Lockheed Martin 的兼职 CWEP，并自述从 2019 年 5 月起全职任职美国海军。她在访谈时已参加 PRIME 第二学期，网页标 Class of '25；它没有直接提供入学年或授予 PRIME 学位的确认，不能把当前日期或届别补成已经毕业。任职起点虽明确，申请日期和硕士入学日期缺失，故未计算申请前工作年限，也未推断线上轨道。她本科期间创办国防咨询企业的叙述可作为创业线索，但有限时间内未追加该经历的时间字段。\n\n[Joseph D. 官方访谈](https://prime.brown.edu/people/joseph-d)记载 UC Davis 的 Managerial Economics 本科学位，并表示希望选择一年制、住校项目。网页标 Class of '24，介绍其实际 PRIME 体验；可以记录曾在读，尚未找到明确毕业授位文字、确切入学年、GPA或申请前雇佣经历。\n\n[Jacob F. 官方访谈](https://prime.brown.edu/people/jacob-f)记载 West Point Systems Engineering 本科及 Regional Studies-Europe 辅修、Class of '24，以及 Technical Scholar Program 的申请机会。官网把其列入校友 spotlight，访谈讨论 PRIME，但具体访谈日期和入学日期未公开；保留曾在读状态，未直接认定已毕业或零工作经验。他期待参与 PRIME@Work，并不能据此把项目内实习记为申请前背景。\n\n[Reddit 原帖](https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/)作者 Plenty-Initiative-49 自报 Brown PRIME accepted；搜索缓存显示帖期2026年4月3日，正文仅显示相对时间，精确发布日期未经正文核实；在 UTD PhD 结果下表示自己在那里读本科，标题称 2025 年毕业。本科专业未明确，不能从其申请 CS 硕士/博士反推。该记录属于 offer 自报，未确认接受 offer 或入学，独立于已入学样本，也没有联系匿名账号与任何实名人物。\n\n官网范围也有需要保留的矛盾：[Format 页面](https://prime.brown.edu/format-resources)的 Class of 2028 标题写 summer 2026，但表格写 summer 2027；[FAQ](https://prime.brown.edu/faqs)的 Class of 2027 / September 2026、Class of 2028 / summer 2025 标注又不一致。此次未解决这些官网日期矛盾，因此没有把其中任何一项作为确定入学日期。官网 Class of 2022、2023、2024 的合并本科统计属于旧届官方汇总，不能替代最近三届的人物背景分母。\n\n实际覆盖了官网、本人履历检索、申请论坛三个渠道；本人 LinkedIn 三页直接打开返回 429/999，因此只能保存检索线索，未把缓存长摘要升格为全文证据。LUMS 校友年刊提供 Huzaifa Rashid 线索，但直接打开失败；同名 LinkedIn 的学校也不一致，未合并。Brown B-Lab 新闻中 Milidu Jayaweera 是 Biomedical engineering and entrepreneurship 的本科成员，邻近 ChopChop 三人另标 PRIME 硕士；先检索摘要时存在误读风险，正文核查后排除 Milidu。时间限制而非检索饱和结束，接下来应查 2024、2025、2026 入学迎新新闻与可打开履历，补齐时间线及轨道。\n\n机器结构检查只验证 JSON 结构和出处关联。网页支持性逐项人工检查仍有限，四条记录也不能作为成熟内容验收。规则难点主要是届别、旧校友身份与入学年的分离，以及如何保留失败访问产生的本人线索；本次宁可不把这些线索写成案例，也没有为最近三届凑数。\n\n实际首次验证失败：文档描述经历相对申请时间，但结构例没有给该字段名；我采用 relative_to_application，验证器要求 relative_timing。已改成验证器字段后复验。该修正只解决格式，不补证据。\n\n主审补核：重开三篇官网人物访谈与Reddit原帖，确认核心学历与offer自报。Joseph表述是想选择住校一年制，未明确实际轨道，因此track改为unknown，愿望另存format_preference。Reddit精确日期只见搜索缓存，已另设snippet_only来源S8，正文来源published_on保留null，2026申请季改为带索引限制的inferred字段。独立初稿仍在independent-draft/，不把修正版称首次无误通过。\n"
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/sources/0",
+      "verdict": "supported",
+      "rationale": "官网主页可以支持学位和两种版本，但网页当前招生文案会滚动，不能外推旧招生周期。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。",
+      "checked_urls": [
+        "https://prime.brown.edu/"
+      ],
+      "evidence_locators": [
+        "主页第31-55行：Sc.M.、residential/fully online、夏季先线上；2028申请字样动态更新"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S1",
+        "url": "https://prime.brown.edu/",
+        "title": "PRIME",
+        "publisher": "Brown University",
+        "source_type": "official_program",
+        "accessed_on": "2026-10-05",
+        "published_on": null,
+        "access_state": "full_text",
+        "locator": "Introduction: ScM, School of Engineering, residential/fully online"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/sources/1",
+      "verdict": "supported",
+      "rationale": "官方访谈正文直接支持身份及列出的学历/经历；其动机是本人访谈自述，未给申请日期或PRIME个人入学年。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第33-50行：Class of 25、本科/已有硕士、CWEP、2019-05起海军任职及在读第二学期"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S2",
+        "url": "https://prime.brown.edu/people/megan-d",
+        "title": "Megan D.",
+        "publisher": "Brown University",
+        "source_type": "official_profile",
+        "accessed_on": "2026-10-05",
+        "published_on": null,
+        "access_state": "full_text",
+        "locator": "Q&A undergraduate and application motivation, lines 35-50"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/sources/2",
+      "verdict": "supported",
+      "rationale": "官方访谈支持学位和曾就读；第41行只说 wanted in-resident，不能证明实际入学轨道。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/joseph-d"
+      ],
+      "evidence_locators": [
+        "人物页第33-47行：Class of 24、UC Davis Managerial Economics、希望住校及PRIME经历"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S3",
+        "url": "https://prime.brown.edu/people/joseph-d",
+        "title": "Joseph D.",
+        "publisher": "Brown University",
+        "source_type": "official_profile",
+        "accessed_on": "2026-10-05",
+        "published_on": null,
+        "access_state": "full_text",
+        "locator": "Q&A lines 35-47"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/sources/3",
+      "verdict": "supported",
+      "rationale": "官网页支持身份、本科专业及申请机会；PRIME@Work仅是未来期待，不是申请前实习。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/jacob-f"
+      ],
+      "evidence_locators": [
+        "人物页第33-61行：Class of 24、West Point学历、Technical Scholar Program、在读期待"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S4",
+        "url": "https://prime.brown.edu/people/jacob-f",
+        "title": "Jacob F.",
+        "publisher": "Brown University",
+        "source_type": "official_profile",
+        "accessed_on": "2026-10-05",
+        "published_on": null,
+        "access_state": "full_text",
+        "locator": "Biography lines 35-61"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/sources/4",
+      "verdict": "inaccessible",
+      "rationale": "原 Reddit URL 当前直接打开 cache miss，旧版 full_text/发表日期的当时访问状态无法重演；失败不证明旧记录造假，今天不能复核正文。",
+      "checked_urls": [
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/"
+      ],
+      "evidence_locators": [
+        "检索结果 `[Friday April 03 2026]` 与标题及 Brown PRIME accepted 文本；原帖 URL 直开 cache miss，old.reddit 和 .json 亦失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S5",
+        "url": "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/",
+        "title": "2025 grad struggling to find a job",
+        "publisher": "Reddit",
+        "source_type": "forum_self_report",
+        "accessed_on": "2026-10-05",
+        "published_on": "2026-04-03",
+        "access_state": "full_text",
+        "locator": "Original post by Plenty-Initiative-49, lines 17-35"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/sources/5",
+      "verdict": "supported",
+      "rationale": "同页确有年份自相矛盾；不能挑一行作为个人入学年或完整招生规则。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。",
+      "checked_urls": [
+        "https://prime.brown.edu/format-resources"
+      ],
+      "evidence_locators": [
+        "Format | Resources 第50-54、91-121行：双版本、summer课程、2028 heading写2026但表格写2027"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S6",
+        "url": "https://prime.brown.edu/format-resources",
+        "title": "Format | Resources",
+        "publisher": "Brown University",
+        "source_type": "official_program",
+        "accessed_on": "2026-10-05",
+        "published_on": null,
+        "access_state": "full_text",
+        "locator": "Program Dates"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/sources/6",
+      "verdict": "supported",
+      "rationale": "同页 Class of 2027 2026年九月开放与 Class of 2028 2026-27截止混杂；2025 summer start 为不一致文案。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。",
+      "checked_urls": [
+        "https://prime.brown.edu/faqs"
+      ],
+      "evidence_locators": [
+        "FAQs 第33、42、82-100、121-131行：Class of 2027/2028混杂、申请截止、六月开学与本科专业语气"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S7",
+        "url": "https://prime.brown.edu/faqs",
+        "title": "FAQs",
+        "publisher": "Brown University",
+        "source_type": "official_program",
+        "accessed_on": "2026-10-05",
+        "published_on": null,
+        "access_state": "full_text",
+        "locator": "Application cohort header and deadline panel"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/0/identity_link",
+      "verdict": "supported",
+      "rationale": "Megan D. 的姓名/简称和 PRIME 学生或毕业身份在同一 Brown 官方人物页正文直接相连。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第33-50行：Class of 25、本科/已有硕士、CWEP、2019-05起海军任职及在读第二学期"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "basis": "同一原始页面同时列出身份及 Brown PRIME 项目，不跨站同名合并",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Class of 25 and PRIME Q&A"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/0/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "访谈直接确认当时在读；不自动声称2026仍在读。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第45-50行：第二学期和 since I joined PRIME"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "enrolled",
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Q&A: second semester at PRIME; since I joined PRIME"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/0/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Megan D. 的 track 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/0/fields/undergraduate_school",
+      "verdict": "supported",
+      "rationale": "明确UCF本科。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第37-38行：University of Central Florida及Bachelor"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "University of Central Florida",
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Undergraduate question: Bachelor and Master of Science"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/0/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "明确电气工程本科与已有硕士。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第37-38行：Bachelor and Master of Science in Electrical Engineering"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Electrical Engineering",
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Undergraduate question"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/0/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Megan D. 的 undergraduate_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/0/fields/undergraduate_end",
+      "verdict": "supported",
+      "rationale": "依原文顺序，本科2019、此前硕士2022；未推出入学年份。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第37-38行：Bachelor and Master (2019, 2022)"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "2019",
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Bachelor and Master of Science (2019, 2022)"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/0/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Megan D. 的 masters_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/0/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Megan D. 的 masters_graduation 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/0/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Megan D. 的 work_duration_before_application 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": [],
+        "cutoff": null,
+        "calculation": null
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/0/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Megan D. 的 application_narrative 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/0/fields/prior_education",
+      "verdict": "supported",
+      "rationale": "已有硕士为申请前教育，值得保留。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第37-38行：UCF Master of Science Electrical Engineering (2022)"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": {
+          "school": "University of Central Florida",
+          "degree": "Master of Science",
+          "major": "Electrical Engineering",
+          "completed": "2022"
+        },
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Bachelor and Master of Science (2019, 2022)"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/0/fields/cohort_label",
+      "verdict": "supported",
+      "rationale": "仅毕业届/班级标签，不足以证明入学或完成授位日期。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第33-35行：Class of 25"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Class of '25",
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Heading"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/0/experiences/0",
+      "verdict": "supported",
+      "rationale": "海军全职任职及起点可核；没有申请截止日，未据此算精确工作年限或把现任主管职级回填申请时。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第42-44行：从2019-05起 full-time for Navy，访谈时的负责人职务"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "type": "full_time",
+        "organization": "U.S. Navy",
+        "role": "employment",
+        "start": "2019-05",
+        "end": null,
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Application motivation: working full-time since May 2019"
+          }
+        ],
+        "relative_timing": "unknown"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/0/experiences/1",
+      "verdict": "supported",
+      "rationale": "本科期间兼职可核；日期和申请前月数不可核。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/megan-d"
+      ],
+      "evidence_locators": [
+        "人物页第39-41行：本科期间 Lockheed Martin MFC 的 CWEP 兼职"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "type": "part_time",
+        "organization": "Lockheed Martin MFC",
+        "role": "CWEP",
+        "start": null,
+        "end": null,
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Undergraduate enjoyment: part-time throughout undergraduate career"
+          }
+        ],
+        "relative_timing": "unknown"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/1/identity_link",
+      "verdict": "supported",
+      "rationale": "Joseph D. 的姓名/简称和 PRIME 学生或毕业身份在同一 Brown 官方人物页正文直接相连。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/joseph-d"
+      ],
+      "evidence_locators": [
+        "人物页第33-47行：Class of 24、UC Davis Managerial Economics、希望住校及PRIME经历"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "basis": "同一原始页面同时列出身份及 Brown PRIME 项目，不跨站同名合并",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "Class of 24 and PRIME experience Q&A"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/1/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "直接表明曾参加PRIME；没有学位授予证明。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/joseph-d"
+      ],
+      "evidence_locators": [
+        "人物页第42-47行：PRIME experience、time at Brown"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "enrolled",
+        "status": "documented",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "PRIME experience and time at Brown questions"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/1/fields/track",
+      "verdict": "overstated",
+      "rationale": "正文只说希望找住校一年制项目；把偏好记为实际 residential 轨道越过来源。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/joseph-d"
+      ],
+      "evidence_locators": [
+        "人物页第33-47行：Class of 24、UC Davis Managerial Economics、希望住校及PRIME经历"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "residential",
+        "status": "self_reported",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "Application motivation: wanted in-resident one-year program"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/1/fields/undergraduate_school",
+      "verdict": "supported",
+      "rationale": "明确本科院校。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/joseph-d"
+      ],
+      "evidence_locators": [
+        "人物页第36-37行：University of California, Davis"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "University of California, Davis",
+        "status": "documented",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "Undergraduate question"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/1/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "明确本科学位领域。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/joseph-d"
+      ],
+      "evidence_locators": [
+        "人物页第36-37行：degree in Managerial Economics"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Managerial Economics",
+        "status": "documented",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "Undergraduate question: got a degree"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/1/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Joseph D. 的 undergraduate_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/1/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Joseph D. 的 undergraduate_end 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/1/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Joseph D. 的 masters_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/1/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Joseph D. 的 masters_graduation 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/1/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Joseph D. 的 work_duration_before_application 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": [],
+        "cutoff": null,
+        "calculation": null
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/1/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Joseph D. 的 application_narrative 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/1/fields/cohort_label",
+      "verdict": "supported",
+      "rationale": "只支持届别，不支持入学年。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/joseph-d"
+      ],
+      "evidence_locators": [
+        "人物页第33-35行：PRIME Class of 24"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Class of '24",
+        "status": "documented",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "Heading"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/2/identity_link",
+      "verdict": "supported",
+      "rationale": "Jacob F. 的姓名/简称和 PRIME 学生或毕业身份在同一 Brown 官方人物页正文直接相连。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/jacob-f"
+      ],
+      "evidence_locators": [
+        "人物页第33-61行：Class of 24、West Point学历、Technical Scholar Program、在读期待"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "basis": "同一原始页面同时列出身份及 Brown PRIME 项目，不跨站同名合并",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "Class of 24 and PRIME Q&A"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/2/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "支持当时在读/项目参与，不能声称已毕业。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/jacob-f"
+      ],
+      "evidence_locators": [
+        "人物页第51-61行：选择PRIME、未来期待参与项目"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "enrolled",
+        "status": "documented",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "Official alumni spotlight links this profile; Biography PRIME experience questions"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/2/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Jacob F. 的 track 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/2/fields/undergraduate_school",
+      "verdict": "supported",
+      "rationale": "明确本科院校。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/jacob-f"
+      ],
+      "evidence_locators": [
+        "人物页第37-40行：United States Military Academy, West Point"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "United States Military Academy, West Point",
+        "status": "documented",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "Undergraduate School"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/2/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "明确专业与辅修。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/jacob-f"
+      ],
+      "evidence_locators": [
+        "人物页第37-40行：Systems Engineering、Regional Studies-Europe minor"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Systems Engineering; minor Regional Studies-Europe",
+        "status": "documented",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "Undergraduate Major"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/2/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Jacob F. 的 undergraduate_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/2/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Jacob F. 的 undergraduate_end 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/2/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Jacob F. 的 masters_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/2/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Jacob F. 的 masters_graduation 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/2/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Jacob F. 的 work_duration_before_application 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": [],
+        "cutoff": null,
+        "calculation": null
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/2/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Jacob F. 的 application_narrative 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/2/fields/cohort_label",
+      "verdict": "supported",
+      "rationale": "只支持届别。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/jacob-f"
+      ],
+      "evidence_locators": [
+        "人物页第33-35行：PRIME Class of 24"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Class of '24",
+        "status": "documented",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "Heading"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/2/fields/application_route",
+      "verdict": "supported",
+      "rationale": "本人自述West Point渠道，不能转述为录取原因或学校提供奖学金。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/jacob-f"
+      ],
+      "evidence_locators": [
+        "人物页第51-56行：Technical Scholar Program 使其获得申请机会"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "West Point Technical Scholar Program provided opportunity to apply for graduate school",
+        "status": "self_reported",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "What led you to apply: Technical Scholar Program"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/3/identity_link",
+      "verdict": "inaccessible",
+      "rationale": "搜索摘要可见Brown PRIME accepted，但原帖无法重开，不能复核作者 handle 与帖子正文的同页连接；旧访问状态不被当前失败反证。",
+      "checked_urls": [
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/"
+      ],
+      "evidence_locators": [
+        "检索结果 `[Friday April 03 2026]` 与标题及 Brown PRIME accepted 文本；原帖 URL 直开 cache miss，old.reddit 和 .json 亦失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "basis": "同一原始页面同时列出身份及 Brown PRIME 项目，不跨站同名合并",
+        "source_ids": [
+          "S5"
+        ],
+        "evidence": [
+          {
+            "source_id": "S5",
+            "locator": "Original Reddit post author and admission list"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/3/fields/enrollment_status",
+      "verdict": "inaccessible",
+      "rationale": "原 Reddit URL 本次直开失败；搜索结果显示部分文本，但无法核对原帖署名/全部上下文与 enrollment_status 的全文证据。旧版当时 full_text 状态未被当前失败反证。",
+      "checked_urls": [
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/"
+      ],
+      "evidence_locators": [
+        "检索结果 `[Friday April 03 2026]` 与标题及 Brown PRIME accepted 文本；原帖 URL 直开 cache miss，old.reddit 和 .json 亦失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "offer_self_reported",
+        "status": "self_reported",
+        "source_ids": [
+          "S5"
+        ],
+        "evidence": [
+          {
+            "source_id": "S5",
+            "locator": "Programs applied to: Brown PRIME - accepted"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/3/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Plenty-Initiative-49 的 track 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/3/fields/undergraduate_school",
+      "verdict": "inaccessible",
+      "rationale": "原 Reddit URL 本次直开失败；搜索结果显示部分文本，但无法核对原帖署名/全部上下文与 undergraduate_school 的全文证据。旧版当时 full_text 状态未被当前失败反证。",
+      "checked_urls": [
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/"
+      ],
+      "evidence_locators": [
+        "检索结果 `[Friday April 03 2026]` 与标题及 Brown PRIME accepted 文本；原帖 URL 直开 cache miss，old.reddit 和 .json 亦失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "University of Texas at Dallas",
+        "status": "self_reported",
+        "source_ids": [
+          "S5"
+        ],
+        "evidence": [
+          {
+            "source_id": "S5",
+            "locator": "UTD CS PhD accepted; did my undergrad here"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/3/fields/undergraduate_major",
+      "verdict": "unknown_preserved",
+      "rationale": "Plenty-Initiative-49 的 undergraduate_major 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/3/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Plenty-Initiative-49 的 undergraduate_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/3/fields/undergraduate_end",
+      "verdict": "inaccessible",
+      "rationale": "原 Reddit URL 本次直开失败；搜索结果显示部分文本，但无法核对原帖署名/全部上下文与 undergraduate_end 的全文证据。旧版当时 full_text 状态未被当前失败反证。",
+      "checked_urls": [
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/"
+      ],
+      "evidence_locators": [
+        "检索结果 `[Friday April 03 2026]` 与标题及 Brown PRIME accepted 文本；原帖 URL 直开 cache miss，old.reddit 和 .json 亦失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "2025",
+        "status": "self_reported",
+        "source_ids": [
+          "S5"
+        ],
+        "evidence": [
+          {
+            "source_id": "S5",
+            "locator": "Post title: 2025 grad"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/3/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Plenty-Initiative-49 的 masters_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/3/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Plenty-Initiative-49 的 masters_graduation 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/3/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Plenty-Initiative-49 的 work_duration_before_application 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": [],
+        "cutoff": null,
+        "calculation": null
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/3/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Plenty-Initiative-49 的 application_narrative 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/cases/3/fields/admission_cycle",
+      "verdict": "inaccessible",
+      "rationale": "原 Reddit URL 本次直开失败；搜索结果显示部分文本，但无法核对原帖署名/全部上下文与 admission_cycle 的全文证据。旧版当时 full_text 状态未被当前失败反证。",
+      "checked_urls": [
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/"
+      ],
+      "evidence_locators": [
+        "检索结果 `[Friday April 03 2026]` 与标题及 Brown PRIME accepted 文本；原帖 URL 直开 cache miss，old.reddit 和 .json 亦失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "2026 application-cycle post; planned entry not explicitly confirmed",
+        "status": "self_reported",
+        "source_ids": [
+          "S5"
+        ],
+        "evidence": [
+          {
+            "source_id": "S5",
+            "locator": "Published 2026-04-03; results this cycle"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json#/program_conflicts/0",
+      "verdict": "supported",
+      "rationale": "官网确有混写：Format页2028标题说2026但表格2027；FAQ顶端2027申请开放与截止段2028及summer 2025相冲。保存冲突和“不据此给个人定入学年”正确。",
+      "checked_urls": [
+        "https://prime.brown.edu/format-resources",
+        "https://prime.brown.edu/faqs"
+      ],
+      "evidence_locators": [
+        "Format | Resources 第113-121行",
+        "FAQs 第33、82-100行"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "field": "program_dates",
+        "alternatives": [
+          "Format: Class of 2028, study beginning summer 2026; table summer 2027",
+          "FAQ: Class of 2027 open September 1 2026; Class of 2028 summer 2025 start"
+        ],
+        "resolution": "未解决；不输出确定新招生入学日期，不据此推算人物入学年",
+        "source_ids": [
+          "S6",
+          "S7"
+        ],
+        "evidence": [
+          {
+            "source_id": "S6",
+            "locator": "Program Dates heading and table"
+          },
+          {
+            "source_id": "S7",
+            "locator": "Header and deadline panel"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-forward-test/independent-draft/report.md#report",
+      "verdict": "inaccessible",
+      "rationale": "官网人物与项目冲突段受正文支持，报告诚实称有限研究；论坛原帖本次无法重开，因此原帖作者与完整正文不可重新验证，日期仅可在索引摘要核到。旧版当时若曾打开正文，本次失败不推翻其历史访问。独立稿JSON另有Joseph实际轨道误记，报告文字本身只写“希望”，不因JSON错误而判报告错误。",
+      "checked_urls": [
+        "https://prime.brown.edu/",
+        "https://prime.brown.edu/people/megan-d",
+        "https://prime.brown.edu/people/joseph-d",
+        "https://prime.brown.edu/people/jacob-f",
+        "https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/",
+        "https://prime.brown.edu/format-resources",
+        "https://prime.brown.edu/faqs"
+      ],
+      "evidence_locators": [
+        "Megan第33-50行",
+        "Joseph第40-43行",
+        "Jacob第37-61行",
+        "Format第113-121行",
+        "FAQs第33、82-100行",
+        "Reddit搜索摘要 `[Friday April 03 2026]`；直开失败"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": "本次独立试运行只能给出有限研究：已确认 Brown PRIME 为工程学院的 Innovation Management and Entrepreneurship 理学硕士 ScM，有 residential 与 fully online 两种模式。四个已记录身份中，三人有官方 PRIME 身份与本科学校专业，另一人是 2026 申请季论坛 offer 自报。个人确切入学年份全部未核实，因此没有完成 2024、2025、2026 最近三个已入学年级的分层研究，也不能称三届录取画像。三位官网人物只作为届别明确、入学年未知的历史补充。GPA、本科入学时间、精确申请前工作年限和文书原文均缺失；未形成稳定分类或比例。[项目官网](https://prime.brown.edu/)\n\n已观察到的路径包括 UCF 电气工程本科及同校已有硕士、产业在职后继续学习；UC Davis 管理经济学本科进入创业方向；West Point 系统工程本科通过 Technical Scholar Program 获得申请研究生的机会。这些是单人路径，不是招生偏好。官网访谈中的项目选择动机也不是 SOP 内容。\n\n[Megan D. 的官方访谈](https://prime.brown.edu/people/megan-d)明确记载 UCF 电气工程学士 2019 年、硕士 2022 年，在本科期间参与 Lockheed Martin 的兼职 CWEP，并自述从 2019 年 5 月起全职任职美国海军。她在访谈时已参加 PRIME 第二学期，网页标 Class of '25；它没有直接提供入学年或授予 PRIME 学位的确认，不能把当前日期或届别补成已经毕业。任职起点虽明确，申请日期和硕士入学日期缺失，故未计算申请前工作年限，也未推断线上轨道。她本科期间创办国防咨询企业的叙述可作为创业线索，但有限时间内未追加该经历的时间字段。\n\n[Joseph D. 官方访谈](https://prime.brown.edu/people/joseph-d)记载 UC Davis 的 Managerial Economics 本科学位，并表示希望选择一年制、住校项目。网页标 Class of '24，介绍其实际 PRIME 体验；可以记录曾在读，尚未找到明确毕业授位文字、确切入学年、GPA或申请前雇佣经历。\n\n[Jacob F. 官方访谈](https://prime.brown.edu/people/jacob-f)记载 West Point Systems Engineering 本科及 Regional Studies-Europe 辅修、Class of '24，以及 Technical Scholar Program 的申请机会。官网把其列入校友 spotlight，访谈讨论 PRIME，但具体访谈日期和入学日期未公开；保留曾在读状态，未直接认定已毕业或零工作经验。他期待参与 PRIME@Work，并不能据此把项目内实习记为申请前背景。\n\n[Reddit 原帖](https://www.reddit.com/r/gradadmissions/comments/1saytir/2025_grad_struggling_to_find_a_job_already/)作者 Plenty-Initiative-49 在 2026 年 4 月 3 日申请季自报 Brown PRIME accepted；在 UTD PhD 结果下表示自己在那里读本科，标题称 2025 年毕业。本科专业未明确，不能从其申请 CS 硕士/博士反推。该记录属于 offer 自报，未确认接受 offer 或入学，独立于已入学样本，也没有联系匿名账号与任何实名人物。\n\n官网范围也有需要保留的矛盾：[Format 页面](https://prime.brown.edu/format-resources)的 Class of 2028 标题写 summer 2026，但表格写 summer 2027；[FAQ](https://prime.brown.edu/faqs)的 Class of 2027 / September 2026、Class of 2028 / summer 2025 标注又不一致。此次未解决这些官网日期矛盾，因此没有把其中任何一项作为确定入学日期。官网 Class of 2022、2023、2024 的合并本科统计属于旧届官方汇总，不能替代最近三届的人物背景分母。\n\n实际覆盖了官网、本人履历检索、申请论坛三个渠道；本人 LinkedIn 三页直接打开返回 429/999，因此只能保存检索线索，未把缓存长摘要升格为全文证据。LUMS 校友年刊提供 Huzaifa Rashid 线索，但直接打开失败；同名 LinkedIn 的学校也不一致，未合并。Brown B-Lab 新闻中 Milidu Jayaweera 是 Biomedical engineering and entrepreneurship 的本科成员，邻近 ChopChop 三人另标 PRIME 硕士；先检索摘要时存在误读风险，正文核查后排除 Milidu。时间限制而非检索饱和结束，接下来应查 2024、2025、2026 入学迎新新闻与可打开履历，补齐时间线及轨道。\n\n机器结构检查只验证 JSON 结构和出处关联。网页支持性逐项人工检查仍有限，四条记录也不能作为成熟内容验收。规则难点主要是届别、旧校友身份与入学年的分离，以及如何保留失败访问产生的本人线索；本次宁可不把这些线索写成案例，也没有为最近三届凑数。\n\n实际首次验证失败：文档描述经历相对申请时间，但结构例没有给该字段名；我采用 relative_to_application，验证器要求 relative_timing。已改成验证器字段后复验。该修正只解决格式，不补证据。\n"
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/sources/0",
+      "verdict": "supported",
+      "rationale": "同页 Class of 2027 2026年九月开放与 Class of 2028 2026-27截止混杂；2025 summer start 为不一致文案。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。 旧 source locator 过宽，字段定位见各 field 行。",
+      "checked_urls": [
+        "https://prime.brown.edu/faqs"
+      ],
+      "evidence_locators": [
+        "FAQs 第33、42、82-100、121-131行：Class of 2027/2028混杂、申请截止、六月开学与本科专业语气"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S1",
+        "url": "https://prime.brown.edu/faqs",
+        "title": "PRIME FAQs",
+        "source_type": "official_program",
+        "published_on": null,
+        "accessed_on": "2026-10-05",
+        "access_state": "full_text",
+        "locator": "正文人物背景／FAQ对应问题"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/sources/1",
+      "verdict": "supported",
+      "rationale": "正文为2019年的在读访谈，只支持历史路径及入学前一年消费品市场工作，不证明全职或今天招生。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。 旧 source locator 过宽，字段定位见各 field 行。",
+      "checked_urls": [
+        "https://graduateschool.brown.edu/news/2019-12-16/marco-ma"
+      ],
+      "evidence_locators": [
+        "2019-12-16人物页第87-95行：PRIME学生、Boston University工商管理本科双方向、消费品市场一年"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S2",
+        "url": "https://graduateschool.brown.edu/news/2019-12-16/marco-ma",
+        "title": "Marco Ma student profile",
+        "source_type": "official_profile",
+        "published_on": "2019-12-16",
+        "accessed_on": "2026-10-05",
+        "access_state": "full_text",
+        "locator": "正文人物背景／FAQ对应问题"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/sources/2",
+      "verdict": "supported",
+      "rationale": "PRIME alumnus 与毕业届标签可核；毕业实际日期不可由Class of 22推定，毕业后创业不能算申请背景。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。 旧 source locator 过宽，字段定位见各 field 行。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/chinmay-s"
+      ],
+      "evidence_locators": [
+        "人物页第33-58行：Class of 22、IIT Roorkee机械工程BTech、先前创业尝试及毕业后创业"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S3",
+        "url": "https://prime.brown.edu/people/chinmay-s",
+        "title": "Chinmay S. alumni Q&A",
+        "source_type": "official_profile",
+        "published_on": null,
+        "accessed_on": "2026-10-05",
+        "access_state": "full_text",
+        "locator": "正文人物背景／FAQ对应问题"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/sources/3",
+      "verdict": "supported",
+      "rationale": "正文支持报道时已毕业、设计本科与入学前原型；26届标签不是个人入学年，项目内Haunani/NASA/hackathon不能回填申请背景。 来源页面可重开，元数据标题/发布者与正文相符；来源元数据本身不证明其引用的每个字段。 旧 source locator 过宽，字段定位见各 field 行。",
+      "checked_urls": [
+        "https://engineering.brown.edu/news/2026-08-20/lily-badiani-shah"
+      ],
+      "evidence_locators": [
+        "2026-08-20专访第78-107行：Sc.M. 26、新毕业生、CSM设计本科及最后一年原型"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "id": "S4",
+        "url": "https://engineering.brown.edu/news/2026-08-20/lily-badiani-shah",
+        "title": "Lily Badiani-Shah spotlight",
+        "source_type": "official_profile",
+        "published_on": "2026-08-20",
+        "accessed_on": "2026-10-05",
+        "access_state": "full_text",
+        "locator": "正文人物背景／FAQ对应问题"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/0/identity_link",
+      "verdict": "supported",
+      "rationale": "Marco Ma 的姓名/简称和 PRIME 学生或毕业身份在同一 Brown 官方人物页正文直接相连。",
+      "checked_urls": [
+        "https://graduateschool.brown.edu/news/2019-12-16/marco-ma"
+      ],
+      "evidence_locators": [
+        "2019-12-16人物页第87-95行：PRIME学生、Boston University工商管理本科双方向、消费品市场一年"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "basis": "官方人物页明确姓名与PRIME关系",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "2019 student profile开头及本人在读描述"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/0/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "正文确认2019在读。",
+      "checked_urls": [
+        "https://graduateschool.brown.edu/news/2019-12-16/marco-ma"
+      ],
+      "evidence_locators": [
+        "2019人物页第90-95行：PRIME学生本人在读叙述"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "enrolled",
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "2019 student profile开头及本人在读描述"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/0/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "应保留工商管理学位和双方向，不应把双方向改成两个专业。",
+      "checked_urls": [
+        "https://graduateschool.brown.edu/news/2019-12-16/marco-ma"
+      ],
+      "evidence_locators": [
+        "2019人物页第92行：Business Administration with finance and strategy dual concentration"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Business Administration (finance and strategy)",
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "2019 student profile开头及本人在读描述"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/0/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Marco Ma 的 masters_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/0/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Marco Ma 的 undergraduate_end 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/0/fields/undergraduate_school",
+      "verdict": "supported",
+      "rationale": "明确本科院校。",
+      "checked_urls": [
+        "https://graduateschool.brown.edu/news/2019-12-16/marco-ma"
+      ],
+      "evidence_locators": [
+        "2019人物页第92行：Boston University本科"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Boston University",
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "2019 student profile开头及本人在读描述"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/0/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Marco Ma 的 track 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/0/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Marco Ma 的 application_narrative 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/0/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Marco Ma 的 work_duration_before_application 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/0/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Marco Ma 的 masters_graduation 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/0/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Marco Ma 的 undergraduate_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/0/experiences/0",
+      "verdict": "supported",
+      "rationale": "入学前约一年消费品市场工作为本人自述；雇主、是否全职、申请时点未知。",
+      "checked_urls": [
+        "https://graduateschool.brown.edu/news/2019-12-16/marco-ma"
+      ],
+      "evidence_locators": [
+        "2019人物页第94行：after a year of work in consumer products market"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "type": "employment_unspecified",
+        "organization_or_role": "consumer products market；雇主未公开",
+        "start": null,
+        "end": null,
+        "relative_timing": "before_enrollment_only",
+        "duration": "来源明示一年；无全职／申请日期证明",
+        "status": "documented",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "a year of work before pursuing master"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/1/identity_link",
+      "verdict": "supported",
+      "rationale": "Chinmay S. 的姓名/简称和 PRIME 学生或毕业身份在同一 Brown 官方人物页正文直接相连。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/chinmay-s"
+      ],
+      "evidence_locators": [
+        "人物页第33-58行：Class of 22、IIT Roorkee机械工程BTech、先前创业尝试及毕业后创业"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "basis": "官方人物页明确姓名与PRIME关系",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "Undergraduate School/Major及PRIME alumnus"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/1/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "直接确认校友身份。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/chinmay-s"
+      ],
+      "evidence_locators": [
+        "人物页第35、54-58行：Class of 22、as a PRIME alumnus"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "graduated",
+        "status": "documented",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "Undergraduate School/Major及PRIME alumnus"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/1/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "明确BTech机械工程。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/chinmay-s"
+      ],
+      "evidence_locators": [
+        "人物页第37-39行：Bachelor of Technology in Mechanical Engineering"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Mechanical Engineering (BTech)",
+        "status": "documented",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "Undergraduate School/Major及PRIME alumnus"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/1/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Chinmay S. 的 masters_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/1/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Chinmay S. 的 undergraduate_end 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/1/fields/undergraduate_school",
+      "verdict": "supported",
+      "rationale": "明确本科院校。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/chinmay-s"
+      ],
+      "evidence_locators": [
+        "人物页第37-39行：IIT Roorkee"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Indian Institute of Technology, Roorkee",
+        "status": "documented",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "Undergraduate School/Major及PRIME alumnus"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/1/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Chinmay S. 的 track 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/1/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Chinmay S. 的 application_narrative 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/1/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Chinmay S. 的 work_duration_before_application 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/1/fields/masters_graduation",
+      "verdict": "supported",
+      "rationale": "来源只支持 Class of 22 和现在已是校友；旧记录 value 明确写 cohort_label=2022、exact_completion=null，没有声称实际授位年份。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/chinmay-s"
+      ],
+      "evidence_locators": [
+        "人物页第35、54-58行：Class of 22、PRIME alumnus"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": {
+          "cohort_label": "2022",
+          "exact_completion": null
+        },
+        "status": "documented",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "PRIME Class of 22与alumnus段落"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/1/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Chinmay S. 的 undergraduate_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/1/experiences/0",
+      "verdict": "supported",
+      "rationale": "既往创业尝试可核；具体项目和发生时间未公开，毕业后ed-tech另见第57-58行不得回填。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/chinmay-s"
+      ],
+      "evidence_locators": [
+        "人物页第44-46行：previous attempts at starting businesses"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "type": "project",
+        "organization_or_role": "既往创业尝试；具体项目未公开",
+        "start": null,
+        "end": null,
+        "relative_timing": "before_enrollment_only",
+        "status": "documented",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "What led you to apply and choose PRIME?"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/2/identity_link",
+      "verdict": "supported",
+      "rationale": "Lily Badiani-Shah 的姓名/简称和 PRIME 学生或毕业身份在同一 Brown 官方人物页正文直接相连。",
+      "checked_urls": [
+        "https://engineering.brown.edu/news/2026-08-20/lily-badiani-shah"
+      ],
+      "evidence_locators": [
+        "2026-08-20专访第78-107行：Sc.M. 26、新毕业生、CSM设计本科及最后一年原型"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "basis": "官方人物页明确姓名与PRIME关系",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "本科背景段落及new graduate段落"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/2/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "2026-08报道时为新毕业生。",
+      "checked_urls": [
+        "https://engineering.brown.edu/news/2026-08-20/lily-badiani-shah"
+      ],
+      "evidence_locators": [
+        "2026专访第85、107行：Sc.M. 26、new graduate"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "graduated",
+        "status": "documented",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "本科背景段落及new graduate段落"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/2/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "设计领域可确认，具体学位专业名称未列。",
+      "checked_urls": [
+        "https://engineering.brown.edu/news/2026-08-20/lily-badiani-shah"
+      ],
+      "evidence_locators": [
+        "2026专访第91行：undergraduate studies in design"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Design",
+        "status": "documented",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "本科背景段落及new graduate段落"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/2/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Lily Badiani-Shah 的 masters_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/2/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Lily Badiani-Shah 的 undergraduate_end 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/2/fields/undergraduate_school",
+      "verdict": "supported",
+      "rationale": "明确先完成该处本科设计学习。",
+      "checked_urls": [
+        "https://engineering.brown.edu/news/2026-08-20/lily-badiani-shah"
+      ],
+      "evidence_locators": [
+        "2026专访第91行：Central Saint Martins in London"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": "Central Saint Martins, London",
+        "status": "documented",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "本科背景段落及new graduate段落"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/2/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Lily Badiani-Shah 的 track 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/2/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Lily Badiani-Shah 的 application_narrative 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/2/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Lily Badiani-Shah 的 work_duration_before_application 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/2/fields/masters_graduation",
+      "verdict": "supported",
+      "rationale": "2026报道为新毕业生，可记报道时已毕业；没有精确授位日期。",
+      "checked_urls": [
+        "https://engineering.brown.edu/news/2026-08-20/lily-badiani-shah"
+      ],
+      "evidence_locators": [
+        "2026专访第85、107行：Sc.M. 26、new graduate"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": {
+          "reported_year": "2026",
+          "exact_completion": null
+        },
+        "status": "documented",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "ScM 26及new graduate段落"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/2/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Lily Badiani-Shah 的 undergraduate_start 记录为 null/unknown；已核来源没有给出可复核值，保留缺口，不把未知作零。",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "value": null,
+        "status": "unknown",
+        "source_ids": [],
+        "evidence": []
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/cases/2/experiences/0",
+      "verdict": "supported",
+      "rationale": "本科原型在PRIME之前可核；第96行以后Haunani属就读期间项目。",
+      "checked_urls": [
+        "https://engineering.brown.edu/news/2026-08-20/lily-badiani-shah"
+      ],
+      "evidence_locators": [
+        "2026专访第91-92行：本科最后一年彩色镜片原型，随后申请PRIME"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "type": "project",
+        "organization_or_role": "本科最后一年设计原型；入读后商业化探索分开",
+        "start": null,
+        "end": null,
+        "relative_timing": "before_enrollment_only",
+        "status": "documented",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "final year as an undergraduate prototype before came to PRIME"
+          }
+        ]
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/archetypes/0",
+      "verdict": "supported",
+      "rationale": "“商科与消费品工作后补技术创业能力”可以作为一人已观察路径的推断，来源人物背景与申请动机可核；scope/limitations 写明单例、不代表录取偏好或比例。",
+      "checked_urls": [
+        "https://graduateschool.brown.edu/news/2019-12-16/marco-ma"
+      ],
+      "evidence_locators": [
+        "Marco Ma 2019人物页第92-94行"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "label": "商科与消费品工作后补技术创业能力",
+        "status": "inferred",
+        "case_ids": [
+          "C1"
+        ],
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "本科背景及选择PRIME动机"
+          }
+        ],
+        "scope": "不同年份单例路径；不代表当前各类型占比",
+        "limitations": "申请时间、具体轨道和SOP未公开；仅观察路径"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/archetypes/1",
+      "verdict": "supported",
+      "rationale": "“机械工程与既往创业探索”可以作为一人已观察路径的推断，来源人物背景与申请动机可核；scope/limitations 写明单例、不代表录取偏好或比例。",
+      "checked_urls": [
+        "https://prime.brown.edu/people/chinmay-s"
+      ],
+      "evidence_locators": [
+        "Chinmay S. 人物页第38-45行"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "label": "机械工程与既往创业探索",
+        "status": "inferred",
+        "case_ids": [
+          "C2"
+        ],
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "本科背景及选择PRIME动机"
+          }
+        ],
+        "scope": "不同年份单例路径；不代表当前各类型占比",
+        "limitations": "申请时间、具体轨道和SOP未公开；仅观察路径"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/archetypes/2",
+      "verdict": "supported",
+      "rationale": "“设计原型与创业商业化”可以作为一人已观察路径的推断，来源人物背景与申请动机可核；scope/limitations 写明单例、不代表录取偏好或比例。",
+      "checked_urls": [
+        "https://engineering.brown.edu/news/2026-08-20/lily-badiani-shah"
+      ],
+      "evidence_locators": [
+        "Lily 2026专访第91-92行"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "label": "设计原型与创业商业化",
+        "status": "inferred",
+        "case_ids": [
+          "C3"
+        ],
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "本科背景及选择PRIME动机"
+          }
+        ],
+        "scope": "不同年份单例路径；不代表当前各类型占比",
+        "limitations": "申请时间、具体轨道和SOP未公开；仅观察路径"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/cases.json#/program_conflicts/0",
+      "verdict": "supported",
+      "rationale": "官网确有混写：Format页2028标题说2026但表格2027；FAQ顶端2027申请开放与截止段2028及summer 2025相冲。保存冲突和“不据此给个人定入学年”正确。",
+      "checked_urls": [
+        "https://prime.brown.edu/faqs"
+      ],
+      "evidence_locators": [
+        "FAQs 第33、82-100行"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": {
+        "field": "application_cycle_and_start",
+        "source_ids": [
+          "S1"
+        ],
+        "evidence": [
+          {
+            "source_id": "S1",
+            "locator": "FAQ页面开头与When is the deadline for applications?"
+          }
+        ],
+        "alternatives": [
+          "页面开头Class of 2027、application open September 1 2026",
+          "deadline小节Class of 2028、summer 2025 start，同时列December 2026与February/May 2027 deadlines"
+        ],
+        "resolution": "未解决；不输出确定开学年份或最后期限，不自动校正2025"
+      }
+    },
+    {
+      "unit_id": "research/brown-prime/2026-10-05-scope-test/report.md#report",
+      "verdict": "supported",
+      "rationale": "逐段核查：Marco第92-94行、Chinmay第38-58行、Lily第85、91、107行及FAQ第130-131行支持三条单例路径、来源局限和官方非STEM例外。报告明称专项测试而非三届全量；所谓2026毕业年只能按新闻当时新毕业生理解。",
+      "checked_urls": [
+        "https://graduateschool.brown.edu/news/2019-12-16/marco-ma",
+        "https://prime.brown.edu/people/chinmay-s",
+        "https://engineering.brown.edu/news/2026-08-20/lily-badiani-shah",
+        "https://prime.brown.edu/faqs"
+      ],
+      "evidence_locators": [
+        "Marco Ma第92-94行",
+        "Chinmay S.第38-58行",
+        "Lily专访第85、91、107行",
+        "FAQs第130-131行"
+      ],
+      "checked_on": "2026-10-05",
+      "original_claim": "# Brown PRIME 范围与误判测试\n\n本次找到商科＋消费品工作、机械工程＋创业探索、设计原型＋商业化三条已观察路径。各一例、年份不同，不能输出稳定画像或占比。这是官方条件语气与历史／当前案例边界的专项测试，未做完整多渠道画像研究。\n\nMarco Ma官网2019年在读访谈给出Boston University工商管理本科，金融与战略双方向，并自述攻读硕士前有一年消费品行业工作。没有全职证明、申请日期、学位起止或SOP，故只记入学前自述工作长度。[官网人物介绍](https://graduateschool.brown.edu/news/2019-12-16/marco-ma)\n\nChinmay S.官网校友页给出IIT Roorkee机械工程本科、PRIME 22届；自述既往创业尝试是选择项目的动机。没有本科起止、申请前年限、实际文书。毕业后教育科技创业明确发生在项目完成之后，不拿来解释申请背景。[官网校友页](https://prime.brown.edu/people/chinmay-s)\n\nLily Badiani-Shah官网2026年报道明确Central Saint Martins设计本科与PRIME新毕业生身份。本科最后一年已做设计原型，入读后继续发展；本版只保留与申请背景有关的项目时间关系，没有摘录无关健康信息。报道时毕业状态与26届标签分开，不自动补入学月份或毕业日期。[官网人物介绍](https://engineering.brown.edu/news/2026-08-20/lily-badiani-shah)\n\n三个案例的本科学校和专业都有来源，本科入学／毕业日期、目标项目实际入学日期均未查到；申请前全职年限无人能确认，SOP无人公开。商科案例是2019历史路径，不构成今天商业背景一定能录的承诺。\n\n当前[官方FAQ](https://prime.brown.edu/faqs)说明项目主要面向STEM背景，同时明确经济、商科和工业设计背景也有成功完成项目者。“主要面向”不能改成“只录STEM”；项目为STEM学位也不等于学生本科必须STEM。官方招生说明与真实案例可以相互核对，但不能把这三人当全体cohort。\n\n同页存在申请周期冲突：开头写27届于2026年9月开放申请；deadline小节同时出现28届、summer 2025 start及2026／2027年的截止日期。保留原始冲突，未擅自把2025改为2027，也不从网页抓取成功推出日期可信。此处仅记录待核查问题，不提供确定申请时间。字段检查不能判定官网内容在现实中正确。\n"
+    }
+  ]
+}

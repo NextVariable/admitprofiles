@@ -1,0 +1,1470 @@
+{
+  "project": "cmu-miips",
+  "checked_on": "2026-10-05",
+  "inventory_baseline": "7c0e6f071a455418267a20ff7ef2b468862bbf86",
+  "units": [
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/sources/0",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "official named-person headline and corresponding sections; full_text directly opened"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/sources/1",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html"
+      ],
+      "evidence_locators": [
+        "official named-person headline and corresponding sections; full_text directly opened"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/sources/2",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-allan-gulley.html"
+      ],
+      "evidence_locators": [
+        "official named-person headline and corresponding sections; full_text directly opened"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/sources/3",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/graduate-programs/miips/index.html"
+      ],
+      "evidence_locators": [
+        "official lines22-48 formats nine months 5+ years ideal, 16months under5years ideal, internship; lines54-67 Fall2027"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/0/identity_link",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "official lines 13,17,23: Miriam named and MIIPS student"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/0/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "lines 23,49,82: classmates and future graduation; historical enrolled only"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/0/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/0/fields/undergraduate_school",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "line 17: undergraduate degree at University of Virginia"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/0/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "line 17: Cognitive Science focus Neuroscience"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/0/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/0/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/0/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/0/fields/masters_graduation",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "line 82: looking forward to graduation December 2025, not completed"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/0/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/0/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/0/experiences/0",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "lines 21-23: epilepsy research and UX before deciding graduate study; no application date"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/0/experiences/1",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "line 77: required summer Product Design internship at Sun Life"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/1/identity_link",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html"
+      ],
+      "evidence_locators": [
+        "official lines 13,17-19: Julia named MIIPS student"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/1/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html"
+      ],
+      "evidence_locators": [
+        "line 17 returned to school as MIIPS student; lines 46,94 future degree completion"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/1/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/1/fields/undergraduate_school",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html"
+      ],
+      "evidence_locators": [
+        "line 18 undergraduate at National University Singapore"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/1/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html"
+      ],
+      "evidence_locators": [
+        "line 18 studied project and facilities management as undergraduate, no degree conferral claim"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/1/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/1/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/1/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/1/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/1/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/1/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/1/experiences/0",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html"
+      ],
+      "evidence_locators": [
+        "lines17-18: 3.5 years construction before school; worked JLL, not all 3.5 years JLL"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/2/identity_link",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-allan-gulley.html"
+      ],
+      "evidence_locators": [
+        "official lines13,17 named Allan MIIPS Online"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/2/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-allan-gulley.html"
+      ],
+      "evidence_locators": [
+        "lines17,27 online student / candidate at report time, not graduation"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/2/fields/track",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-allan-gulley.html"
+      ],
+      "evidence_locators": [
+        "lines13,17 explicitly MIIPS Online"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/2/fields/undergraduate_school",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/2/fields/undergraduate_major",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/2/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/2/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/2/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/2/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/2/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/cases/2/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/archetypes/0",
+      "verdict": "supported",
+      "rationale": "Supported as explicitly labeled single observed/inferred path; not stable class or admissions preference.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "Miriam17-23 pre-study cognitive/neuro and epilepsy/UX path"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/cases.json#/archetypes/1",
+      "verdict": "supported",
+      "rationale": "Supported single observed path; industry duration not exact application full-time duration.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html"
+      ],
+      "evidence_locators": [
+        "Julia17-19 construction3.5years then UX/product aspiration"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-pilot/report.md#report",
+      "verdict": "overstated",
+      "rationale": "Historical facts mostly supported. Narrow 未公开 to 本次访问材料未查到, as omitted attributes may be public elsewhere. Pilot Julia expected Dec2025 is publicly explicit but omission remains unknown in old data; note missed field. Review resume graduation is self-reported degree date, not independently confirmed. Review engineering+MBA+market archetype retains missing application chronology and must not count as proven application background. Planned entry and expected graduation do not establish actual dates; online excluded appropriately. LinkedIn acceptance currently only search cache. Historical claimed channel coverage/stop/budget behavior cannot be established merely by current source opens. Root integration attached URLs from the paired source table; project auditor separately reopened all distinct cited URLs, including failed attempts. Local prose reviewed against these checks.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-allan-gulley.html",
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html",
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html",
+        "https://www.cmu.edu/iii/graduate-programs/miips/index.html"
+      ],
+      "evidence_locators": [
+        "Miriam17-23,77,82; Julia17-19,46,80; Allan13,17; Daniela17-20,34,48,69; PDFp1 17-24,39-43; forum135-160,248; current program24-48"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/sources/0",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "official named-person headline and corresponding sections; full_text directly opened"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/sources/1",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html"
+      ],
+      "evidence_locators": [
+        "official named-person headline and corresponding sections; full_text directly opened"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/sources/2",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-allan-gulley.html"
+      ],
+      "evidence_locators": [
+        "official named-person headline and corresponding sections; full_text directly opened"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/sources/3",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/graduate-programs/miips/index.html"
+      ],
+      "evidence_locators": [
+        "official lines22-48 formats nine months 5+ years ideal, 16months under5years ideal, internship; lines54-67 Fall2027"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/sources/4",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-daniela-decoud.html"
+      ],
+      "evidence_locators": [
+        "official named-person headline and corresponding sections; full_text directly opened"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/sources/5",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://danebula.com/Resume_FTJ-%20V4.pdf"
+      ],
+      "evidence_locators": [
+        "PDF p1 lines0,3-25,37-43; document metadata title Tepper formatting instruction differs from descriptive resume label"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/sources/6",
+      "verdict": "supported",
+      "rationale": "Directly opened partial text including author, offer, BG and reply; hidden academic fields remain access-restricted.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-860238-1-1.html"
+      ],
+      "evidence_locators": [
+        "forum lines108,134-160,243-248"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/sources/7",
+      "verdict": "inaccessible",
+      "rationale": "Direct body failed; fresh targeted index search reproduces acceptance and planned Fall24. Keep snippet_only; present failure does not refute prior search access.",
+      "checked_urls": [
+        "https://www.linkedin.com/posts/julia-ang_careertransition-projectmanagement-productmanagement-activity-7208734209119510528-WdP6"
+      ],
+      "evidence_locators": [
+        "targeted activity ID search; indexed Julia post Next Stop CMU Fall24; body Internal Error"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/0/identity_link",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "official lines 13,17,23: Miriam named and MIIPS student"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/0/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "lines 23,49,82: classmates and future graduation; historical enrolled only"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/0/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/0/fields/undergraduate_school",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "line 17: undergraduate degree at University of Virginia"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/0/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "line 17: Cognitive Science focus Neuroscience"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/0/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/0/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/0/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/0/fields/masters_graduation",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "line 82: looking forward to graduation December 2025, not completed"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/0/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/0/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/0/experiences/0",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "lines 21-23: epilepsy research and UX before deciding graduate study; no application date"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/0/experiences/1",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "line 77: required summer Product Design internship at Sun Life"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/1/identity_link",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html"
+      ],
+      "evidence_locators": [
+        "official lines 13,17-19: Julia named MIIPS student"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/1/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html"
+      ],
+      "evidence_locators": [
+        "line 17 returned to school as MIIPS student; lines 46,94 future degree completion"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/1/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/1/fields/undergraduate_school",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html"
+      ],
+      "evidence_locators": [
+        "line 18 undergraduate at National University Singapore"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/1/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html"
+      ],
+      "evidence_locators": [
+        "line 18 studied project and facilities management as undergraduate, no degree conferral claim"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/1/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/1/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/1/fields/masters_start",
+      "verdict": "inaccessible",
+      "rationale": "Fresh index reproduces the limited planned Fall24 claim, but direct LinkedIn body fails. Recorded snippet limitation correct; actual enrollment not inferred.",
+      "checked_urls": [
+        "https://www.linkedin.com/posts/julia-ang_careertransition-projectmanagement-productmanagement-activity-7208734209119510528-WdP6"
+      ],
+      "evidence_locators": [
+        "LinkedIn indexed post: accepted MIIPS and moving to Pittsburgh full-time Fall24; direct body fails"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/1/fields/masters_graduation",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html"
+      ],
+      "evidence_locators": [
+        "line 46 finishing MIIPS December2025 is expected, not actual"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/1/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/1/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/1/experiences/0",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html"
+      ],
+      "evidence_locators": [
+        "lines17-18: 3.5 years construction before school; worked JLL, not all 3.5 years JLL"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/2/identity_link",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-allan-gulley.html"
+      ],
+      "evidence_locators": [
+        "official lines13,17 named Allan MIIPS Online"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/2/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-allan-gulley.html"
+      ],
+      "evidence_locators": [
+        "lines17,27 online student / candidate at report time, not graduation"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/2/fields/track",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-allan-gulley.html"
+      ],
+      "evidence_locators": [
+        "lines13,17 explicitly MIIPS Online"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/2/fields/undergraduate_school",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/2/fields/undergraduate_major",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/2/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/2/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/2/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/2/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/2/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/2/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/3/identity_link",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-daniela-decoud.html"
+      ],
+      "evidence_locators": [
+        "official lines13,17 named Daniela MIIPS student"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/3/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-daniela-decoud.html"
+      ],
+      "evidence_locators": [
+        "line17 current student at historical observation"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/3/fields/track",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-daniela-decoud.html"
+      ],
+      "evidence_locators": [
+        "line69 her summer internship required component MIIPS Advanced; inference preserves qualification"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/3/fields/undergraduate_school",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/3/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-daniela-decoud.html"
+      ],
+      "evidence_locators": [
+        "line18 earned undergraduate degree accounting"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/3/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/3/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/3/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/3/fields/masters_graduation",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-daniela-decoud.html"
+      ],
+      "evidence_locators": [
+        "lines13,25 cohort24; line48 does not graduate until December; no completed proof"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/3/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/3/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/3/experiences/0",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-daniela-decoud.html"
+      ],
+      "evidence_locators": [
+        "lines17-20: years Uruguay fintech Product Management before study, no exact duration or application date"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/3/experiences/1",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-daniela-decoud.html"
+      ],
+      "evidence_locators": [
+        "lines34,69-73 Summer24 GM software product manager intern during degree"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/identity_link",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://danebula.com/Resume_FTJ-%20V4.pdf"
+      ],
+      "evidence_locators": [
+        "PDF p1 lines0,38-39 named Danyal and CMU MIIPS"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://danebula.com/Resume_FTJ-%20V4.pdf"
+      ],
+      "evidence_locators": [
+        "PDF p1 lines38-39 degree listed Dec2023 self-report, no independent diploma"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/fields/undergraduate_school",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://danebula.com/Resume_FTJ-%20V4.pdf"
+      ],
+      "evidence_locators": [
+        "PDF p1 lines42-43 Sharif BSc"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://danebula.com/Resume_FTJ-%20V4.pdf"
+      ],
+      "evidence_locators": [
+        "PDF p1 line43 BSc Mechanical Engineering"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/fields/undergraduate_end",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://danebula.com/Resume_FTJ-%20V4.pdf"
+      ],
+      "evidence_locators": [
+        "PDF p1 line43 Jul2017 degree date"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/fields/masters_graduation",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://danebula.com/Resume_FTJ-%20V4.pdf"
+      ],
+      "evidence_locators": [
+        "PDF p1 line39 Dec2023 degree date self-report"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/fields/prior_graduate_education",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://danebula.com/Resume_FTJ-%20V4.pdf"
+      ],
+      "evidence_locators": [
+        "PDF p1 lines40-41 Amirkabir MBA Marketing GPA18.63/20 Jul2020"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/fields/undergraduate_gpa",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://danebula.com/Resume_FTJ-%20V4.pdf"
+      ],
+      "evidence_locators": [
+        "PDF p1 line43 BSc15.40/20"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/fields/target_program_gpa",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://danebula.com/Resume_FTJ-%20V4.pdf"
+      ],
+      "evidence_locators": [
+        "PDF p1 line39 MIIPS3.89/4.00"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/experiences/0",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://danebula.com/Resume_FTJ-%20V4.pdf"
+      ],
+      "evidence_locators": [
+        "PDF p1 lines20-22 Dream Farm Studios Marketing Specialist Dec2021-Aug2022"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/experiences/1",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://danebula.com/Resume_FTJ-%20V4.pdf"
+      ],
+      "evidence_locators": [
+        "PDF p1 lines23-25 MTN Digital Marketing Intern Dec2018-Mar2019"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/4/experiences/2",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://danebula.com/Resume_FTJ-%20V4.pdf"
+      ],
+      "evidence_locators": [
+        "PDF p1 lines4,17-19 CCC Product Design Strategy Intern May2023-Dec2023; enrollment/application unknown"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/identity_link",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-860238-1-1.html"
+      ],
+      "evidence_locators": [
+        "forum lines112,134-143 author haitongclin and MIIPS AD"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-860238-1-1.html"
+      ],
+      "evidence_locators": [
+        "lines142-143 AD无奖 March3 2022, no attendance confirmation"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/fields/track",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-860238-1-1.html"
+      ],
+      "evidence_locators": [
+        "line157 16个月miips advanced study"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/fields/undergraduate_school",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/fields/undergraduate_major",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-860238-1-1.html"
+      ],
+      "evidence_locators": [
+        "line159 BG Data Science, self-report only"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/fields/masters_start",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-860238-1-1.html"
+      ],
+      "evidence_locators": [
+        "lines135-136 admission form2022 Fall planned, not actual attendance"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Null preserved as unestablished from the accessed evidence; not confirmed absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/fields/application_narrative",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-860238-1-1.html"
+      ],
+      "evidence_locators": [
+        "line160 portfolio UX DS graphic design; author reply248 course/internship projects DIY; no SOP or cause"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/fields/undergraduate_gpa",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-860238-1-1.html"
+      ],
+      "evidence_locators": [
+        "line159 gpa3.91, scale not shown"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/fields/undergraduate_education_type",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-860238-1-1.html"
+      ],
+      "evidence_locators": [
+        "lines144海本 vs159中美合办 coexist; classification ambiguity preserved"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/experiences/0",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-860238-1-1.html"
+      ],
+      "evidence_locators": [
+        "line160 internships pm/product design;248 assembled application portfolio using internships, self-report before application, no dates"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/conflicts/0/values/0",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-860238-1-1.html"
+      ],
+      "evidence_locators": [
+        "line144 form海本"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/cases/5/conflicts/0/values/1",
+      "verdict": "supported",
+      "rationale": "Current direct source body supports the narrow recorded claim, with historical observation and stated uncertainty retained.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-860238-1-1.html"
+      ],
+      "evidence_locators": [
+        "line159 body中美合办"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/archetypes/0",
+      "verdict": "supported",
+      "rationale": "Supported as explicitly labeled single observed/inferred path; not stable class or admissions preference.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html"
+      ],
+      "evidence_locators": [
+        "Miriam17-23 pre-study cognitive/neuro and epilepsy/UX path"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/archetypes/1",
+      "verdict": "supported",
+      "rationale": "Supported single observed path; industry duration not exact application full-time duration.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html"
+      ],
+      "evidence_locators": [
+        "Julia17-19 construction3.5years then UX/product aspiration"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/archetypes/2",
+      "verdict": "supported",
+      "rationale": "Supported single inferred educational/career combination with dates unspecified.",
+      "checked_urls": [
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-daniela-decoud.html"
+      ],
+      "evidence_locators": [
+        "Daniela17-20 accounting and prior fintech PM"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/archetypes/3",
+      "verdict": "overstated",
+      "rationale": "Education and dated marketing record supported; not confirmed that market history preceded MIIPS admission/application. Valid as descriptive life-history combination only; not a verified preapplication archetype.",
+      "checked_urls": [
+        "https://danebula.com/Resume_FTJ-%20V4.pdf"
+      ],
+      "evidence_locators": [
+        "PDFp1 lines20-25,38-43; no actual enrollment/application date"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/cases.json#/archetypes/4",
+      "verdict": "supported",
+      "rationale": "Supported single self-reported admission path; offer only, no attendance or causal claim.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-860238-1-1.html"
+      ],
+      "evidence_locators": [
+        "forum159-160 and author248 DS plus cross-design DIY application portfolio"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/cmu-miips/2026-10-05-review/report.md#report",
+      "verdict": "overstated",
+      "rationale": "Historical facts mostly supported. Narrow 未公开 to 本次访问材料未查到, as omitted attributes may be public elsewhere. Pilot Julia expected Dec2025 is publicly explicit but omission remains unknown in old data; note missed field. Review resume graduation is self-reported degree date, not independently confirmed. Review engineering+MBA+market archetype retains missing application chronology and must not count as proven application background. Planned entry and expected graduation do not establish actual dates; online excluded appropriately. LinkedIn acceptance currently only search cache. Historical claimed channel coverage/stop/budget behavior cannot be established merely by current source opens. Root integration attached URLs from the paired source table; project auditor separately reopened all distinct cited URLs, including failed attempts. Local prose reviewed against these checks.",
+      "checked_urls": [
+        "https://danebula.com/Resume_FTJ-%20V4.pdf",
+        "https://www.1point3acres.com/bbs/thread-860238-1-1.html",
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-allan-gulley.html",
+        "https://www.cmu.edu/iii/about/news/2024/student-spotlight-daniela-decoud.html",
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html",
+        "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html",
+        "https://www.cmu.edu/iii/graduate-programs/miips/index.html",
+        "https://www.linkedin.com/posts/julia-ang_careertransition-projectmanagement-productmanagement-activity-7208734209119510528-WdP6"
+      ],
+      "evidence_locators": [
+        "Miriam17-23,77,82; Julia17-19,46,80; Allan13,17; Daniela17-20,34,48,69; PDFp1 17-24,39-43; forum135-160,248; current program24-48"
+      ],
+      "checked_on": "2026-10-05"
+    }
+  ],
+  "counts": {
+    "supported": 78,
+    "unknown_preserved": 56,
+    "overstated": 3,
+    "inaccessible": 2
+  },
+  "all_distinct_cited_urls_reopened": true,
+  "distinct_url_count": 8,
+  "model_note": "Inherited GPT-6 family; exact serving model ID unavailable. No separately selected model."
+}

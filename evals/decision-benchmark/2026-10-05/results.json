@@ -1,0 +1,41 @@
+{
+  "packet_sha256": "f0e5d37aa82ba2229398c5c3c32638b6c9a9f14d87bf9fa2441a10f7bd39d66c",
+  "scores": [
+    {
+      "run": "astra-run1.json",
+      "total": 32,
+      "matched": 32,
+      "failures": []
+    },
+    {
+      "run": "astra-run2.json",
+      "total": 32,
+      "matched": 32,
+      "failures": []
+    },
+    {
+      "run": "inherited-run1.json",
+      "total": 32,
+      "matched": 32,
+      "failures": []
+    },
+    {
+      "run": "inherited-run2.json",
+      "total": 32,
+      "matched": 32,
+      "failures": []
+    },
+    {
+      "run": "sol-run1.json",
+      "total": 32,
+      "matched": 32,
+      "failures": []
+    },
+    {
+      "run": "sol-run2.json",
+      "total": 32,
+      "matched": 32,
+      "failures": []
+    }
+  ]
+}

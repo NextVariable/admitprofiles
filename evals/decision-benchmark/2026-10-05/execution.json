@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-05",
+  "input_frozen_before_dispatch": true,
+  "independent_sessions": [
+    {
+      "output": "astra-run1.json",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning": "high",
+      "fork_turns": "none",
+      "actual_deployment_id": "not_exposed_or_independently_verified"
+    },
+    {
+      "output": "astra-run2.json",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning": "high",
+      "fork_turns": "none",
+      "actual_deployment_id": "not_exposed_or_independently_verified"
+    },
+    {
+      "output": "sol-run1.json",
+      "requested_model": "gpt-6-sol",
+      "requested_reasoning": "high",
+      "fork_turns": "none",
+      "actual_deployment_id": "not_exposed_or_independently_verified"
+    },
+    {
+      "output": "sol-run2.json",
+      "requested_model": "gpt-6-sol",
+      "requested_reasoning": "high",
+      "fork_turns": "none",
+      "actual_deployment_id": "not_exposed_or_independently_verified"
+    }
+  ],
+  "same_context_repeats": [
+    "inherited-run1.json",
+    "inherited-run2.json"
+  ],
+  "scope": "32 synthetic explicit-skill boundary decisions, no browsing. Does not measure implicit selection, novel live research, model leaderboard, or population coverage."
+}

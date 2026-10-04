@@ -34,9 +34,9 @@ ln -s "$PWD/skills/admission-intelligence" "$HOME/.agents/skills/admission-intel
 
 完整研究保存 `report.md`、`cases.json` 和 `search-log.md`：报告说明观察到的背景路径与结论边界，证据记录保存逐字段出处，检索记录说明渠道覆盖与停止原因。有限研究会明确缺失年份、渠道和字段，不把小样本描述为完整画像。
 
-可以先阅读 [Northwestern MSIS 修正版报告](research/northwestern-msis/2026-10-05-delivery-review/report.md)，或通过 [研究索引](research/README.md)选择其他案例。现有报告均为有限验证产物，尚未完成最近三个入学年级的全面覆盖。
+可以先阅读 [Berkeley 最近三届研究](research/berkeley-mdeveng/2026-10-05-cohort-review/report.md)，或通过 [研究索引](research/README.md)查看四个项目的最新版本。本轮已执行2024、2025、2026入学范围的三类渠道检索与停止条件：Berkeley核实10个有入学年份的公开人物，CMU补出2025与2026明确入学记录；Brown与Northwestern个人入学年份仍缺正文证据。检索工作完成不代表全班覆盖。
 
-例如，Northwestern 的官方历史人物稿可以确认 Austin Olson 在线攻读 MSIS，却不能将其 pre-med 学习经历补写为已完成的本科专业，也不能将 2013—2021 的军旅区间算成八年申请前全职工作。修正版保留三个正文身份案例，把仅摘要的论坛自报放进检索线索；这体现了本技能对“查到了什么”的实际约束。
+例如，官网届别不能倒推入学日期，迎新观察日不能当个人开学日；“财经与管理基础”不能升级为正式本科专业。新版保留这些区别、访问限制与未知，旧稿完整保留供复核。
 
 ## 验证与边界
 
@@ -45,11 +45,12 @@ ln -s "$PWD/skills/admission-intelligence" "$HOME/.agents/skills/admission-intel
 ```sh
 python3 -m unittest discover -s tests -v
 python3 tests/check_records.py
+python3 tests/check_source_audit.py
 ```
 
-当前 67 项回归测试覆盖结构、引用、日期、独立安装和包内资源，批量检查包含 752 种嵌套输入变异、5,000 组随机工作区间、25,350 组跨年区间穷举及 200 组既有对照。穷举同时核对调换顺序与重复区间不会增加年限。GitHub Actions 在 Python 3.11、3.12、3.13、3.14 上运行回归与记录检查。实际运行证据见 [第五轮验证](docs/history/第五轮交付复核-2026-10-05.md)。批量测试数量不是实际录取研究数量，也不是模型输出正确率。
+当前 72 项回归测试覆盖结构、引用、日期、独立安装和包内资源，批量检查包含 752 种嵌套输入变异、5,000 组随机工作区间、25,350 组跨年区间穷举及 200 组既有对照。穷举同时核对调换顺序与重复区间不会增加年限。GitHub Actions 在 Python 3.11、3.12、3.13、3.14 上运行回归与记录检查。最近运行证据见 [第六轮验证](docs/history/第六轮完成验证-2026-10-05.md)。批量测试数量不是实际录取研究数量，也不是模型输出正确率。
 
-`validate_cases.py` 检查记录结构与引用一致性；`work_months.py` 计算已提供月级日期区间的并集。两者均不验证网页真实性、正文支持性或模型研究质量。人工来源复查与独立研究试运行的证据见 [评估说明](evals/README.md)和 [历史验证记录](docs/history/README.md)。旧版 1.0 记录保留并明确跳过新版结构检查；独立初稿保留供审计，不应作为最终报告引用。
+`validate_cases.py` 检查记录结构与引用一致性；`work_months.py` 计算已提供月级日期区间的并集。两者均不验证网页真实性、正文支持性或模型研究质量。全部旧记录已完成 [703条来源审计](evals/source-audits/2026-10-05/README.md)，309条有支持、17条过度主张、33条当前无法复核、344条保留未知，计数含历史版本重复。新版本已应用修正，历史原件哈希也进入持续检查。人工来源复查与独立研究试运行的证据见 [评估说明](evals/README.md)和 [历史验证记录](docs/history/README.md)。旧版 1.0 记录保留并明确跳过新版结构检查；独立初稿保留供审计，不应作为最终报告引用。
 
 直接检查自己的记录时，可在仓库根目录运行 `python3 skills/admission-intelligence/scripts/validate_cases.py <cases.json>`；该命令只报告结构和引用结果。维护者规范与项目架构见 [贡献指南](CONTRIBUTING.md)和 [架构说明](docs/architecture.md)。
 

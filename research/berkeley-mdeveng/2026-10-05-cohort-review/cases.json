@@ -1,0 +1,1660 @@
+{
+  "schema_version": "1.1",
+  "researched_on": "2026-10-05",
+  "scope": {
+    "institution": "University of California, Berkeley",
+    "program": "Master of Development Engineering",
+    "tracks": [
+      "on-campus full-time MDevEng; individual concentrations only where explicit"
+    ],
+    "years": [
+      2024,
+      2025,
+      2026
+    ],
+    "year_definition": "entry cohort, not graduation class",
+    "excluded": [
+      "MEng",
+      "MDP",
+      "MAS-E",
+      "PhD designated emphasis"
+    ]
+  },
+  "sources": [
+    {
+      "id": "P1",
+      "url": "https://registrar.berkeley.edu/tuition-fees/self-supporting-graduate-professional-degree-programs-ssgpdp/",
+      "title": "Registrar: MDevEng",
+      "publisher": "UC Berkeley",
+      "source_type": "official_program",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "MDevEng section lines 191-203"
+    },
+    {
+      "id": "S24",
+      "url": "https://blumcenter.berkeley.edu/from-ai-to-social-justice-mdeveng-class-of-2025-sets-sights-on-global-problem-solving/",
+      "title": "From AI to Social Justice",
+      "publisher": "UC Berkeley",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": "2024-09-23",
+      "access_state": "full_text",
+      "locator": "Named students, orientation and prior experience, lines 64-78"
+    },
+    {
+      "id": "S25",
+      "url": "https://developmentengineering.berkeley.edu/making-the-world-a-better-place-the-fifth-mdeveng-cohort-begins-its-journey-at-uc-berkeley/",
+      "title": "Fifth cohort begins",
+      "publisher": "UC Berkeley",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": "2025-11-13",
+      "access_state": "full_text",
+      "locator": "Named students and August orientation, lines 23-66"
+    },
+    {
+      "id": "S26",
+      "url": "https://developmentengineering.berkeley.edu/master-of-development-engineering-program-welcomes-the-class-of-2027/",
+      "title": "Welcomes Class of 2027",
+      "publisher": "UC Berkeley",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": "2026-09-30",
+      "access_state": "full_text",
+      "locator": "New cohort and named students, lines 22-66"
+    },
+    {
+      "id": "SR",
+      "url": "https://raytsao0508.com/about-ray",
+      "title": "About Ray / TSAO Yu-Jui",
+      "publisher": "About Ray / TSAO Yu-Jui",
+      "source_type": "personal_website",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Education and Professional Experience, lines 233-527"
+    },
+    {
+      "id": "SM",
+      "url": "https://www.linkedin.com/posts/mary-muthoni-k-22082b1b0_ucberkeley-developmentengineering-energywaterenvironment-activity-7498365198135738368-JAAB",
+      "title": "Mary Muthoni K. program announcement",
+      "publisher": "Mary Muthoni K. program announcement",
+      "source_type": "personal_post",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Post lines 20-24"
+    }
+  ],
+  "cases": [
+    {
+      "id": "C1",
+      "public_name_or_handle": "Mingxi Tang",
+      "identity_link": {
+        "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
+        "source_ids": [
+          "S24"
+        ],
+        "evidence": [
+          {
+            "source_id": "S24",
+            "locator": "lines 64-67; 2024 article describes new cohort orientation"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "documented",
+          "source_ids": [
+            "S24"
+          ],
+          "evidence": [
+            {
+              "source_id": "S24",
+              "locator": "lines 64-67; 2024 article describes new cohort orientation"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": "2024",
+          "status": "documented",
+          "source_ids": [
+            "S24"
+          ],
+          "evidence": [
+            {
+              "source_id": "S24",
+              "locator": "lines 64-67; 2024 article describes new cohort orientation"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "prior_education": {
+          "value": {
+            "school": "The Chinese University of Hong Kong, Shenzhen",
+            "subject": "finance",
+            "degree_level": "unknown"
+          },
+          "status": "documented",
+          "source_ids": [
+            "S24"
+          ],
+          "evidence": [
+            {
+              "source_id": "S24",
+              "locator": "line 64; degree level not explicit"
+            }
+          ]
+        }
+      },
+      "experiences": [],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C2",
+      "public_name_or_handle": "Pratiyush Singh",
+      "identity_link": {
+        "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
+        "source_ids": [
+          "S24"
+        ],
+        "evidence": [
+          {
+            "source_id": "S24",
+            "locator": "lines 76-78; incoming cohort"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "documented",
+          "source_ids": [
+            "S24"
+          ],
+          "evidence": [
+            {
+              "source_id": "S24",
+              "locator": "lines 76-78; incoming cohort"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": "2024",
+          "status": "documented",
+          "source_ids": [
+            "S24"
+          ],
+          "evidence": [
+            {
+              "source_id": "S24",
+              "locator": "lines 76-78; incoming cohort"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "prior_education": {
+          "value": {
+            "school": "University of California, Berkeley",
+            "subject": "civil engineering",
+            "degree_level": "unknown"
+          },
+          "status": "documented",
+          "source_ids": [
+            "S24"
+          ],
+          "evidence": [
+            {
+              "source_id": "S24",
+              "locator": "line 76; degree level not explicit"
+            }
+          ]
+        },
+        "prior_industry_duration": {
+          "value": {
+            "value": 2,
+            "unit": "years",
+            "basis": "source states two years before decision to apply; job type/dates unknown"
+          },
+          "status": "documented",
+          "source_ids": [
+            "S24"
+          ],
+          "evidence": [
+            {
+              "source_id": "S24",
+              "locator": "line 77"
+            }
+          ]
+        }
+      },
+      "experiences": [
+        {
+          "type": "employment_unspecified",
+          "organization": null,
+          "role": "industry work",
+          "start": null,
+          "end": null,
+          "relative_timing": "before_application",
+          "status": "documented",
+          "source_ids": [
+            "S24"
+          ],
+          "evidence": [
+            {
+              "source_id": "S24",
+              "locator": "line 77: two years in industry before applying"
+            }
+          ]
+        }
+      ],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C3",
+      "public_name_or_handle": "Neel Simpson",
+      "identity_link": {
+        "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
+        "source_ids": [
+          "S24"
+        ],
+        "evidence": [
+          {
+            "source_id": "S24",
+            "locator": "line 71 caption in incoming orientation article"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "documented",
+          "source_ids": [
+            "S24"
+          ],
+          "evidence": [
+            {
+              "source_id": "S24",
+              "locator": "line 71 caption in incoming orientation article"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": "2024",
+          "status": "documented",
+          "source_ids": [
+            "S24"
+          ],
+          "evidence": [
+            {
+              "source_id": "S24",
+              "locator": "line 71 caption in incoming orientation article"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C4",
+      "public_name_or_handle": "Longyu Gong",
+      "identity_link": {
+        "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
+        "source_ids": [
+          "S25"
+        ],
+        "evidence": [
+          {
+            "source_id": "S25",
+            "locator": "lines 23-30; this August joined fifth cohort"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "documented",
+          "source_ids": [
+            "S25"
+          ],
+          "evidence": [
+            {
+              "source_id": "S25",
+              "locator": "lines 23-30; this August joined fifth cohort"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": "2025",
+          "status": "documented",
+          "source_ids": [
+            "S25"
+          ],
+          "evidence": [
+            {
+              "source_id": "S25",
+              "locator": "lines 23-30; this August joined fifth cohort"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "prior_education": {
+          "value": {
+            "school": "Tongji University",
+            "subject": "urban communities",
+            "degree_level": "unknown"
+          },
+          "status": "documented",
+          "source_ids": [
+            "S25"
+          ],
+          "evidence": [
+            {
+              "source_id": "S25",
+              "locator": "line 26; degree level not explicit"
+            }
+          ]
+        }
+      },
+      "experiences": [],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C5",
+      "public_name_or_handle": "Noam Anglo",
+      "identity_link": {
+        "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
+        "source_ids": [
+          "S25"
+        ],
+        "evidence": [
+          {
+            "source_id": "S25",
+            "locator": "lines 41-54; new student"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "documented",
+          "source_ids": [
+            "S25"
+          ],
+          "evidence": [
+            {
+              "source_id": "S25",
+              "locator": "lines 41-54; new student"
+            }
+          ]
+        },
+        "track": {
+          "value": {
+            "concentration": "Healthcare Transformations",
+            "state": "planned"
+          },
+          "status": "documented",
+          "source_ids": [
+            "S25"
+          ],
+          "evidence": [
+            {
+              "source_id": "S25",
+              "locator": "line 41 plans to focus"
+            }
+          ]
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": "2025",
+          "status": "documented",
+          "source_ids": [
+            "S25"
+          ],
+          "evidence": [
+            {
+              "source_id": "S25",
+              "locator": "lines 41-54; new student"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "prior_education": {
+          "value": {
+            "school": "University of Calgary",
+            "subject": "mechanical engineering",
+            "degree_level": "unknown"
+          },
+          "status": "documented",
+          "source_ids": [
+            "S25"
+          ],
+          "evidence": [
+            {
+              "source_id": "S25",
+              "locator": "line 44; degree level not explicit"
+            }
+          ]
+        }
+      },
+      "experiences": [
+        {
+          "type": "employment_unspecified",
+          "organization": null,
+          "role": "healthcare / robotics / entrepreneurship",
+          "start": null,
+          "end": null,
+          "relative_timing": "before_enrollment_only",
+          "status": "documented",
+          "source_ids": [
+            "S25"
+          ],
+          "evidence": [
+            {
+              "source_id": "S25",
+              "locator": "line 44: years following Calgary studies"
+            }
+          ]
+        }
+      ],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C6",
+      "public_name_or_handle": "Alejandro Rodriguez",
+      "identity_link": {
+        "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
+        "source_ids": [
+          "S25"
+        ],
+        "evidence": [
+          {
+            "source_id": "S25",
+            "locator": "lines 56-66; fellow new student"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "documented",
+          "source_ids": [
+            "S25"
+          ],
+          "evidence": [
+            {
+              "source_id": "S25",
+              "locator": "lines 56-66; fellow new student"
+            }
+          ]
+        },
+        "track": {
+          "value": "AI & Data Analytics for Social Impact",
+          "status": "documented",
+          "source_ids": [
+            "S25"
+          ],
+          "evidence": [
+            {
+              "source_id": "S25",
+              "locator": "line 65"
+            }
+          ]
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": "2025",
+          "status": "documented",
+          "source_ids": [
+            "S25"
+          ],
+          "evidence": [
+            {
+              "source_id": "S25",
+              "locator": "lines 56-66; fellow new student"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "prior_education": {
+          "value": {
+            "school": "Universidad de los Andes",
+            "subject": "biomedical and industrial engineering",
+            "degree_level": "unknown"
+          },
+          "status": "documented",
+          "source_ids": [
+            "S25"
+          ],
+          "evidence": [
+            {
+              "source_id": "S25",
+              "locator": "line 59; degree level not explicit"
+            }
+          ]
+        }
+      },
+      "experiences": [],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C7",
+      "public_name_or_handle": "Amir Kelifa",
+      "identity_link": {
+        "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
+        "source_ids": [
+          "S26"
+        ],
+        "evidence": [
+          {
+            "source_id": "S26",
+            "locator": "lines 22-26; just arrived"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "documented",
+          "source_ids": [
+            "S26"
+          ],
+          "evidence": [
+            {
+              "source_id": "S26",
+              "locator": "lines 22-26; just arrived"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": "2026",
+          "status": "documented",
+          "source_ids": [
+            "S26"
+          ],
+          "evidence": [
+            {
+              "source_id": "S26",
+              "locator": "lines 22-26; just arrived"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C8",
+      "public_name_or_handle": "Tanesha Aden",
+      "identity_link": {
+        "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
+        "source_ids": [
+          "S26"
+        ],
+        "evidence": [
+          {
+            "source_id": "S26",
+            "locator": "lines 45-56; new classmate"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "documented",
+          "source_ids": [
+            "S26"
+          ],
+          "evidence": [
+            {
+              "source_id": "S26",
+              "locator": "lines 45-56; new classmate"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": "2026",
+          "status": "documented",
+          "source_ids": [
+            "S26"
+          ],
+          "evidence": [
+            {
+              "source_id": "S26",
+              "locator": "lines 45-56; new classmate"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "prior_background": {
+          "value": "urban planning",
+          "status": "documented",
+          "source_ids": [
+            "S26"
+          ],
+          "evidence": [
+            {
+              "source_id": "S26",
+              "locator": "line 48"
+            }
+          ]
+        }
+      },
+      "experiences": [
+        {
+          "type": "employment_unspecified",
+          "organization": "Indonesian government",
+          "role": null,
+          "start": null,
+          "end": null,
+          "relative_timing": "before_enrollment_only",
+          "status": "documented",
+          "source_ids": [
+            "S26"
+          ],
+          "evidence": [
+            {
+              "source_id": "S26",
+              "locator": "line 48 former job"
+            }
+          ]
+        }
+      ],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C9",
+      "public_name_or_handle": "Ben Fields",
+      "identity_link": {
+        "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
+        "source_ids": [
+          "S26"
+        ],
+        "evidence": [
+          {
+            "source_id": "S26",
+            "locator": "lines 56-66; new classmate"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "documented",
+          "source_ids": [
+            "S26"
+          ],
+          "evidence": [
+            {
+              "source_id": "S26",
+              "locator": "lines 56-66; new classmate"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": "Clemson University",
+          "status": "documented",
+          "source_ids": [
+            "S26"
+          ],
+          "evidence": [
+            {
+              "source_id": "S26",
+              "locator": "line 66 explicitly says undergraduate at Clemson"
+            }
+          ]
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": "2026",
+          "status": "documented",
+          "source_ids": [
+            "S26"
+          ],
+          "evidence": [
+            {
+              "source_id": "S26",
+              "locator": "lines 56-66; new classmate"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [
+        {
+          "type": "employment_unspecified",
+          "organization": null,
+          "role": "corporate engineer",
+          "start": null,
+          "end": null,
+          "relative_timing": "before_enrollment_only",
+          "status": "documented",
+          "source_ids": [
+            "S26"
+          ],
+          "evidence": [
+            {
+              "source_id": "S26",
+              "locator": "line 60 corporate engineering before program"
+            }
+          ]
+        },
+        {
+          "type": "project",
+          "organization": "Engineers Without Borders",
+          "role": null,
+          "start": null,
+          "end": null,
+          "relative_timing": "before_enrollment_only",
+          "status": "documented",
+          "source_ids": [
+            "S26"
+          ],
+          "evidence": [
+            {
+              "source_id": "S26",
+              "locator": "line 56; employment or volunteer status not specified"
+            }
+          ]
+        }
+      ],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C10",
+      "public_name_or_handle": "Ray Tsao / TSAO, Yu-Jui",
+      "identity_link": {
+        "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
+        "source_ids": [
+          "SR"
+        ],
+        "evidence": [
+          {
+            "source_id": "SR",
+            "locator": "lines 148-164 and 194-241; same page name and MDevEng education"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "self_reported",
+          "source_ids": [
+            "SR"
+          ],
+          "evidence": [
+            {
+              "source_id": "SR",
+              "locator": "lines 148-164 and 194-241; same page name and MDevEng education"
+            }
+          ]
+        },
+        "track": {
+          "value": "Sustainable Design Innovations",
+          "status": "self_reported",
+          "source_ids": [
+            "SR"
+          ],
+          "evidence": [
+            {
+              "source_id": "SR",
+              "locator": "line 241"
+            }
+          ]
+        },
+        "undergraduate_school": {
+          "value": "The Hong Kong Polytechnic University",
+          "status": "self_reported",
+          "source_ids": [
+            "SR"
+          ],
+          "evidence": [
+            {
+              "source_id": "SR",
+              "locator": "lines 273-279"
+            }
+          ]
+        },
+        "undergraduate_major": {
+          "value": "Engineering Physics; minor Product Engineering and Marketing",
+          "status": "self_reported",
+          "source_ids": [
+            "SR"
+          ],
+          "evidence": [
+            {
+              "source_id": "SR",
+              "locator": "lines 273-279"
+            }
+          ]
+        },
+        "undergraduate_start": {
+          "value": "2019-08",
+          "status": "self_reported",
+          "source_ids": [
+            "SR"
+          ],
+          "evidence": [
+            {
+              "source_id": "SR",
+              "locator": "line 275"
+            }
+          ]
+        },
+        "undergraduate_end": {
+          "value": "2024-01",
+          "status": "self_reported",
+          "source_ids": [
+            "SR"
+          ],
+          "evidence": [
+            {
+              "source_id": "SR",
+              "locator": "line 275"
+            }
+          ]
+        },
+        "masters_start": {
+          "value": "2025-08",
+          "status": "self_reported",
+          "source_ids": [
+            "SR"
+          ],
+          "evidence": [
+            {
+              "source_id": "SR",
+              "locator": "lines 235-241"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": "Hong Kong",
+          "status": "self_reported",
+          "source_ids": [
+            "SR"
+          ],
+          "evidence": [
+            {
+              "source_id": "SR",
+              "locator": "lines 273-279 school identity"
+            }
+          ]
+        }
+      },
+      "experiences": [
+        {
+          "type": "self_employed",
+          "organization": "H2GO Hong Kong",
+          "role": "Founder / CEO",
+          "start": "2023-12",
+          "end": "2025-01",
+          "relative_timing": "before_enrollment_only",
+          "status": "self_reported",
+          "source_ids": [
+            "SR"
+          ],
+          "evidence": [
+            {
+              "source_id": "SR",
+              "locator": "lines 377-382"
+            }
+          ]
+        },
+        {
+          "type": "project",
+          "organization": "Teahouse Finance",
+          "role": "Keynote Designer / Speaker",
+          "start": "2024-02",
+          "end": "2024-03",
+          "relative_timing": "before_enrollment_only",
+          "status": "self_reported",
+          "source_ids": [
+            "SR"
+          ],
+          "evidence": [
+            {
+              "source_id": "SR",
+              "locator": "lines 413-419"
+            }
+          ]
+        },
+        {
+          "type": "research",
+          "organization": null,
+          "role": "Structural composite battery research",
+          "start": "2022-09",
+          "end": "2023-05",
+          "relative_timing": "before_enrollment_only",
+          "status": "self_reported",
+          "source_ids": [
+            "SR"
+          ],
+          "evidence": [
+            {
+              "source_id": "SR",
+              "locator": "lines 450-455"
+            }
+          ]
+        },
+        {
+          "type": "project",
+          "organization": "BeGreener Hong Kong",
+          "role": "Founder / Project Lead",
+          "start": "2021-04",
+          "end": "2021-10",
+          "relative_timing": "before_enrollment_only",
+          "status": "self_reported",
+          "source_ids": [
+            "SR"
+          ],
+          "evidence": [
+            {
+              "source_id": "SR",
+              "locator": "lines 485-490"
+            }
+          ]
+        },
+        {
+          "type": "self_employed",
+          "organization": "Voyla!",
+          "role": "Co-founder / Product and Technology Lead",
+          "start": "2025-06",
+          "end": null,
+          "relative_timing": "before_enrollment_only",
+          "status": "self_reported",
+          "source_ids": [
+            "SR"
+          ],
+          "evidence": [
+            {
+              "source_id": "SR",
+              "locator": "lines 342-347; began before enrollment, continues across program; do not count all present work as prior"
+            }
+          ]
+        }
+      ],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C11",
+      "public_name_or_handle": "Mary Muthoni K.",
+      "identity_link": {
+        "basis": "姓名与 MDevEng 在同一正文明确关联；不以同名跨站拼接",
+        "source_ids": [
+          "SM"
+        ],
+        "evidence": [
+          {
+            "source_id": "SM",
+            "locator": "lines 20-24; self-described student; relative post date does not prove entry year"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "self_reported",
+          "source_ids": [
+            "SM"
+          ],
+          "evidence": [
+            {
+              "source_id": "SM",
+              "locator": "lines 20-24; self-described student; relative post date does not prove entry year"
+            }
+          ]
+        },
+        "track": {
+          "value": "Energy, Water, and the Environment",
+          "status": "self_reported",
+          "source_ids": [
+            "SM"
+          ],
+          "evidence": [
+            {
+              "source_id": "SM",
+              "locator": "line 20"
+            }
+          ]
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    }
+  ],
+  "archetypes": [],
+  "coverage": {
+    "confirmed_entry_counts": {
+      "2024": 3,
+      "2025": 4,
+      "2026": 3
+    },
+    "entry_unknown_count": 1,
+    "independent_total": 11,
+    "full_population": false,
+    "stopping_rule": "14 rounds; rounds 13 and 14 no new verified identity or admissible key field after followup; inaccessible leads remain",
+    "model": "gpt-6.1-sol (inherited model; no model switch invoked)"
+  }
+}

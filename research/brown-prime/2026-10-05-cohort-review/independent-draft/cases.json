@@ -1,0 +1,685 @@
+{
+  "schema_version": "1.1",
+  "researched_on": "2026-10-05",
+  "scope": {
+    "institution": "Brown University",
+    "program": "Master of Science in Innovation Management and Entrepreneurship (PRIME), Sc.M.",
+    "tracks": [
+      "residential",
+      "fully online",
+      "Brown fifth-year option"
+    ],
+    "years": [
+      "2024 entry",
+      "2025 entry",
+      "2026 entry"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://prime.brown.edu/",
+      "title": "PRIME homepage",
+      "publisher": "Brown University",
+      "source_type": "official_program",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "首屏：Sc.M.、夏季开学、校园或全线上"
+    },
+    {
+      "id": "S2",
+      "url": "https://prime.brown.edu/format/prime-online",
+      "title": "PRIME Online",
+      "publisher": "Brown University",
+      "source_type": "official_program",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Program Dates: Class of 2027, study beginning Summer 2026"
+    },
+    {
+      "id": "S3",
+      "url": "https://prime.brown.edu/format-resources",
+      "title": "Format | Resources",
+      "publisher": "Brown University",
+      "source_type": "official_program",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Modality 与 Program Dates，文字写2026但表格写2027"
+    },
+    {
+      "id": "S4",
+      "url": "https://prime.brown.edu/faqs",
+      "title": "PRIME FAQs",
+      "publisher": "Brown University",
+      "source_type": "official_program",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "When does the program start；背景要求；入学年文字冲突"
+    },
+    {
+      "id": "S5",
+      "url": "https://prime.brown.edu/people/megan-d",
+      "title": "Megan D.",
+      "publisher": "Brown University",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Class of 25；本科与海军经历访谈"
+    },
+    {
+      "id": "S6",
+      "url": "https://engineering.brown.edu/news/2026-08-20/lily-badiani-shah",
+      "title": "Seeing beyond the limits",
+      "publisher": "Brown University",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": "2026-08-20",
+      "access_state": "full_text",
+      "locator": "正文第1至7段：毕业、CSM设计、申请动机与本科原型"
+    },
+    {
+      "id": "S7",
+      "url": "https://www.lilybadianishah.com/",
+      "title": "Lily Badiani-Shah",
+      "publisher": "个人网站",
+      "source_type": "personal_website",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "About：Brown MSc graduate；Central Saint Martins BA alumni"
+    },
+    {
+      "id": "S8",
+      "url": "https://www.linkedin.com/posts/rongmao-ma_brownuniversity-graduation-gratitude-activity-7340433236549869568-eEgP",
+      "title": "Sophia Ma graduation post",
+      "publisher": "LinkedIn",
+      "source_type": "self_report",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "正文第20至23行：收到PRIME数字毕业证"
+    },
+    {
+      "id": "S9",
+      "url": "https://prime.brown.edu/people/harsh-verma-25",
+      "title": "Harsh Verma 25",
+      "publisher": "Brown University",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Biography：PRIME graduate，Finance and Business Management undergraduate foundation"
+    },
+    {
+      "id": "S10",
+      "url": "https://engineering.brown.edu/people/graduate-students/masters-program-innovation-management-and-entrepreneurship-students",
+      "title": "PRIME Students",
+      "publisher": "Brown University",
+      "source_type": "official_directory",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Xinyu Bai列在当前学生名录"
+    }
+  ],
+  "cases": [
+    {
+      "id": "C1",
+      "public_name_or_handle": "Megan D.",
+      "identity_link": {
+        "basis": "Brown PRIME 本人访谈",
+        "source_ids": [
+          "S5"
+        ],
+        "evidence": [
+          {
+            "source_id": "S5",
+            "locator": "标题和 Class of 25，正文在读访谈"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "documented",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "访谈：as we begin to wrap up second semester at PRIME"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": "University of Central Florida",
+          "status": "self_reported",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "Where did you go to undergraduate school：UCF"
+            }
+          ]
+        },
+        "undergraduate_major": {
+          "value": "Electrical Engineering",
+          "status": "self_reported",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "Bachelor and Master of Science in Electrical Engineering"
+            }
+          ]
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": "2019",
+          "status": "self_reported",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "Bachelor and Master... (2019, 2022)：顺序对应本科2019、此前硕士2022"
+            }
+          ]
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": [],
+          "cutoff": null,
+          "calculation": null
+        },
+        "application_narrative": {
+          "value": "访谈自述：希望把技术专长扩展至技术转化与战略领导；不是公开SOP内容",
+          "status": "self_reported",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "What led you to apply and choose PRIME 段"
+            }
+          ]
+        }
+      },
+      "experiences": [
+        {
+          "type": "part_time",
+          "organization": "Lockheed Martin Missiles and Fire Control",
+          "role": "College Work Experience Program",
+          "start": null,
+          "end": null,
+          "relative_timing": "before_application",
+          "status": "self_reported",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "throughout my undergraduate career，UCF毕业2019"
+            }
+          ]
+        },
+        {
+          "type": "full_time",
+          "organization": "U.S. Navy / Naval Undersea Warfare Center",
+          "role": "后为分支负责人，申请时具体岗位未知",
+          "start": "2019-05",
+          "end": null,
+          "relative_timing": "before_enrollment_only",
+          "status": "self_reported",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "working full-time for the Navy since May 2019；访谈时间未公开"
+            }
+          ]
+        },
+        {
+          "type": "self_employed",
+          "organization": "未披露名称的国防咨询企业",
+          "role": "创办",
+          "start": null,
+          "end": null,
+          "relative_timing": "before_application",
+          "status": "self_reported",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "during my junior and senior year established a woman-owned small business"
+            }
+          ]
+        }
+      ],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C2",
+      "public_name_or_handle": "Lily Badiani-Shah",
+      "identity_link": {
+        "basis": "Brown官网完整姓名及PRIME学位，个人网站同名连接",
+        "source_ids": [
+          "S6"
+        ],
+        "evidence": [
+          {
+            "source_id": "S6",
+            "locator": "标题及正文第85、91行"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "graduated",
+          "status": "documented",
+          "source_ids": [
+            "S6"
+          ],
+          "evidence": [
+            {
+              "source_id": "S6",
+              "locator": "正文第107行 new graduate，标题 Sc.M. 26"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": "Central Saint Martins, London",
+          "status": "documented",
+          "source_ids": [
+            "S6"
+          ],
+          "evidence": [
+            {
+              "source_id": "S6",
+              "locator": "正文第91行：undergraduate studies in design at Central Saint Martins"
+            }
+          ]
+        },
+        "undergraduate_major": {
+          "value": "Design（具体学位专业名称未核实）",
+          "status": "documented",
+          "source_ids": [
+            "S6"
+          ],
+          "evidence": [
+            {
+              "source_id": "S6",
+              "locator": "正文第91行：undergraduate studies in design"
+            }
+          ]
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": [],
+          "cutoff": null,
+          "calculation": null
+        },
+        "application_narrative": {
+          "value": "访谈自述：本科最后一年彩色镜片原型，申请PRIME学习技术与商业能力；并非SOP原文",
+          "status": "self_reported",
+          "source_ids": [
+            "S6"
+          ],
+          "evidence": [
+            {
+              "source_id": "S6",
+              "locator": "正文第91至92行"
+            }
+          ]
+        },
+        "prior_education": {
+          "value": {
+            "institution": "Central Saint Martins",
+            "degree_level": "BA",
+            "field": "Design 方向未细分"
+          },
+          "status": "self_reported",
+          "source_ids": [
+            "S7"
+          ],
+          "evidence": [
+            {
+              "source_id": "S7",
+              "locator": "About：Central Saint Martins BA alumni"
+            }
+          ]
+        }
+      },
+      "experiences": [
+        {
+          "type": "project",
+          "organization": "本科最后一年项目",
+          "role": "彩色镜片原型",
+          "start": null,
+          "end": null,
+          "relative_timing": "before_application",
+          "status": "self_reported",
+          "source_ids": [
+            "S6"
+          ],
+          "evidence": [
+            {
+              "source_id": "S6",
+              "locator": "正文第91行：In her final year as an undergraduate, she had created a prototype pair of glasses"
+            }
+          ]
+        }
+      ],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C3",
+      "public_name_or_handle": "Sophia Ma",
+      "identity_link": {
+        "basis": "LinkedIn 本人公开毕业帖，姓名与PRIME项目同帖",
+        "source_ids": [
+          "S8"
+        ],
+        "evidence": [
+          {
+            "source_id": "S8",
+            "locator": "帖子第15至21行"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "graduated",
+          "status": "self_reported",
+          "source_ids": [
+            "S8"
+          ],
+          "evidence": [
+            {
+              "source_id": "S8",
+              "locator": "第20行：received digital diploma for Brown PRIME MSc"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": [],
+          "cutoff": null,
+          "calculation": null
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C4",
+      "public_name_or_handle": "Harsh Verma",
+      "identity_link": {
+        "basis": "Brown PRIME 官网人物页姓名与学位连结",
+        "source_ids": [
+          "S9"
+        ],
+        "evidence": [
+          {
+            "source_id": "S9",
+            "locator": "第33至37行"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "graduated",
+          "status": "documented",
+          "source_ids": [
+            "S9"
+          ],
+          "evidence": [
+            {
+              "source_id": "S9",
+              "locator": "第37行：A graduate of Brown University PRIME"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": "Finance and Business Management（官网仅称本科基础，正式专业名称未确认）",
+          "status": "documented",
+          "source_ids": [
+            "S9"
+          ],
+          "evidence": [
+            {
+              "source_id": "S9",
+              "locator": "第37行：strong undergraduate foundation in Finance and Business Management"
+            }
+          ]
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": [],
+          "cutoff": null,
+          "calculation": null
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    }
+  ],
+  "archetypes": [],
+  "program_conflicts": [
+    {
+      "field": "Class of 2028 entry year",
+      "alternatives": [
+        "study beginning summer 2026",
+        "2027 Summer term begins online for all students"
+      ],
+      "resolution": "同页自相矛盾。2028年级的2027入学由表格支持，2026文字不能用于给任何人定入学年。",
+      "source_ids": [
+        "S3"
+      ],
+      "evidence": [
+        {
+          "source_id": "S3",
+          "locator": "Program Dates 第115至121行"
+        }
+      ]
+    },
+    {
+      "field": "2027/2028招生年份",
+      "alternatives": [
+        "FAQs 顶部称 Class of 2027 open September 1, 2026",
+        "同页截止段称 Class of 2028 summer 2025 start, deadlines in 2026-27"
+      ],
+      "resolution": "官网混入旧文案；以具体2026入学的PRIME Online日期表核实2027届，但不从届别推个人入学年。",
+      "source_ids": [
+        "S4",
+        "S2"
+      ],
+      "evidence": [
+        {
+          "source_id": "S4",
+          "locator": "FAQs 第33、84-88行"
+        },
+        {
+          "source_id": "S2",
+          "locator": "Program Dates 第99-106行"
+        }
+      ]
+    }
+  ]
+}

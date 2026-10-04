@@ -1,0 +1,1566 @@
+{
+  "project": "northwestern-msis",
+  "checked_on": "2026-10-05",
+  "inventory_baseline": "7c0e6f071a455418267a20ff7ef2b468862bbf86",
+  "units": [
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/sources/0",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/masters/information-systems/"
+      ],
+      "evidence_locators": [
+        "official overview Choose your pace; FAQ quarterly online / current accelerated starts fall 2024"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/sources/1",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "official lines 24,55 title and June 11 2022 date"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/sources/2",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html"
+      ],
+      "evidence_locators": [
+        "official lines 24,50 title and June 13 2022 date"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/sources/3",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html"
+      ],
+      "evidence_locators": [
+        "official lines 23,40 title and November 30 2016 date"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/sources/4",
+      "verdict": "inaccessible",
+      "rationale": "Direct open now failed HTTP 429; targeted search returns snippet with Swetha MSIS and 2020–2022. Historical snippet metadata remains plausible, body not accessible and earlier access not refuted.",
+      "checked_urls": [
+        "https://www.linkedin.com/in/swetha-popuri"
+      ],
+      "evidence_locators": [
+        "2026-10-05 direct open failed 429; targeted search Swetha Popuri Northwestern 2020 2022"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/sources/5",
+      "verdict": "inaccessible",
+      "rationale": "Direct open cache miss; targeted exact-URL search did not reproduce original post. Cannot presently corroborate title, author or offer fields; does not refute prior access.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-604361-1-1.html"
+      ],
+      "evidence_locators": [
+        "2026-10-05 direct open cache miss; exact URL search no original post"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/sources/6",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://www.reddit.com/r/Northwestern/comments/1lxjbku/experiences_with_onlineparttime_msis_degree/"
+      ],
+      "evidence_locators": [
+        "Reddit opening lines 17-21 considers program; line 77 later decided not to attend"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/identity_link",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "official profile lines 26-28: named Austin, MSIS 21, caption graduated"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/track",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "lines 32,37: online studies and online master"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/undergraduate_school",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "line 26 caption explicitly graduated"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/undergraduate_major",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/prior_education",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "line 27: enrolling pre-med at Indiana University Northwest"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/experiences/0",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "line 28: 2013 to 2021 Army National Guard"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/identity_link",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html"
+      ],
+      "evidence_locators": [
+        "official profile lines 26-27: named Swetha MSIS 22 and graduate caption"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/undergraduate_school",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html"
+      ],
+      "evidence_locators": [
+        "lines 26,33: graduate caption and fellowship after graduation"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/undergraduate_major",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/experiences/0",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html"
+      ],
+      "evidence_locators": [
+        "line 33: began Common Spirit fellowship after graduation"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/identity_link",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html"
+      ],
+      "evidence_locators": [
+        "official profile lines 27-29,35-36: Nancy named and earning MSIS online"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/track",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html"
+      ],
+      "evidence_locators": [
+        "lines 29,35-36 online program and online studies"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/undergraduate_school",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html"
+      ],
+      "evidence_locators": [
+        "lines 35-36 earning degree / studies underway"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/undergraduate_major",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/experiences/0",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html"
+      ],
+      "evidence_locators": [
+        "lines 27-29: CPA then current SpaceX job motivated program choice"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-delivery-review/report.md#report",
+      "verdict": "overstated",
+      "rationale": "Most historical facts supported. Prose says undergraduate/work details not public: sources merely omit them, so narrow to not found in accessed evidence. Anonymous offer details presently inaccessible, retain as old snippet claims rather than current corroborated facts. Source/forward versions retain anonymous identity inside cases despite only snippet identity, violating current skill. Next-step scope says 2024–2025, missing 2026 entry. Official current/historical accelerated opening relationship unresolved; do not merge. Old claimed test rounds/channel attempts are historical workflow statements, not independently proven by today source opens. Root integration attached URLs from the paired source table; project auditor separately reopened all distinct cited URLs, including failed attempts. Local prose reviewed against these checks.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/masters/information-systems/",
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html",
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html",
+        "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html",
+        "https://www.1point3acres.com/bbs/thread-604361-1-1.html",
+        "https://www.linkedin.com/in/swetha-popuri",
+        "https://www.reddit.com/r/Northwestern/comments/1lxjbku/experiences_with_onlineparttime_msis_degree/"
+      ],
+      "evidence_locators": [
+        "Austin lines 26-28,32,37,42",
+        "Swetha lines 26-33",
+        "Nancy lines 27-36",
+        "Reddit lines 21,77",
+        "program FAQ fall 2024 vs official 2019–20 PDF p22"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/sources/0",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/masters/information-systems/"
+      ],
+      "evidence_locators": [
+        "official overview Choose your pace; FAQ quarterly online / current accelerated starts fall 2024"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/sources/1",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "official lines 24,55 title and June 11 2022 date"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/sources/2",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html"
+      ],
+      "evidence_locators": [
+        "official lines 24,50 title and June 13 2022 date"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/sources/3",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html"
+      ],
+      "evidence_locators": [
+        "official lines 23,40 title and November 30 2016 date"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/sources/4",
+      "verdict": "inaccessible",
+      "rationale": "Direct open now failed HTTP 429; targeted search returns snippet with Swetha MSIS and 2020–2022. Historical snippet metadata remains plausible, body not accessible and earlier access not refuted.",
+      "checked_urls": [
+        "https://www.linkedin.com/in/swetha-popuri"
+      ],
+      "evidence_locators": [
+        "2026-10-05 direct open failed 429; targeted search Swetha Popuri Northwestern 2020 2022"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/sources/5",
+      "verdict": "inaccessible",
+      "rationale": "Direct open cache miss; targeted exact-URL search did not reproduce original post. Cannot presently corroborate title, author or offer fields; does not refute prior access.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-604361-1-1.html"
+      ],
+      "evidence_locators": [
+        "2026-10-05 direct open cache miss; exact URL search no original post"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/sources/6",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://www.reddit.com/r/Northwestern/comments/1lxjbku/experiences_with_onlineparttime_msis_degree/"
+      ],
+      "evidence_locators": [
+        "Reddit opening lines 17-21 considers program; line 77 later decided not to attend"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/identity_link",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "official profile lines 26-28: named Austin, MSIS 21, caption graduated"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/track",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "lines 32,37: online studies and online master"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_school",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "line 26 caption explicitly graduated"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_major",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/prior_education",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "line 27: enrolling pre-med at Indiana University Northwest"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/experiences/0",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "line 28: 2013 to 2021 Army National Guard"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/identity_link",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html"
+      ],
+      "evidence_locators": [
+        "official profile lines 26-27: named Swetha MSIS 22 and graduate caption"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_school",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html"
+      ],
+      "evidence_locators": [
+        "lines 26,33: graduate caption and fellowship after graduation"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_major",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/experiences/0",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html"
+      ],
+      "evidence_locators": [
+        "line 33: began Common Spirit fellowship after graduation"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/identity_link",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html"
+      ],
+      "evidence_locators": [
+        "official profile lines 27-29,35-36: Nancy named and earning MSIS online"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/track",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html"
+      ],
+      "evidence_locators": [
+        "lines 29,35-36 online program and online studies"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_school",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html"
+      ],
+      "evidence_locators": [
+        "lines 35-36 earning degree / studies underway"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_major",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/experiences/0",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html"
+      ],
+      "evidence_locators": [
+        "lines 27-29: CPA then current SpaceX job motivated program choice"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/identity_link",
+      "verdict": "inaccessible",
+      "rationale": "Only old indexed snippet identity and offer/planned entry; direct original post unavailable and exact URL search not reproduced. Cannot upgrade to verified case or actual 2020 enrollment. Preserve original as unverified lead.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-604361-1-1.html"
+      ],
+      "evidence_locators": [
+        "original post direct fetch cache miss; exact URL search no source result"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_school",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/masters_start",
+      "verdict": "inaccessible",
+      "rationale": "Only old indexed snippet identity and offer/planned entry; direct original post unavailable and exact URL search not reproduced. Cannot upgrade to verified case or actual 2020 enrollment. Preserve original as unverified lead.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-604361-1-1.html"
+      ],
+      "evidence_locators": [
+        "original post direct fetch cache miss; exact URL search no source result"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/enrollment_status",
+      "verdict": "inaccessible",
+      "rationale": "Only old indexed snippet identity and offer/planned entry; direct original post unavailable and exact URL search not reproduced. Cannot upgrade to verified case or actual 2020 enrollment. Preserve original as unverified lead.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-604361-1-1.html"
+      ],
+      "evidence_locators": [
+        "original post direct fetch cache miss; exact URL search no source result"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_major",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-forward-test/report.md#report",
+      "verdict": "overstated",
+      "rationale": "Most historical facts supported. Prose says undergraduate/work details not public: sources merely omit them, so narrow to not found in accessed evidence. Anonymous offer details presently inaccessible, retain as old snippet claims rather than current corroborated facts. Source/forward versions retain anonymous identity inside cases despite only snippet identity, violating current skill. Next-step scope says 2024–2025, missing 2026 entry. Official current/historical accelerated opening relationship unresolved; do not merge. Old claimed test rounds/channel attempts are historical workflow statements, not independently proven by today source opens. Root integration attached URLs from the paired source table; project auditor separately reopened all distinct cited URLs, including failed attempts. Local prose reviewed against these checks.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/masters/information-systems/",
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html",
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html",
+        "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html",
+        "https://www.1point3acres.com/bbs/thread-604361-1-1.html",
+        "https://www.linkedin.com/in/swetha-popuri",
+        "https://www.reddit.com/r/Northwestern/comments/1lxjbku/experiences_with_onlineparttime_msis_degree/"
+      ],
+      "evidence_locators": [
+        "Austin lines 26-28,32,37,42",
+        "Swetha lines 26-33",
+        "Nancy lines 27-36",
+        "Reddit lines 21,77",
+        "program FAQ fall 2024 vs official 2019–20 PDF p22"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/sources/0",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/masters/information-systems/"
+      ],
+      "evidence_locators": [
+        "official overview Choose your pace; FAQ quarterly online / current accelerated starts fall 2024"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/sources/1",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "official lines 24,55 title and June 11 2022 date"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/sources/2",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html"
+      ],
+      "evidence_locators": [
+        "official lines 24,50 title and June 13 2022 date"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/sources/3",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html"
+      ],
+      "evidence_locators": [
+        "official lines 23,40 title and November 30 2016 date"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/sources/4",
+      "verdict": "inaccessible",
+      "rationale": "Direct open now failed HTTP 429; targeted search returns snippet with Swetha MSIS and 2020–2022. Historical snippet metadata remains plausible, body not accessible and earlier access not refuted.",
+      "checked_urls": [
+        "https://www.linkedin.com/in/swetha-popuri"
+      ],
+      "evidence_locators": [
+        "2026-10-05 direct open failed 429; targeted search Swetha Popuri Northwestern 2020 2022"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/sources/5",
+      "verdict": "inaccessible",
+      "rationale": "Direct open cache miss; targeted exact-URL search did not reproduce original post. Cannot presently corroborate title, author or offer fields; does not refute prior access.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-604361-1-1.html"
+      ],
+      "evidence_locators": [
+        "2026-10-05 direct open cache miss; exact URL search no original post"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/sources/6",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://www.reddit.com/r/Northwestern/comments/1lxjbku/experiences_with_onlineparttime_msis_degree/"
+      ],
+      "evidence_locators": [
+        "Reddit opening lines 17-21 considers program; line 77 later decided not to attend"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/identity_link",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "official profile lines 26-28: named Austin, MSIS 21, caption graduated"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/track",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "lines 32,37: online studies and online master"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/undergraduate_school",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "line 26 caption explicitly graduated"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/undergraduate_major",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/prior_education",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "line 27: enrolling pre-med at Indiana University Northwest"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/experiences/0",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html"
+      ],
+      "evidence_locators": [
+        "line 28: 2013 to 2021 Army National Guard"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/identity_link",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html"
+      ],
+      "evidence_locators": [
+        "official profile lines 26-27: named Swetha MSIS 22 and graduate caption"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/undergraduate_school",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html"
+      ],
+      "evidence_locators": [
+        "lines 26,33: graduate caption and fellowship after graduation"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/undergraduate_major",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/experiences/0",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html"
+      ],
+      "evidence_locators": [
+        "line 33: began Common Spirit fellowship after graduation"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/identity_link",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html"
+      ],
+      "evidence_locators": [
+        "official profile lines 27-29,35-36: Nancy named and earning MSIS online"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/track",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html"
+      ],
+      "evidence_locators": [
+        "lines 29,35-36 online program and online studies"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/undergraduate_school",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/masters_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/enrollment_status",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html"
+      ],
+      "evidence_locators": [
+        "lines 35-36 earning degree / studies underway"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/undergraduate_major",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/experiences/0",
+      "verdict": "supported",
+      "rationale": "Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html"
+      ],
+      "evidence_locators": [
+        "lines 27-29: CPA then current SpaceX job motivated program choice"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/identity_link",
+      "verdict": "inaccessible",
+      "rationale": "Only old indexed snippet identity and offer/planned entry; direct original post unavailable and exact URL search not reproduced. Cannot upgrade to verified case or actual 2020 enrollment. Preserve original as unverified lead.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-604361-1-1.html"
+      ],
+      "evidence_locators": [
+        "original post direct fetch cache miss; exact URL search no source result"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/work_duration_before_application",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/track",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/undergraduate_end",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/masters_graduation",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/undergraduate_school",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/application_narrative",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/masters_start",
+      "verdict": "inaccessible",
+      "rationale": "Only old indexed snippet identity and offer/planned entry; direct original post unavailable and exact URL search not reproduced. Cannot upgrade to verified case or actual 2020 enrollment. Preserve original as unverified lead.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-604361-1-1.html"
+      ],
+      "evidence_locators": [
+        "original post direct fetch cache miss; exact URL search no source result"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/enrollment_status",
+      "verdict": "inaccessible",
+      "rationale": "Only old indexed snippet identity and offer/planned entry; direct original post unavailable and exact URL search not reproduced. Cannot upgrade to verified case or actual 2020 enrollment. Preserve original as unverified lead.",
+      "checked_urls": [
+        "https://www.1point3acres.com/bbs/thread-604361-1-1.html"
+      ],
+      "evidence_locators": [
+        "original post direct fetch cache miss; exact URL search no source result"
+      ],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/undergraduate_major",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/undergraduate_start",
+      "verdict": "unknown_preserved",
+      "rationale": "Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence.",
+      "checked_urls": [],
+      "evidence_locators": [],
+      "checked_on": "2026-10-05"
+    },
+    {
+      "unit_id": "research/northwestern-msis/2026-10-05-source-review/report.md#report",
+      "verdict": "overstated",
+      "rationale": "Most historical facts supported. Prose says undergraduate/work details not public: sources merely omit them, so narrow to not found in accessed evidence. Anonymous offer details presently inaccessible, retain as old snippet claims rather than current corroborated facts. Source/forward versions retain anonymous identity inside cases despite only snippet identity, violating current skill. Next-step scope says 2024–2025, missing 2026 entry. Official current/historical accelerated opening relationship unresolved; do not merge. Old claimed test rounds/channel attempts are historical workflow statements, not independently proven by today source opens. Root integration attached URLs from the paired source table; project auditor separately reopened all distinct cited URLs, including failed attempts. Local prose reviewed against these checks.",
+      "checked_urls": [
+        "https://sps.northwestern.edu/masters/information-systems/",
+        "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html",
+        "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html",
+        "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html",
+        "https://www.1point3acres.com/bbs/thread-604361-1-1.html",
+        "https://www.linkedin.com/in/swetha-popuri",
+        "https://www.reddit.com/r/Northwestern/comments/1lxjbku/experiences_with_onlineparttime_msis_degree/"
+      ],
+      "evidence_locators": [
+        "Austin lines 26-28,32,37,42",
+        "Swetha lines 26-33",
+        "Nancy lines 27-36",
+        "Reddit lines 21,77",
+        "program FAQ fall 2024 vs official 2019–20 PDF p22"
+      ],
+      "checked_on": "2026-10-05"
+    }
+  ],
+  "counts": {
+    "supported": 51,
+    "inaccessible": 12,
+    "unknown_preserved": 91,
+    "overstated": 3
+  },
+  "all_distinct_cited_urls_reopened": true,
+  "distinct_url_count": 7,
+  "scope_note": "All 157 per-version inventory units audited; 91 unknowns enumerated individually; no archetypes existed. Source truth bounded by current access. Blind report frozen before history read."
+}

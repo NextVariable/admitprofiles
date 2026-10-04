@@ -33,3 +33,5 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Check research record consistency
         run: python tests/check_records.py
+      - name: Check frozen source audit coverage
+        run: python tests/check_source_audit.py

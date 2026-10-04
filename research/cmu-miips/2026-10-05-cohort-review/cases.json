@@ -1,0 +1,963 @@
+{
+  "schema_version": "1.1",
+  "researched_on": "2026-10-05",
+  "scope": {
+    "institution": "Carnegie Mellon University",
+    "program": "Master of Integrated Innovation for Products & Services",
+    "tracks": [
+      "residential 9-month",
+      "residential Advanced Study 16-month",
+      "online/uncertain mode separately"
+    ],
+    "years": [
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.cmu.edu/iii/admissions/miips.html",
+      "title": "Current MIIPS admissions",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Program options; current student ambassadors"
+    },
+    {
+      "id": "S2",
+      "url": "https://www.cmu.edu/iii/people/students/dec-2027/miips-advanced/arya-swamy.html",
+      "title": "Arya Swamy official bio",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Education; Experience"
+    },
+    {
+      "id": "S3",
+      "url": "https://aryaswamy.com/resume_page",
+      "title": "Arya Swamy public resume",
+      "source_type": "personal_resume",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Education; Professional Experience. Anonymous HTTPS with installed certifi trust; normal certificate verification"
+    },
+    {
+      "id": "S4",
+      "url": "https://www.cmu.edu/iii/people/students/dec-2026/miips-advanced/rhea-devchell.html",
+      "title": "Rhea Devchell official bio",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Education; Experience"
+    },
+    {
+      "id": "S5",
+      "url": "https://rdevchell.framer.ai/expertise",
+      "title": "Rhea Devchell Expertise",
+      "source_type": "personal_resume",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Education; Professional Experience. Anonymous HTTPS with installed certifi trust; normal certificate verification"
+    },
+    {
+      "id": "S6",
+      "url": "https://www.cmu.edu/iii/people/students/dec-2027/miips-advanced/enakshi-dhingra.html",
+      "title": "Enakshi Dhingra official bio",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Education; Experience"
+    },
+    {
+      "id": "S7",
+      "url": "https://www.joshipranav.com/stories-from-work",
+      "title": "Pranav Joshi Stories from Work",
+      "source_type": "personal_resume",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Executive Summary; Education; course tracks"
+    },
+    {
+      "id": "S8",
+      "url": "https://www.reddit.com/r/hci/comments/1rvo0h2/cmu_miips_16month_vs_uw_mhcid_vs_northwestern_edi/",
+      "title": "Frosty_Bus6583 offers",
+      "source_type": "forum_self_report",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Post author and My Background"
+    },
+    {
+      "id": "S9",
+      "url": "https://www.1point3acres.com/bbs/thread-1060962-1-1.html",
+      "title": "Sophiaaya UX择校",
+      "source_type": "forum_self_report",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "partial_text",
+      "locator": "2024-04-13 original post; visible body only, attachments login-gated"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.cmu.edu/iii/online-programs/",
+      "title": "MIIPS Online scope",
+      "source_type": "official_program",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Certificates; same degree/different structure"
+    }
+  ],
+  "cases": [
+    {
+      "id": "C1",
+      "public_name_or_handle": "Arya Swamy",
+      "identity_link": {
+        "basis": "直接访问姓名与CMU MIIPS同页；个人履历与官方姓名和本科专业一致时连接",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "Heading and Education; official directly links aryaswamy.com portfolio"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "documented",
+          "source_ids": [
+            "S2"
+          ],
+          "evidence": [
+            {
+              "source_id": "S2",
+              "locator": "Official current student bio"
+            }
+          ]
+        },
+        "track": {
+          "value": "residential Advanced Study 16-month",
+          "status": "documented",
+          "source_ids": [
+            "S2"
+          ],
+          "evidence": [
+            {
+              "source_id": "S2",
+              "locator": "Official student directory category and URL"
+            }
+          ]
+        },
+        "undergraduate_school": {
+          "value": "Rensselaer Polytechnic Institute",
+          "status": "documented",
+          "source_ids": [
+            "S2"
+          ],
+          "evidence": [
+            {
+              "source_id": "S2",
+              "locator": "Education"
+            }
+          ]
+        },
+        "undergraduate_major": {
+          "value": "B.S. Mechanical Engineering and Design, Innovation, and Society",
+          "status": "documented",
+          "source_ids": [
+            "S2"
+          ],
+          "evidence": [
+            {
+              "source_id": "S2",
+              "locator": "Education"
+            }
+          ]
+        },
+        "undergraduate_start": {
+          "value": "2022-08",
+          "status": "self_reported",
+          "source_ids": [
+            "S3"
+          ],
+          "evidence": [
+            {
+              "source_id": "S3",
+              "locator": "Education RPI August2022–May2026"
+            }
+          ]
+        },
+        "undergraduate_end": {
+          "value": "2026-05",
+          "status": "self_reported",
+          "source_ids": [
+            "S3"
+          ],
+          "evidence": [
+            {
+              "source_id": "S3",
+              "locator": "Education RPI August2022–May2026"
+            }
+          ]
+        },
+        "masters_start": {
+          "value": "2026-08",
+          "status": "self_reported",
+          "source_ids": [
+            "S3"
+          ],
+          "evidence": [
+            {
+              "source_id": "S3",
+              "locator": "Education CMU August2026–Dec2027"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": {
+            "date": "2027-12",
+            "state": "expected"
+          },
+          "status": "self_reported",
+          "source_ids": [
+            "S3"
+          ],
+          "evidence": [
+            {
+              "source_id": "S3",
+              "locator": "Education CMU August2026–Dec2027; future at research date"
+            }
+          ]
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [
+        {
+          "type": "internship",
+          "organization": "Dell Technologies",
+          "role": "Product Management Intern",
+          "start": "2024-05",
+          "end": "2024-08",
+          "relative_timing": "before_enrollment_only",
+          "status": "self_reported",
+          "source_ids": [
+            "S3"
+          ],
+          "evidence": [
+            {
+              "source_id": "S3",
+              "locator": "Professional Experience Dell"
+            }
+          ]
+        },
+        {
+          "type": "internship",
+          "organization": "Digital Realty",
+          "role": "Strategy Intern",
+          "start": "2025-06",
+          "end": "2025-08",
+          "relative_timing": "before_enrollment_only",
+          "status": "self_reported",
+          "source_ids": [
+            "S3"
+          ],
+          "evidence": [
+            {
+              "source_id": "S3",
+              "locator": "Professional Experience Digital Realty"
+            }
+          ]
+        }
+      ],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C2",
+      "public_name_or_handle": "Rhea Devchell",
+      "identity_link": {
+        "basis": "直接访问姓名与CMU MIIPS同页；个人履历与官方姓名和本科专业一致时连接",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "Heading and Education match personal named MIIPS and Srishti B.Des"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "documented",
+          "source_ids": [
+            "S4"
+          ],
+          "evidence": [
+            {
+              "source_id": "S4",
+              "locator": "Official current student bio"
+            }
+          ]
+        },
+        "track": {
+          "value": "residential Advanced Study 16-month",
+          "status": "documented",
+          "source_ids": [
+            "S4"
+          ],
+          "evidence": [
+            {
+              "source_id": "S4",
+              "locator": "Official student directory category and URL"
+            }
+          ]
+        },
+        "undergraduate_school": {
+          "value": "Srishti Manipal Institute of Art, Design and Technology",
+          "status": "documented",
+          "source_ids": [
+            "S4"
+          ],
+          "evidence": [
+            {
+              "source_id": "S4",
+              "locator": "Education"
+            }
+          ]
+        },
+        "undergraduate_major": {
+          "value": "Bachelor of Design, Human-Centred Design",
+          "status": "documented",
+          "source_ids": [
+            "S4"
+          ],
+          "evidence": [
+            {
+              "source_id": "S4",
+              "locator": "Education"
+            }
+          ]
+        },
+        "undergraduate_start": {
+          "value": "2017",
+          "status": "self_reported",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "Education 2017–2021"
+            }
+          ]
+        },
+        "undergraduate_end": {
+          "value": "2021",
+          "status": "self_reported",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "Education 2017–2021"
+            }
+          ]
+        },
+        "masters_start": {
+          "value": "2025",
+          "status": "self_reported",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "Education CMU2025–Present"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": {
+            "date": "2026",
+            "state": "expected"
+          },
+          "status": "documented",
+          "source_ids": [
+            "S4"
+          ],
+          "evidence": [
+            {
+              "source_id": "S4",
+              "locator": "MIIPS2026 label; not actual degree completion"
+            }
+          ]
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [
+        {
+          "type": "employment_unspecified",
+          "organization": "UXReactor",
+          "role": "Interaction Designer",
+          "start": "2022-06",
+          "end": "2023-07",
+          "relative_timing": "before_enrollment_only",
+          "status": "self_reported",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "Professional Experience Interaction Designer"
+            }
+          ]
+        },
+        {
+          "type": "employment_unspecified",
+          "organization": "UXReactor",
+          "role": "Senior Interaction Designer",
+          "start": "2023-07",
+          "end": "2024-11",
+          "relative_timing": "before_enrollment_only",
+          "status": "self_reported",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "Professional Experience Senior"
+            }
+          ]
+        },
+        {
+          "type": "internship",
+          "organization": "Tata Consultancy Services",
+          "role": "UX Design Intern",
+          "start": "2020-11",
+          "end": "2021-01",
+          "relative_timing": "before_enrollment_only",
+          "status": "self_reported",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "Professional Experience TCS"
+            }
+          ]
+        }
+      ],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C3",
+      "public_name_or_handle": "Enakshi Dhingra",
+      "identity_link": {
+        "basis": "直接访问姓名与CMU MIIPS同页；个人履历与官方姓名和本科专业一致时连接",
+        "source_ids": [
+          "S6"
+        ],
+        "evidence": [
+          {
+            "source_id": "S6",
+            "locator": "Named MIIPS2027 official bio"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "documented",
+          "source_ids": [
+            "S6"
+          ],
+          "evidence": [
+            {
+              "source_id": "S6",
+              "locator": "Official current student bio"
+            }
+          ]
+        },
+        "track": {
+          "value": "residential Advanced Study 16-month",
+          "status": "documented",
+          "source_ids": [
+            "S6"
+          ],
+          "evidence": [
+            {
+              "source_id": "S6",
+              "locator": "Official student directory category and URL"
+            }
+          ]
+        },
+        "undergraduate_school": {
+          "value": "Srishti Manipal Institute of Art, Design and Technology",
+          "status": "documented",
+          "source_ids": [
+            "S6"
+          ],
+          "evidence": [
+            {
+              "source_id": "S6",
+              "locator": "Education"
+            }
+          ]
+        },
+        "undergraduate_major": {
+          "value": "Bachelor of Design in Creative and Applied Computation",
+          "status": "documented",
+          "source_ids": [
+            "S6"
+          ],
+          "evidence": [
+            {
+              "source_id": "S6",
+              "locator": "Education"
+            }
+          ]
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_graduation": {
+          "value": {
+            "date": "2027",
+            "state": "expected"
+          },
+          "status": "documented",
+          "source_ids": [
+            "S6"
+          ],
+          "evidence": [
+            {
+              "source_id": "S6",
+              "locator": "MIIPS2027 class label; future"
+            }
+          ]
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [
+        {
+          "type": "employment_unspecified",
+          "organization": "Accenture Song",
+          "role": "Interaction Design Analyst",
+          "start": null,
+          "end": null,
+          "relative_timing": "unknown",
+          "status": "documented",
+          "source_ids": [
+            "S6"
+          ],
+          "evidence": [
+            {
+              "source_id": "S6",
+              "locator": "Experience two years at Accenture Song"
+            }
+          ]
+        }
+      ],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C4",
+      "public_name_or_handle": "Pranav Joshi",
+      "identity_link": {
+        "basis": "直接访问姓名与CMU MIIPS同页；个人履历与官方姓名和本科专业一致时连接",
+        "source_ids": [
+          "S7"
+        ],
+        "evidence": [
+          {
+            "source_id": "S7",
+            "locator": "Named personal page Executive Summary explicitly MIIPS in progress"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "self_reported",
+          "source_ids": [
+            "S7"
+          ],
+          "evidence": [
+            {
+              "source_id": "S7",
+              "locator": "Executive Summary MIIPS in progress"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": "2024",
+          "status": "self_reported",
+          "source_ids": [
+            "S7"
+          ],
+          "evidence": [
+            {
+              "source_id": "S7",
+              "locator": "Education MIIPS2024–2025; Fall2024 course track"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "prior_education": {
+          "value": [
+            {
+              "school": "Pepperdine University",
+              "degree": "MBA",
+              "start": "2012",
+              "end": "2014"
+            },
+            {
+              "school": "Gujarat University",
+              "degree": "MCA",
+              "start": "2002",
+              "end": "2005"
+            }
+          ],
+          "status": "self_reported",
+          "source_ids": [
+            "S7"
+          ],
+          "evidence": [
+            {
+              "source_id": "S7",
+              "locator": "Education MBA and MCA"
+            }
+          ]
+        }
+      },
+      "experiences": [],
+      "primary_archetype": null,
+      "tags": [
+        "mode_uncertain",
+        "exclude_residential_cohort_denominator"
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "C5",
+      "public_name_or_handle": "Frosty_Bus6583",
+      "identity_link": {
+        "basis": "直接访问姓名与CMU MIIPS同页；个人履历与官方姓名和本科专业一致时连接",
+        "source_ids": [
+          "S8"
+        ],
+        "evidence": [
+          {
+            "source_id": "S8",
+            "locator": "Post author and specific MIIPS16month offer"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "offer_self_reported",
+          "status": "self_reported",
+          "source_ids": [
+            "S8"
+          ],
+          "evidence": [
+            {
+              "source_id": "S8",
+              "locator": "Opening three offers"
+            }
+          ]
+        },
+        "track": {
+          "value": "residential16month",
+          "status": "self_reported",
+          "source_ids": [
+            "S8"
+          ],
+          "evidence": [
+            {
+              "source_id": "S8",
+              "locator": "Post title and CMU16mo option"
+            }
+          ]
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": {
+            "months": 0,
+            "basis": "Explicit no full-time experience yet at offer report; not internship count"
+          },
+          "status": "self_reported",
+          "source_ids": [
+            "S8"
+          ],
+          "evidence": [
+            {
+              "source_id": "S8",
+              "locator": "My Background no full-time experience yet"
+            }
+          ]
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [],
+      "primary_archetype": null,
+      "tags": [
+        "offer_only",
+        "entry_unknown"
+      ],
+      "conflicts": []
+    },
+    {
+      "id": "C6",
+      "public_name_or_handle": "Sophiaaya",
+      "identity_link": {
+        "basis": "直接访问姓名与CMU MIIPS同页；个人履历与官方姓名和本科专业一致时连接",
+        "source_ids": [
+          "S9"
+        ],
+        "evidence": [
+          {
+            "source_id": "S9",
+            "locator": "Original named post decided CMUMIIPS then weighing Cornell"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "offer_self_reported",
+          "status": "self_reported",
+          "source_ids": [
+            "S9"
+          ],
+          "evidence": [
+            {
+              "source_id": "S9",
+              "locator": "2024-04-13 decided CMU then Cornell option"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [],
+      "primary_archetype": null,
+      "tags": [
+        "offer_only",
+        "entry_unknown",
+        "partial_public_body"
+      ],
+      "conflicts": []
+    }
+  ],
+  "archetypes": []
+}

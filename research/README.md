@@ -1,14 +1,14 @@
 # 研究材料索引
 
-以下是目前应优先阅读的复核版本，均为有限研究，不代表完整年级分布。目录名称中的日期是研究／修正日期，不是入学年份。
+优先阅读本轮2024、2025、2026入学范围的跨渠道复核版本。各项目都完成了实际检索与连续两轮无新增的停止流程；这不等于全班覆盖，缺失字段和访问限制见报告开头。目录日期是研究日期。
 
-| 项目 | 优先阅读版本 | 验证范围 |
+| 项目 | 最新报告 | 实际范围 |
 | --- | --- | --- |
-| CMU MIIPS | [2026-10-05-review](cmu-miips/2026-10-05-review/report.md) | 多渠道有限研究 |
-| Berkeley MDevEng | [2026-10-05-source-review](berkeley-mdeveng/2026-10-05-source-review/report.md) | 独立来源复查后的修正版 |
-| Northwestern MSIS | [2026-10-05-delivery-review](northwestern-msis/2026-10-05-delivery-review/report.md) | 正文身份复查，摘要账号移至检索线索，旧版保留 |
-| Brown PRIME | [2026-10-05-forward-test](brown-prime/2026-10-05-forward-test/report.md) | 独立跨渠道试运行后的修正版 |
+| CMU MIIPS | [近期复核](cmu-miips/2026-10-05-cohort-review/report.md) | 六个身份，两个线下明确入学日期；另一个2024起模式未知，offer分开 |
+| Berkeley MDevEng | [近期复核](berkeley-mdeveng/2026-10-05-cohort-review/report.md) | 11身份，2024/2025/2026入学3/4/3，另1年未知；非全班 |
+| Northwestern MSIS | [近期复核](northwestern-msis/2026-10-05-cohort-review/report.md) | 近期三年暂无可正文确认人物；官方历史版本冲突保留 |
+| Brown PRIME | [近期复核](brown-prime/2026-10-05-cohort-review/report.md) | 四个身份，个人入学年均未正文确认；本科层级勘误已应用 |
 
-每份研究保存报告、证据记录和检索日志。早期 `pilot`、`scope-test` 及被后续复查修正的 `forward-test` 目录保留原貌；应优先使用上表版本。`independent-draft` 是未经主审修正的初稿，可能含已发现的问题，仅供复核过程审计。
+每份研究保存报告、证据记录和实际检索日志。历史目录和独立初稿保留，不合并同一人物重复计数。Brown本轮冻结盲稿保存在independent-draft，正式cases使用复核修正版本；勘误公开保留。
 
-结构检查会读取包括初稿在内的记录；通过结构检查不代表初稿事实正确。保存历史材料是为了追溯修正，不能将同一个人的多个版本累计为独立样本。
+此前全部11份记录与其报告已经完成[703条逐版本来源审计](../evals/source-audits/2026-10-05/README.md)，包含过度主张、当前不可访问和未知。历史仍保留原貌，因此旧稿可能结构通过但事实已被修正，不能绕过审计当最新结论引用。
