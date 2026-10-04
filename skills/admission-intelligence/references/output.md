@@ -56,3 +56,7 @@ access_state 为 full_text／partial_text／snippet_only／blocked／failed；�
 所有 source_ids 必须存在；推断画像必须指向实际 case_ids；unknown 的值用 null，而不是 0、无工作或自动估算。冲突值保存各来源，不能丢弃冲突后输出已确认。
 
 字段 status 使用 documented／self_reported／secondary／calculated／inferred／unknown／conflicting。enrollment_status.value 使用 offer_self_reported／offer_documented／enrolled／graduated／waitlisted／rejected；无准入证据时使用 null、status unknown。预计入学与毕业在附注或日期对象中标 planned／expected，不当作完成。计算年限必须附 cutoff 与 calculation。
+
+身份连接 identity_link 必须含非空 basis 与对应 source_ids、evidence。画像准入状态必须直接记载或自报，不能靠 inferred／calculated／conflicting 字段入组；每个成员至少有一个字段来源被画像引用。这个连接只检查出处关系，仍需人工核实这些来源是否支持分类。来源与研究访问日期使用有效 YYYY-MM-DD。JSON不允许重复键或NaN／Infinity。未知字段若保留来源，同样需要字段定位。
+
+官方项目资料存在内部冲突时，可增加 program_conflicts 数组，每项含 field、两种以上不同的原始文字 alternatives、resolution（未解决也明确写出）、source_ids 与 evidence。它与人物字段冲突分开，不把官网矛盾塞进某个人的履历。

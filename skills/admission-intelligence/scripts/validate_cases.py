@@ -2,6 +2,7 @@
 """Check evidence record consistency, not truth or semantic source support."""
 import argparse
 import json
+from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -13,7 +14,7 @@ FIELDS = {'enrollment_status', 'track', 'undergraduate_school', 'undergraduate_m
 ADMITTED = {'offer_self_reported', 'offer_documented', 'enrolled', 'graduated'}
 
 
-def validate(data):
+def _validate_record(data):
     errors = []
     def error(path, message):
         errors.append(f'{path}: {message}')
@@ -74,9 +75,10 @@ def validate(data):
                 error(path, 'evidence locator must reference a cited source')
             else:
                 located.add(entry['source_id'])
-        if required and located != set(ids):
+        if located != set(ids):
             error(path, 'each source needs a field-specific locator')
     for cid, case in cases.items():
+        refs(case['identity_link'], cid + '.identity_link')
         fields = case.get('fields', {})
         if not isinstance(fields, dict):
             error(cid, 'fields must be an object')
@@ -107,7 +109,7 @@ def validate(data):
         if duration.get('status') == 'calculated' and (not duration.get('cutoff') or not duration.get('calculation')):
             error(cid, 'calculated work duration needs cutoff and calculation')
         state = fields.get('enrollment_status', {}).get('value')
-        if state is not None and state not in ADMITTED | {'waitlisted', 'rejected', 'unknown'}:
+        if state is not None and state not in ADMITTED | {'waitlisted', 'rejected'}:
             error(cid, 'use a canonical enrollment_status; detail belongs in note')
         for i, experience in enumerate(case.get('experiences', [])):
             path = f'{cid}.experiences[{i}]'
@@ -128,12 +130,110 @@ def validate(data):
                 continue
             case = cases[cid]
             state = case.get('fields', {}).get('enrollment_status', {}).get('value')
+            admission = case.get('fields', {}).get('enrollment_status', {})
+            if admission.get('status') not in {'documented', 'self_reported', 'secondary'}:
+                error(path, f'{cid} admission status must be directly reported, not inferred')
+            member_sources = {sid for f in case.get('fields', {}).values() for sid in f.get('source_ids', [])}
+            if not member_sources.intersection(group.get('source_ids', [])):
+                error(path, f'{cid} needs a source from this member case')
             if state not in ADMITTED:
                 error(path, f'{cid} has no usable admission/enrollment status')
             if case.get('excluded_from_on_campus_distribution'):
                 error(path, f'{cid} explicitly excluded from this scope')
         refs(group, path)
+    for i, conflict in enumerate(data.get('program_conflicts', [])):
+        refs(conflict, f'program_conflicts[{i}]')
     return errors
+
+
+def validate(data):
+    errors = []
+    def require(condition, path, message):
+        if not condition: errors.append(f'{path}: {message}')
+    def text(value):
+        return isinstance(value, str) and bool(value.strip())
+    def iso_date(value):
+        try:
+            return isinstance(value, str) and date.fromisoformat(value).isoformat() == value
+        except ValueError:
+            return False
+    def objects(value, path):
+        require(isinstance(value, list), path, 'must be a list')
+        if not isinstance(value, list): return []
+        require(all(isinstance(x, dict) for x in value), path, 'entries must be objects')
+        return [x for x in value if isinstance(x, dict)]
+    def references(row, path):
+        ids = row.get('source_ids', [])
+        require(isinstance(ids, list) and all(text(x) for x in ids), path, 'source_ids must be non-empty strings')
+        for e in objects(row.get('evidence', []), path + '.evidence'):
+            require(text(e.get('source_id')) and text(e.get('locator')), path, 'evidence locator and source_id must be non-empty text')
+    if not isinstance(data, dict): return ['record must be an object']
+    require(isinstance(data.get('scope'), dict) and text(data.get('scope', {}).get('institution')) and text(data.get('scope', {}).get('program')), 'scope', 'institution and program required')
+    require(iso_date(data.get('researched_on')), 'researched_on', 'valid YYYY-MM-DD date required')
+    for source in objects(data.get('sources'), 'sources'):
+        for key in ('id','url','title','source_type','access_state','locator'):
+            require(text(source.get(key)), 'sources.' + key, 'non-empty text required')
+        require(iso_date(source.get('accessed_on')), 'sources.accessed_on', 'valid YYYY-MM-DD date required')
+        if source.get('published_on') is not None:
+            require(iso_date(source['published_on']), 'sources.published_on', 'valid YYYY-MM-DD date required')
+        try: urlparse(str(source.get('url', '')))
+        except ValueError: errors.append('sources.url: invalid URL')
+    for case in objects(data.get('cases'), 'cases'):
+        require(text(case.get('id')), 'cases.id', 'non-empty text required')
+        if 'excluded_from_on_campus_distribution' in case:
+            require(type(case['excluded_from_on_campus_distribution']) is bool, 'excluded_from_on_campus_distribution', 'must be a boolean')
+        identity = case.get('identity_link')
+        require(isinstance(identity, dict) and text(identity.get('basis')), 'identity_link', 'explicit identity connection required')
+        if isinstance(identity, dict): references(identity, 'identity_link')
+        fields = case.get('fields')
+        require(isinstance(fields, dict), 'fields', 'must be an object')
+        if isinstance(fields, dict):
+            for name, f in fields.items():
+                require(isinstance(f, dict), name, 'field must be an object')
+                if isinstance(f, dict):
+                    require(isinstance(f.get('status'), str), name, 'status must be text')
+                    references(f, name)
+            enrollment = fields.get('enrollment_status', {})
+            if isinstance(enrollment, dict):
+                require(enrollment.get('value') is None or isinstance(enrollment.get('value'), str), 'enrollment_status', 'canonical text or null required')
+        for e in objects(case.get('experiences', []), 'experiences'):
+            for key in ('type','relative_timing','status'):
+                require(isinstance(e.get(key), str), 'experiences.' + key, 'text required')
+            references(e, 'experiences')
+        for conflict in objects(case.get('conflicts', []), 'conflicts'):
+            require(text(conflict.get('field')), 'conflicts.field', 'field required')
+            if isinstance(fields, dict) and isinstance(conflict.get('field'), str):
+                f = fields.get(conflict['field'])
+                require(isinstance(f, dict) and f.get('status') == 'conflicting', 'conflicts.field', 'must match a field with conflicting status')
+            for alternative in objects(conflict.get('values'), 'conflicts.values'):
+                require(alternative.get('value') is not None, 'conflicts.values', 'non-null alternative required')
+                references(alternative, 'conflicts.values')
+    for group in objects(data.get('archetypes'), 'archetypes'):
+        require(text(group.get('label')), 'archetypes.label', 'non-empty text required')
+        require(group.get('status') == 'inferred', 'archetypes.status', 'classification must be inferred')
+        ids = group.get('case_ids')
+        require(isinstance(ids, list) and all(text(x) for x in ids), 'archetypes.case_ids', 'string list required')
+        references(group, 'archetypes')
+    for conflict in objects(data.get('program_conflicts', []), 'program_conflicts'):
+        require(text(conflict.get('field')), 'program_conflicts.field', 'non-empty field required')
+        alternatives = conflict.get('alternatives')
+        valid = isinstance(alternatives, list) and all(text(x) for x in alternatives)
+        require(valid and len(set(alternatives)) >= 2, 'program_conflicts.alternatives', 'two distinct non-empty text alternatives required')
+        require(text(conflict.get('resolution')), 'program_conflicts.resolution', 'explicit unresolved or resolved decision required')
+        references(conflict, 'program_conflicts')
+    return errors if errors else _validate_record(data)
+
+
+def reject_duplicate_keys(pairs):
+    result = {}
+    for key, value in pairs:
+        if key in result: raise ValueError(f'duplicate JSON key: {key}')
+        result[key] = value
+    return result
+
+
+def reject_constant(value):
+    raise ValueError(f'non-finite JSON value: {value}')
 
 
 def main():
@@ -141,7 +241,7 @@ def main():
     parser.add_argument('input', type=Path)
     args = parser.parse_args()
     try:
-        errors = validate(json.loads(args.input.read_text(encoding='utf-8')))
+        errors = validate(json.loads(args.input.read_text(encoding='utf-8'), object_pairs_hook=reject_duplicate_keys, parse_constant=reject_constant))
     except (OSError, ValueError, TypeError, AttributeError) as exc:
         parser.exit(1, f'Invalid case record: {exc}\n')
     if errors:

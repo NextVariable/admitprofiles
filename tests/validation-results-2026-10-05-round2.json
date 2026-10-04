@@ -1,0 +1,22 @@
+{
+  "checked_on": "2026-10-05",
+  "first_adversarial_run": {
+    "test_methods": 31,
+    "assertion_failures": 7,
+    "subtest_errors": 2
+  },
+  "final_unit_test_methods": 40,
+  "final_failures": 0,
+  "random_interval_cases": 200,
+  "official_reference_validator": "passed",
+  "record_checks": {
+    "cmu_1_1_review": "passed",
+    "brown_official_scope_test": "passed"
+  },
+  "not_verified": [
+    "multi-program complete research workflow",
+    "independent agent repeatability",
+    "source truth by automation",
+    "real application cutoff and full-time tenure"
+  ]
+}
