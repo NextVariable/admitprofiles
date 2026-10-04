@@ -22,3 +22,5 @@
 回归运行日志和机器结果保存在 [results](results)，独立评估审查保存在 [forward-evaluations](forward-evaluations)。历史记录中的 tests/validation-* 与 tests/forward-evaluations/ 是原路径，现已迁入本目录，原始内容未改写。此目录不随技能安装，也不在技能入口中自动加载。
 
 本次架构复审记录见 [独立复核](forward-evaluations/architecture-review-2026-10-05.md)，61项回归与安装检查的实际结果见 [机器记录](results/architecture-audit-2026-10-05.json)。新增结果不覆盖旧轮次。
+
+第五轮由主审实际重新打开5个官方页面，核查13项判断和1项历史记录归类，属于知晓旧结论后的交付复核，不是独立盲测。新发现与自动回归范围见 [交付复核](forward-evaluations/round5-delivery-review.md)，实际机器结果见 [第五轮结果](results/delivery-audit-2026-10-05.json)。旧记录继续保留，不能据结构通过覆盖已发现的研究问题。

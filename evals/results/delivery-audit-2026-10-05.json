@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-05",
+  "tests_per_runtime": 67,
+  "runtimes": [
+    "3.14.3",
+    "3.13.9"
+  ],
+  "batch_inputs": {
+    "nested_mutations": 752,
+    "random_intervals": 5000,
+    "exhaustive_interval_pairs": 25350,
+    "existing_oracle_cases": 200
+  },
+  "initial_failed_subcases": 13,
+  "current_schema_records": 10,
+  "legacy_records_preserved_without_validation": 1,
+  "checks": [
+    {
+      "check": "ruff-check",
+      "command": [
+        "ruff",
+        "check",
+        "."
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.232,
+      "log": "evals/results/validation-log-2026-10-05-round5-ruff-check.txt"
+    },
+    {
+      "check": "ruff-format",
+      "command": [
+        "ruff",
+        "format",
+        "--check",
+        "."
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.085,
+      "log": "evals/results/validation-log-2026-10-05-round5-ruff-format.txt"
+    },
+    {
+      "check": "python314-tests",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 23.557,
+      "log": "evals/results/validation-log-2026-10-05-round5-python314-tests.txt"
+    },
+    {
+      "check": "python313-tests",
+      "command": [
+        "/opt/anaconda3/bin/python3.13",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 25.701,
+      "log": "evals/results/validation-log-2026-10-05-round5-python313-tests.txt"
+    },
+    {
+      "check": "record-check",
+      "command": [
+        "python3",
+        "tests/check_records.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.272,
+      "log": "evals/results/validation-log-2026-10-05-round5-record-check.txt"
+    },
+    {
+      "check": "skill-creator",
+      "command": [
+        "/opt/anaconda3/bin/python3.13",
+        "/Users/USER/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+        "skills/admission-intelligence"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.377,
+      "log": "evals/results/validation-log-2026-10-05-round5-skill-creator.txt"
+    },
+    {
+      "check": "agent-skills-reference-validator",
+      "errors": [],
+      "exit_code": 0,
+      "dependency_location": "temporary external cache; not a runtime dependency"
+    }
+  ],
+  "source_review": {
+    "official_pages": 5,
+    "claims_checked": 13,
+    "record_classification_checks": 1,
+    "independent_blind_evaluation": false
+  },
+  "limits": [
+    "No measured implicit skill trigger accuracy",
+    "No complete recent-three-cohort multi-channel reconstruction",
+    "No full historical source-truth audit",
+    "GitHub verification recorded separately after upload"
+  ]
+}

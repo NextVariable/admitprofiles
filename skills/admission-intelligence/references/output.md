@@ -65,9 +65,11 @@ access_state 为 full_text／partial_text／snippet_only／blocked／failed；�
 
 官方项目资料存在内部冲突时，可增加 program_conflicts 数组，每项含 field、两种以上不同的原始文字 alternatives、resolution（未解决也明确写出）、source_ids 与 evidence。它与人物字段冲突分开，不把官网矛盾塞进某个人的履历。
 
-同一人物的同一冲突字段只保存一条冲突记录，将所有不同值及出处归入其 values。已知文字值不可留空；同一字段不重复保存相同 source_id 与 locator。来源访问日期不得晚于本次 researched_on；后续补查时更新研究日期并保留旧版。计算年限的 cutoff 使用有效的 YYYY、YYYY-MM 或 YYYY-MM-DD，保持来源精度；月级计算器仍只接受 YYYY-MM。两项工具都拒绝重复 JSON 键及非有限数字。
+同一人物的同一冲突字段只保存一条冲突记录，将所有不同值及出处归入其 values。已知值及冲突备选值不可用空白文字、空数组或空对象占位；同一字段不重复保存相同 source_id 与 locator。来源访问日期不得晚于本次 researched_on；后续补查时更新研究日期并保留旧版。计算年限的 cutoff 使用有效的 YYYY、YYYY-MM 或 YYYY-MM-DD，保持来源精度；月级计算器仍只接受 YYYY-MM。两项工具都拒绝重复 JSON 键及非有限数字。
 
 学历层级未确认的已知学校／学科，可保存为fields.prior_education的value，注明degree_level未确认，使用相同的status、source_ids与evidence；undergraduate字段保持unknown。观察日期可另存fields.enrollment_observation，value含事件类型与日期，不把它当作实际开学日。自定义顶层扩展（如leads）不在验证器保证范围内；未核实线索默认记录于search-log.md，不凭一次结构通过宣称扩展已验证。数字形式年限不得为负数、布尔值或非有限数，单位仍需在value对象或附注里明确。
+
+来源 URL 必须含有效的 http(s) 主机及端口；空格需编码，不接受控制字符或反斜杠。URL 语法通过不证明页面存在或正文支持主张。仅搜索摘要的身份线索保存在检索日志，不放入已核实案例数组；历史结构检查可能通过此类旧记录，交付复核仍需检查正文身份依据。
 
 ## 交付前复核与个人匹配
 

@@ -50,6 +50,35 @@ FIELDS = {
 ADMITTED = {"offer_self_reported", "offer_documented", "enrolled", "graduated"}
 
 
+def _has_content(value):
+    """Keep zero and false as values, but reject empty evidence placeholders."""
+    if value is None:
+        return False
+    if isinstance(value, str):
+        return bool(value.strip())
+    if isinstance(value, (dict, list)):
+        return bool(value)
+    return True
+
+
+def _valid_source_url(value):
+    """Check URL syntax only; this does not request or verify the destination."""
+    if not isinstance(value, str) or any(
+        character.isspace() or ord(character) < 32 or character == "\\"
+        for character in value
+    ):
+        return False
+    try:
+        parsed = urlparse(value)
+        return (
+            parsed.scheme in {"http", "https"}
+            and bool(parsed.hostname)
+            and (parsed.port is None or 0 <= parsed.port <= 65535)
+        )
+    except ValueError:
+        return False
+
+
 def _validate_relationships(data):
     """Check source and case links after the structure validator has passed."""
     errors = []
@@ -71,9 +100,6 @@ def _validate_relationships(data):
 
     sources, cases = index("sources"), index("cases")
     for sid, source in sources.items():
-        parsed = urlparse(str(source.get("url", "")))
-        if parsed.scheme not in ("http", "https") or not parsed.netloc:
-            error(sid, "source URL must be http(s)")
         if source.get("access_state") not in ACCESS:
             error(sid, "invalid access_state")
 
@@ -288,10 +314,11 @@ class _StructureValidator:
                     "sources.published_on",
                     "valid YYYY-MM-DD date required",
                 )
-            try:
-                urlparse(str(source.get("url", "")))
-            except ValueError:
-                self.errors.append("sources.url: invalid URL")
+            self.require(
+                _valid_source_url(source.get("url")),
+                "sources.url",
+                "valid http(s) URL with hostname and port required; encode spaces",
+            )
 
     def _check_cases(self, data):
         for case in self.objects(data.get("cases"), "cases"):
@@ -377,9 +404,11 @@ class _StructureValidator:
                             name,
                             "calculated work duration needs cutoff and calculation; calculation must be non-empty method text",
                         )
-                    if f.get("status") != "unknown" and isinstance(f.get("value"), str):
+                    if f.get("status") not in ("unknown", "conflicting"):
                         self.require(
-                            self.text(f["value"]), name, "known value cannot be blank"
+                            _has_content(f.get("value")),
+                            name,
+                            "known value cannot be blank or empty",
                         )
                     if name == "work_duration_before_application" and isinstance(
                         f.get("value"), (int, float)
@@ -446,9 +475,9 @@ class _StructureValidator:
                 )
             for alternative in self.objects(conflict.get("values"), "conflicts.values"):
                 self.require(
-                    alternative.get("value") is not None,
+                    _has_content(alternative.get("value")),
                     "conflicts.values",
-                    "non-null alternative required",
+                    "non-empty alternative required",
                 )
                 self.references(alternative, "conflicts.values")
 
@@ -538,7 +567,7 @@ def main():
                 parse_float=finite_float,
             )
         )
-    except (OSError, ValueError, TypeError, AttributeError) as exc:
+    except (OSError, ValueError, TypeError, AttributeError, RecursionError) as exc:
         parser.exit(1, f"Invalid case record: {exc}\n")
     if errors:
         parser.exit(1, "\n".join(errors) + "\n")

@@ -76,7 +76,7 @@ def main():
                 parse_float=finite_float,
             )
         )
-    except (OSError, ValueError, KeyError, TypeError) as exc:
+    except (OSError, ValueError, KeyError, TypeError, RecursionError) as exc:
         parser.exit(1, f"Invalid employment intervals: {exc}\n")
     print(json.dumps(result, ensure_ascii=False, indent=2))
 

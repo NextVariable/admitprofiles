@@ -1,0 +1,444 @@
+{
+  "schema_version": "1.1",
+  "researched_on": "2026-10-05",
+  "scope": {
+    "institution": "Northwestern University",
+    "program": "Master of Science in Information Systems",
+    "tracks": [
+      "online historical",
+      "accelerated current distinct"
+    ],
+    "years": [
+      "2023-2025 requested search focus",
+      "historical supplement; exact enrollment years mostly unknown"
+    ],
+    "mode": "limited_forward_test"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://sps.northwestern.edu/masters/information-systems/",
+      "title": "MSIS program overview",
+      "source_type": "official_program",
+      "access_state": "full_text",
+      "locator": "Choose the pace",
+      "accessed_on": "2026-10-05",
+      "published_on": null
+    },
+    {
+      "id": "S2",
+      "url": "https://sps.northwestern.edu/stories/news-stories/msis-austin-olson.html",
+      "title": "Austin Olson Returns to Technology",
+      "source_type": "official_profile",
+      "access_state": "full_text",
+      "locator": "Finding new career path",
+      "accessed_on": "2026-10-05",
+      "published_on": "2022-06-11"
+    },
+    {
+      "id": "S3",
+      "url": "https://sps.northwestern.edu/stories/news-stories/msis-swetha-popuri.html",
+      "title": "Swetha Uses MSIS Degree to Improve Healthcare System",
+      "source_type": "official_profile",
+      "access_state": "full_text",
+      "locator": "Northwestern hands-on courses",
+      "accessed_on": "2026-10-05",
+      "published_on": "2022-06-13"
+    },
+    {
+      "id": "S4",
+      "url": "https://sps.northwestern.edu/stories/news-stories/information-systems-nancy-dandridge.html",
+      "title": "Making Interplanetary Travel A Reality",
+      "source_type": "official_profile",
+      "access_state": "full_text",
+      "locator": "online studies",
+      "accessed_on": "2026-10-05",
+      "published_on": "2016-11-30"
+    },
+    {
+      "id": "S5",
+      "url": "https://www.linkedin.com/in/swetha-popuri",
+      "title": "Swetha Popuri LinkedIn search extract",
+      "source_type": "personal_profile",
+      "access_state": "snippet_only",
+      "locator": "indexed education section; direct open failed",
+      "accessed_on": "2026-10-05",
+      "published_on": null
+    },
+    {
+      "id": "S6",
+      "url": "https://www.1point3acres.com/bbs/thread-604361-1-1.html",
+      "title": "1st AD补报@NU SPS MSIS 求项目评价",
+      "source_type": "forum_self_report",
+      "access_state": "snippet_only",
+      "locator": "search extract of original post; direct open failed",
+      "accessed_on": "2026-10-05",
+      "published_on": null
+    },
+    {
+      "id": "S7",
+      "url": "https://www.reddit.com/r/Northwestern/comments/1lxjbku/experiences_with_onlineparttime_msis_degree/",
+      "title": "Experiences with Online/Part-time MSIS degree?",
+      "source_type": "forum",
+      "access_state": "full_text",
+      "locator": "opening post: considering program",
+      "accessed_on": "2026-10-05",
+      "published_on": null
+    }
+  ],
+  "cases": [
+    {
+      "id": "C1",
+      "public_name_or_handle": "Austin Olson",
+      "identity_link": {
+        "basis": "single original source explicitly names Northwestern MSIS person or anonymous author; no name-only cross-site merge",
+        "source_ids": [
+          "S2"
+        ],
+        "evidence": [
+          {
+            "source_id": "S2",
+            "locator": "图注明确Austin毕业；正文MSIS ’21与Finding new career path online学习段"
+          }
+        ]
+      },
+      "fields": {
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "track": {
+          "value": "online",
+          "status": "documented",
+          "source_ids": [
+            "S2"
+          ],
+          "evidence": [
+            {
+              "source_id": "S2",
+              "locator": "pursued online master while working two jobs"
+            }
+          ]
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": [],
+          "note": "degree level and completion unconfirmed; see prior_education"
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "enrollment_status": {
+          "value": "graduated",
+          "status": "documented",
+          "source_ids": [
+            "S2"
+          ],
+          "evidence": [
+            {
+              "source_id": "S2",
+              "locator": "image caption explicitly says graduated; not inferred from class year"
+            }
+          ]
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": [],
+          "note": "degree level and completion unconfirmed; see prior_education"
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "prior_education": {
+          "value": {
+            "institution": "Indiana University Northwest",
+            "subject": "pre-med program",
+            "degree_level": "unconfirmed",
+            "completion": "unconfirmed"
+          },
+          "status": "documented",
+          "source_ids": [
+            "S2"
+          ],
+          "evidence": [
+            {
+              "source_id": "S2",
+              "locator": "enrolling in pre-med program"
+            }
+          ],
+          "note": "program attendance only; preparatory course not awarded major"
+        }
+      },
+      "experiences": [
+        {
+          "type": "employment_unspecified",
+          "relative_timing": "unknown",
+          "status": "documented",
+          "source_ids": [
+            "S2"
+          ],
+          "evidence": [
+            {
+              "source_id": "S2",
+              "locator": "2013 to 2021 Army National Guard"
+            }
+          ],
+          "organization": "Army National Guard",
+          "start": "2013",
+          "end": "2021",
+          "note": "formal full-time status and application boundary unconfirmed; no eight-year calculation"
+        }
+      ],
+      "conflicts": [],
+      "tags": []
+    },
+    {
+      "id": "C2",
+      "public_name_or_handle": "Swetha Popuri",
+      "identity_link": {
+        "basis": "single original source explicitly names Northwestern MSIS person or anonymous author; no name-only cross-site merge",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "图注明确Swetha毕业；Northwestern hands-on课程段说明fellowship毕业后开始"
+          }
+        ]
+      },
+      "fields": {
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "enrollment_status": {
+          "value": "graduated",
+          "status": "documented",
+          "source_ids": [
+            "S3"
+          ],
+          "evidence": [
+            {
+              "source_id": "S3",
+              "locator": "caption and began fellowship after graduation"
+            }
+          ]
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [
+        {
+          "type": "employment_unspecified",
+          "relative_timing": "after_program",
+          "status": "documented",
+          "source_ids": [
+            "S3"
+          ],
+          "evidence": [
+            {
+              "source_id": "S3",
+              "locator": "began fellowship after graduation"
+            }
+          ],
+          "organization": "CommonSpirit Health",
+          "note": "not application background"
+        }
+      ],
+      "conflicts": [],
+      "tags": []
+    },
+    {
+      "id": "C3",
+      "public_name_or_handle": "Nancy Dandridge",
+      "identity_link": {
+        "basis": "single original source explicitly names Northwestern MSIS person or anonymous author; no name-only cross-site merge",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "2016-11-30正文：online studies underway与could not be earning my degree"
+          }
+        ]
+      },
+      "fields": {
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "track": {
+          "value": "online",
+          "status": "documented",
+          "source_ids": [
+            "S4"
+          ],
+          "evidence": [
+            {
+              "source_id": "S4",
+              "locator": "interested in online program; online studies"
+            }
+          ]
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "documented",
+          "source_ids": [
+            "S4"
+          ],
+          "evidence": [
+            {
+              "source_id": "S4",
+              "locator": "could not be earning my degree; online studies underway in 2016"
+            }
+          ]
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [
+        {
+          "type": "employment_unspecified",
+          "relative_timing": "before_enrollment_only",
+          "status": "documented",
+          "source_ids": [
+            "S4"
+          ],
+          "evidence": [
+            {
+              "source_id": "S4",
+              "locator": "career as CPA; demanding SpaceX career led to choosing program"
+            }
+          ],
+          "organization": "CPA career and SpaceX",
+          "note": "start dates, full-time tenure and precise application timing unknown"
+        }
+      ],
+      "conflicts": [],
+      "tags": []
+    }
+  ],
+  "archetypes": []
+}

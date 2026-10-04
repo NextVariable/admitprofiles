@@ -31,7 +31,7 @@ def main():
                 legacy += 1
                 continue
             errors = records.validate(data)
-        except (OSError, ValueError, TypeError, AttributeError) as exc:
+        except (OSError, ValueError, TypeError, AttributeError, RecursionError) as exc:
             errors = [str(exc)]
         checked += 1
         if errors:

@@ -1,0 +1,122 @@
+FFFFFFFFFFFFF..
+======================================================================
+FAIL: test_cli_reports_excessive_nesting_without_traceback (test_delivery_regressions.EvidenceDeliveryTests.test_cli_reports_excessive_nesting_without_traceback) (tool='validate_cases')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/USER/Desktop/留学背景包装/tests/test_delivery_regressions.py", line 89, in test_cli_reports_excessive_nesting_without_traceback
+    self.assertIn("Invalid", result.stderr)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'Invalid' not found in 'scope: institution and program required\nresearched_on: valid YYYY-MM-DD date required\nsources: must be a list\ncases: must be a list\narchetypes: must be a list\n'
+
+======================================================================
+FAIL: test_conflict_alternatives_must_have_content (test_delivery_regressions.EvidenceDeliveryTests.test_conflict_alternatives_must_have_content) (value='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/USER/Desktop/留学背景包装/tests/test_delivery_regressions.py", line 74, in test_conflict_alternatives_must_have_content
+    self.assertTrue(records.validate(data))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_conflict_alternatives_must_have_content (test_delivery_regressions.EvidenceDeliveryTests.test_conflict_alternatives_must_have_content) (value='   ')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/USER/Desktop/留学背景包装/tests/test_delivery_regressions.py", line 74, in test_conflict_alternatives_must_have_content
+    self.assertTrue(records.validate(data))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_conflict_alternatives_must_have_content (test_delivery_regressions.EvidenceDeliveryTests.test_conflict_alternatives_must_have_content) (value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/USER/Desktop/留学背景包装/tests/test_delivery_regressions.py", line 74, in test_conflict_alternatives_must_have_content
+    self.assertTrue(records.validate(data))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_conflict_alternatives_must_have_content (test_delivery_regressions.EvidenceDeliveryTests.test_conflict_alternatives_must_have_content) (value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/USER/Desktop/留学背景包装/tests/test_delivery_regressions.py", line 74, in test_conflict_alternatives_must_have_content
+    self.assertTrue(records.validate(data))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_empty_known_values_are_rejected (test_delivery_regressions.EvidenceDeliveryTests.test_empty_known_values_are_rejected) (value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/USER/Desktop/留学背景包装/tests/test_delivery_regressions.py", line 53, in test_empty_known_values_are_rejected
+    self.assertTrue(records.validate(data))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_empty_known_values_are_rejected (test_delivery_regressions.EvidenceDeliveryTests.test_empty_known_values_are_rejected) (value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/USER/Desktop/留学背景包装/tests/test_delivery_regressions.py", line 53, in test_empty_known_values_are_rejected
+    self.assertTrue(records.validate(data))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_malformed_source_urls_are_rejected (test_delivery_regressions.EvidenceDeliveryTests.test_malformed_source_urls_are_rejected) (url='https://user@')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/USER/Desktop/留学背景包装/tests/test_delivery_regressions.py", line 27, in test_malformed_source_urls_are_rejected
+    self.assertTrue(records.validate(data))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_malformed_source_urls_are_rejected (test_delivery_regressions.EvidenceDeliveryTests.test_malformed_source_urls_are_rejected) (url='https://example.org:wrong')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/USER/Desktop/留学背景包装/tests/test_delivery_regressions.py", line 27, in test_malformed_source_urls_are_rejected
+    self.assertTrue(records.validate(data))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_malformed_source_urls_are_rejected (test_delivery_regressions.EvidenceDeliveryTests.test_malformed_source_urls_are_rejected) (url='https://example.org:65536')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/USER/Desktop/留学背景包装/tests/test_delivery_regressions.py", line 27, in test_malformed_source_urls_are_rejected
+    self.assertTrue(records.validate(data))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_malformed_source_urls_are_rejected (test_delivery_regressions.EvidenceDeliveryTests.test_malformed_source_urls_are_rejected) (url='https://exa mple.org')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/USER/Desktop/留学背景包装/tests/test_delivery_regressions.py", line 27, in test_malformed_source_urls_are_rejected
+    self.assertTrue(records.validate(data))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_malformed_source_urls_are_rejected (test_delivery_regressions.EvidenceDeliveryTests.test_malformed_source_urls_are_rejected) (url='https://example.org\\fake')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/USER/Desktop/留学背景包装/tests/test_delivery_regressions.py", line 27, in test_malformed_source_urls_are_rejected
+    self.assertTrue(records.validate(data))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+======================================================================
+FAIL: test_malformed_source_urls_are_rejected (test_delivery_regressions.EvidenceDeliveryTests.test_malformed_source_urls_are_rejected) (url='https://example.org\n/fake')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/USER/Desktop/留学背景包装/tests/test_delivery_regressions.py", line 27, in test_malformed_source_urls_are_rejected
+    self.assertTrue(records.validate(data))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: [] is not true
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.311s
+
+FAILED (failures=13)

@@ -1,0 +1,12 @@
+research/berkeley-mdeveng/2026-10-05-forward-test/cases.json: consistency passed (source support not verified)
+research/berkeley-mdeveng/2026-10-05-forward-test/independent-draft/cases.json: consistency passed (source support not verified)
+research/berkeley-mdeveng/2026-10-05-source-review/cases.json: consistency passed (source support not verified)
+research/brown-prime/2026-10-05-forward-test/cases.json: consistency passed (source support not verified)
+research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json: consistency passed (source support not verified)
+research/brown-prime/2026-10-05-scope-test/cases.json: consistency passed (source support not verified)
+research/cmu-miips/2026-10-05-pilot/cases.json: historical 1.0, not validated against 1.1
+research/cmu-miips/2026-10-05-review/cases.json: consistency passed (source support not verified)
+research/northwestern-msis/2026-10-05-delivery-review/cases.json: consistency passed (source support not verified)
+research/northwestern-msis/2026-10-05-forward-test/cases.json: consistency passed (source support not verified)
+research/northwestern-msis/2026-10-05-source-review/cases.json: consistency passed (source support not verified)
+Checked 10; legacy preserved 1.
