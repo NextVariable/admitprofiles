@@ -2,6 +2,8 @@
 """Check evidence record consistency, not truth or semantic source support."""
 import argparse
 import json
+import math
+import re
 from datetime import date
 from pathlib import Path
 from urllib.parse import urlparse
@@ -165,8 +167,13 @@ def validate(data):
     def references(row, path):
         ids = row.get('source_ids', [])
         require(isinstance(ids, list) and all(text(x) for x in ids), path, 'source_ids must be non-empty strings')
+        seen = set()
         for e in objects(row.get('evidence', []), path + '.evidence'):
             require(text(e.get('source_id')) and text(e.get('locator')), path, 'evidence locator and source_id must be non-empty text')
+            if text(e.get('source_id')) and text(e.get('locator')):
+                pair = (e['source_id'], e['locator'])
+                require(pair not in seen, path, 'duplicate evidence locator')
+                seen.add(pair)
     if not isinstance(data, dict): return ['record must be an object']
     require(isinstance(data.get('scope'), dict) and text(data.get('scope', {}).get('institution')) and text(data.get('scope', {}).get('program')), 'scope', 'institution and program required')
     require(iso_date(data.get('researched_on')), 'researched_on', 'valid YYYY-MM-DD date required')
@@ -174,6 +181,8 @@ def validate(data):
         for key in ('id','url','title','source_type','access_state','locator'):
             require(text(source.get(key)), 'sources.' + key, 'non-empty text required')
         require(iso_date(source.get('accessed_on')), 'sources.accessed_on', 'valid YYYY-MM-DD date required')
+        if iso_date(source.get('accessed_on')) and iso_date(data.get('researched_on')):
+            require(source['accessed_on'] <= data['researched_on'], 'sources.accessed_on', 'access cannot be later than research date')
         if source.get('published_on') is not None:
             require(iso_date(source['published_on']), 'sources.published_on', 'valid YYYY-MM-DD date required')
         try: urlparse(str(source.get('url', '')))
@@ -193,6 +202,14 @@ def validate(data):
                 if isinstance(f, dict):
                     require(isinstance(f.get('status'), str), name, 'status must be text')
                     references(f, name)
+                    if f.get('status') != 'unknown' and isinstance(f.get('value'), str):
+                        require(text(f['value']), name, 'known value cannot be blank')
+                    if name == 'work_duration_before_application' and isinstance(f.get('value'), (int, float)):
+                        value = f['value']
+                        require(type(value) is not bool and value >= 0 and (not isinstance(value, float) or math.isfinite(value)), name, 'numeric duration must be finite and non-negative, not boolean')
+                    if name == 'work_duration_before_application' and f.get('status') == 'calculated' and f.get('cutoff'):
+                        cutoff = f.get('cutoff')
+                        require(isinstance(cutoff, str) and bool(re.fullmatch(r'[0-9]{4}(?:-(?:0[1-9]|1[0-2]))?', cutoff) or iso_date(cutoff)) and cutoff[:4] != '0000', name, 'calculated cutoff must preserve valid date precision')
             enrollment = fields.get('enrollment_status', {})
             if isinstance(enrollment, dict):
                 require(enrollment.get('value') is None or isinstance(enrollment.get('value'), str), 'enrollment_status', 'canonical text or null required')
@@ -200,8 +217,12 @@ def validate(data):
             for key in ('type','relative_timing','status'):
                 require(isinstance(e.get(key), str), 'experiences.' + key, 'text required')
             references(e, 'experiences')
+        conflict_fields = set()
         for conflict in objects(case.get('conflicts', []), 'conflicts'):
             require(text(conflict.get('field')), 'conflicts.field', 'field required')
+            if text(conflict.get('field')):
+                require(conflict['field'] not in conflict_fields, 'conflicts.field', 'duplicate conflict field; preserve all alternatives in one record')
+                conflict_fields.add(conflict['field'])
             if isinstance(fields, dict) and isinstance(conflict.get('field'), str):
                 f = fields.get(conflict['field'])
                 require(isinstance(f, dict) and f.get('status') == 'conflicting', 'conflicts.field', 'must match a field with conflicting status')

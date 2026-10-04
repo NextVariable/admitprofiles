@@ -28,11 +28,15 @@ def union_length(intervals):
 
 
 def calculate(data):
+    if not isinstance(data, dict) or 'cutoff' not in data or 'intervals' not in data:
+        raise ValueError('input must be an object with cutoff and intervals')
     cutoff = month(data['cutoff'])
     lower, upper = [], []
     if not isinstance(data['intervals'], list):
         raise ValueError('intervals must be a list')
     for item in data['intervals']:
+        if not isinstance(item, dict) or 'start' not in item or 'end' not in item:
+            raise ValueError('each interval must be an object with start and end')
         start = month(item['start'])
         end = cutoff if item['end'] is None else month(item['end'])
         inclusive = item.get('end_inclusive')
@@ -60,10 +64,23 @@ def main():
     parser.add_argument('input', type=Path)
     args = parser.parse_args()
     try:
-        result = calculate(json.loads(args.input.read_text(encoding='utf-8')))
+        result = calculate(json.loads(args.input.read_text(encoding='utf-8'), object_pairs_hook=reject_duplicate_keys, parse_constant=reject_constant))
     except (OSError, ValueError, KeyError, TypeError) as exc:
         parser.exit(1, f'Invalid employment intervals: {exc}\n')
     print(json.dumps(result, ensure_ascii=False, indent=2))
+
+
+def reject_duplicate_keys(pairs):
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError(f'duplicate JSON key: {key}')
+        result[key] = value
+    return result
+
+
+def reject_constant(value):
+    raise ValueError(f'non-finite JSON value: {value}')
 
 
 if __name__ == '__main__':

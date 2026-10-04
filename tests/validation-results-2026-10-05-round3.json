@@ -1,0 +1,43 @@
+{
+  "checked_on": "2026-10-05",
+  "baseline": {
+    "test_methods": 50,
+    "assertion_failures": 6,
+    "subtest_errors": 5
+  },
+  "additional_duration_regression": {
+    "test_methods": 51,
+    "assertion_failures": 2
+  },
+  "final_unit_test_methods": 51,
+  "final_failures": 0,
+  "final_errors": 0,
+  "nested_shape_mutations": 752,
+  "random_interval_cases": 5000,
+  "random_interval_checks": [
+    "independent month-set lower and upper oracle",
+    "permutation invariance",
+    "duplicate idempotence",
+    "input immutability"
+  ],
+  "prior_random_interval_cases": 200,
+  "independent_synthetic_scenarios": 32,
+  "independent_live_calculator_runs": 3,
+  "independent_live_research": "Berkeley limited; initial semantic errors found and corrected; original preserved",
+  "record_checks": {
+    "research/berkeley-mdeveng/2026-10-05-forward-test/cases.json": "passed (structure only)",
+    "research/berkeley-mdeveng/2026-10-05-forward-test/independent-draft/cases.json": "passed (structure only)",
+    "research/brown-prime/2026-10-05-scope-test/cases.json": "passed (structure only)",
+    "research/cmu-miips/2026-10-05-review/cases.json": "passed (structure only)",
+    "research/cmu-miips/2026-10-05-pilot/cases.json": "legacy preserved",
+    "research/northwestern-msis/2026-10-05-forward-test/cases.json": "passed (structure only)"
+  },
+  "official_reference_validator": "passed with existing temporary PyYAML",
+  "not_verified": [
+    "automatic routing accuracy across repeated model runs",
+    "three programs with complete recent-cohort research",
+    "source truth by automation",
+    "population representativeness",
+    "actual admissions causality"
+  ]
+}

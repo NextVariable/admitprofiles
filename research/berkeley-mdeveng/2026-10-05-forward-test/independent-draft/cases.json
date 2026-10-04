@@ -1,0 +1,796 @@
+{
+  "schema_version": "1.1",
+  "researched_on": "2026-10-05",
+  "scope": {
+    "institution": "University of California, Berkeley",
+    "program": "Professional Master of Development Engineering",
+    "tracks": [
+      "professional masters; concentration unknown unless documented"
+    ],
+    "years": [
+      2024,
+      2025,
+      2026
+    ],
+    "historical_supplement": [
+      2021,
+      2023
+    ],
+    "note": "目标最近已入学年级；实际个案覆盖2024入学及历史。2026 Tanesha索引线索另列未入核实案例。"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://developmentengineering.berkeley.edu/from-ai-to-social-justice-mdeveng-class-of-2025-sets-sights-on-global-problem-solving/",
+      "title": "2025 cohort orientation",
+      "publisher": "UC Berkeley",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "正文人物段落"
+    },
+    {
+      "id": "S2",
+      "url": "https://developmentengineering.berkeley.edu/master-of-development-engineering-program-graduates-its-fourth-cohort/",
+      "title": "2025 cohort graduation",
+      "publisher": "UC Berkeley",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "正文人物段落"
+    },
+    {
+      "id": "S3",
+      "url": "https://developmentengineering.berkeley.edu/master-of-development-engineering-graduates-2024-cohort/",
+      "title": "2024 cohort graduation",
+      "publisher": "UC Berkeley",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "正文人物段落"
+    },
+    {
+      "id": "S4",
+      "url": "https://blumcenter.berkeley.edu/from-malawi-to-berkeley-and-back-how-m-deveng-student-mathews-tisatayane-achieved-his-dream-of-bringing-sustainable-development-to-his-hometown/",
+      "title": "Mathews Tisatayane profile",
+      "publisher": "UC Berkeley",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "正文人物段落"
+    },
+    {
+      "id": "S5",
+      "url": "https://blumcenter.berkeley.edu/congrats-m-deveng-class-of-2022-members-of-inaugural-cohort-themselves-pioneers-in-deveng-graduate/",
+      "title": "2022 cohort graduation",
+      "publisher": "UC Berkeley",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "正文人物段落"
+    },
+    {
+      "id": "S6",
+      "url": "https://developmentengineering.berkeley.edu/programs/deveng-master/who-should-apply/",
+      "title": "Who Should Apply",
+      "publisher": "UC Berkeley",
+      "source_type": "official_program",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "招生资格段落"
+    },
+    {
+      "id": "S7",
+      "url": "https://id.linkedin.com/in/tanesha-aden",
+      "title": "Tanesha Aden LinkedIn indexed lead",
+      "publisher": "LinkedIn",
+      "source_type": "self_report",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "snippet_only",
+      "locator": "搜索返回缓存内容；直接打开失败"
+    },
+    {
+      "id": "S8",
+      "url": "https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=868369",
+      "title": "GrassEric forum indexed lead",
+      "publisher": "一亩三分地",
+      "source_type": "self_report",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "snippet_only",
+      "locator": "搜索返回缓存内容；直接打开失败"
+    }
+  ],
+  "cases": [
+    {
+      "id": "C1",
+      "public_name_or_handle": "Mingxi Tang",
+      "identity_link": {
+        "basis": "官网明确具名并连接 MDevEng 学生身份",
+        "source_ids": [
+          "S1"
+        ],
+        "evidence": [
+          {
+            "source_id": "S1",
+            "locator": "L23-26"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "enrolled",
+          "status": "documented",
+          "source_ids": [
+            "S1"
+          ],
+          "evidence": [
+            {
+              "source_id": "S1",
+              "locator": "L24-26"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": "The Chinese University of Hong Kong, Shenzhen",
+          "status": "inferred",
+          "source_ids": [
+            "S1"
+          ],
+          "evidence": [
+            {
+              "source_id": "S1",
+              "locator": "L23"
+            }
+          ],
+          "note": "正文只说studied或graduate，未直接写本科degree level；校名专业明确，学历层级需本人履历复核"
+        },
+        "undergraduate_major": {
+          "value": "finance",
+          "status": "inferred",
+          "source_ids": [
+            "S1"
+          ],
+          "evidence": [
+            {
+              "source_id": "S1",
+              "locator": "L23"
+            }
+          ],
+          "note": "正文只说studied或graduate，未直接写本科degree level；校名专业明确，学历层级需本人履历复核"
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": "2024-08-22",
+          "status": "documented",
+          "source_ids": [
+            "S1"
+          ],
+          "evidence": [
+            {
+              "source_id": "S1",
+              "locator": "L18与L26，文章当年8月22日迎新"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": "中国大陆深圳校区",
+          "status": "documented",
+          "source_ids": [
+            "S1"
+          ],
+          "evidence": [
+            {
+              "source_id": "S1",
+              "locator": "L23学校校区名称"
+            }
+          ]
+        },
+        "undergraduate_gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C2",
+      "public_name_or_handle": "Pratiyush Singh",
+      "identity_link": {
+        "basis": "官网明确具名并连接 MDevEng 学生身份",
+        "source_ids": [
+          "S1"
+        ],
+        "evidence": [
+          {
+            "source_id": "S1",
+            "locator": "L35-37"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "graduated",
+          "status": "documented",
+          "source_ids": [
+            "S2"
+          ],
+          "evidence": [
+            {
+              "source_id": "S2",
+              "locator": "L21-25毕业典礼具名发言"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": "University of California, Berkeley",
+          "status": "inferred",
+          "source_ids": [
+            "S1"
+          ],
+          "evidence": [
+            {
+              "source_id": "S1",
+              "locator": "L35"
+            }
+          ],
+          "note": "正文只说studied或graduate，未直接写本科degree level；校名专业明确，学历层级需本人履历复核"
+        },
+        "undergraduate_major": {
+          "value": "civil engineering",
+          "status": "inferred",
+          "source_ids": [
+            "S1"
+          ],
+          "evidence": [
+            {
+              "source_id": "S1",
+              "locator": "L35"
+            }
+          ],
+          "note": "正文只说studied或graduate，未直接写本科degree level；校名专业明确，学历层级需本人履历复核"
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": "2024-08-22",
+          "status": "documented",
+          "source_ids": [
+            "S1"
+          ],
+          "evidence": [
+            {
+              "source_id": "S1",
+              "locator": "L26与L35当届迎新"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": "2025-12",
+          "status": "documented",
+          "source_ids": [
+            "S2"
+          ],
+          "evidence": [
+            {
+              "source_id": "S2",
+              "locator": "L15与L21，2026年1月报道说上月毕业"
+            }
+          ]
+        },
+        "work_duration_before_application": {
+          "value": "两年产业经历，来源明示；无完整岗位日期，不计算并集",
+          "status": "documented",
+          "source_ids": [
+            "S1"
+          ],
+          "evidence": [
+            {
+              "source_id": "S1",
+              "locator": "L36，两年产业经历后申请"
+            }
+          ]
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C3",
+      "public_name_or_handle": "Tilti / Titli Thind",
+      "identity_link": {
+        "basis": "官网明确具名并连接 MDevEng 学生身份",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "L23-28具名毕业讲话，正文与图注姓名拼写不一致"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "graduated",
+          "status": "documented",
+          "source_ids": [
+            "S3"
+          ],
+          "evidence": [
+            {
+              "source_id": "S3",
+              "locator": "L25-30毕业讲话及2024届"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_graduation": {
+          "value": "2024",
+          "status": "documented",
+          "source_ids": [
+            "S3"
+          ],
+          "evidence": [
+            {
+              "source_id": "S3",
+              "locator": "L28和L30，报道明确2024毕业届"
+            }
+          ]
+        },
+        "work_duration_before_application": {
+          "value": "13年飞行经历后离开航空业，来源明示；未确认就业类型和递交日",
+          "status": "documented",
+          "source_ids": [
+            "S3"
+          ],
+          "evidence": [
+            {
+              "source_id": "S3",
+              "locator": "L27-28"
+            }
+          ]
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C4",
+      "public_name_or_handle": "Excellence Joshua",
+      "identity_link": {
+        "basis": "官网明确具名并连接 MDevEng 学生身份",
+        "source_ids": [
+          "S3"
+        ],
+        "evidence": [
+          {
+            "source_id": "S3",
+            "locator": "L33-39"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "graduated",
+          "status": "documented",
+          "source_ids": [
+            "S3"
+          ],
+          "evidence": [
+            {
+              "source_id": "S3",
+              "locator": "L33-39当届毕业讲话"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "masters_graduation": {
+          "value": "2024",
+          "status": "documented",
+          "source_ids": [
+            "S3"
+          ],
+          "evidence": [
+            {
+              "source_id": "S3",
+              "locator": "L28-33当届毕业典礼"
+            }
+          ]
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [
+        {
+          "type": "project",
+          "organization": "Techy Train Incubator",
+          "role": "创办非营利组织",
+          "start": null,
+          "end": null,
+          "relative_timing": "before_enrollment_only",
+          "status": "documented",
+          "source_ids": [
+            "S3"
+          ],
+          "evidence": [
+            {
+              "source_id": "S3",
+              "locator": "L36 Before Berkeley, Joshua founded Techy Train Incubator"
+            }
+          ],
+          "note": "具体申请时点未知；累计培训规模是报道时值，不作为申请前规模"
+        }
+      ],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C5",
+      "public_name_or_handle": "Mathews Sapemba Tisatayane",
+      "identity_link": {
+        "basis": "官网明确具名并连接 MDevEng 学生身份",
+        "source_ids": [
+          "S4"
+        ],
+        "evidence": [
+          {
+            "source_id": "S4",
+            "locator": "L53及正文MDevEng具名身份"
+          }
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "graduated",
+          "status": "documented",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "L64-70首届毕业典礼及具名学生发言"
+            }
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_school": {
+          "value": "University of San Francisco",
+          "status": "documented",
+          "source_ids": [
+            "S4"
+          ],
+          "evidence": [
+            {
+              "source_id": "S4",
+              "locator": "From famine to San Francisco段落，护理本科"
+            }
+          ]
+        },
+        "undergraduate_major": {
+          "value": "Bachelor of Science in Nursing",
+          "status": "documented",
+          "source_ids": [
+            "S4"
+          ],
+          "evidence": [
+            {
+              "source_id": "S4",
+              "locator": "同段落护理本科及2011毕业"
+            }
+          ]
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_end": {
+          "value": "2011",
+          "status": "documented",
+          "source_ids": [
+            "S4"
+          ],
+          "evidence": [
+            {
+              "source_id": "S4",
+              "locator": "同段落毕业年份"
+            }
+          ]
+        },
+        "masters_start": {
+          "value": "2021",
+          "status": "documented",
+          "source_ids": [
+            "S4"
+          ],
+          "evidence": [
+            {
+              "source_id": "S4",
+              "locator": "正文inaugural cohort及fall of 2021入学段"
+            }
+          ]
+        },
+        "masters_graduation": {
+          "value": "2022",
+          "status": "documented",
+          "source_ids": [
+            "S5"
+          ],
+          "evidence": [
+            {
+              "source_id": "S5",
+              "locator": "L58和L64-70毕业典礼"
+            }
+          ]
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_region": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        },
+        "undergraduate_gpa": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": [],
+          "evidence": []
+        }
+      },
+      "experiences": [
+        {
+          "type": "employment_unspecified",
+          "organization": "San Francisco Department of Public Health Medical Respite & Sobering Center",
+          "role": "nursing",
+          "start": null,
+          "end": null,
+          "relative_timing": "before_enrollment_only",
+          "status": "documented",
+          "source_ids": [
+            "S4"
+          ],
+          "evidence": [
+            {
+              "source_id": "S4",
+              "locator": "2011护理本科毕业后 over the next five years 在该中心工作"
+            }
+          ],
+          "note": "原文5年，其他护理岗位未有完整日期；不将总护理年限推算为10年"
+        }
+      ],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    }
+  ],
+  "archetypes": [],
+  "leads": [
+    {
+      "name": "Tanesha Aden",
+      "source_id": "S7",
+      "state": "snippet_only; direct open failed",
+      "note": "缓存自报2026在读，ITS城市区域规划2015-2019，GPA3.67/4.00；不升级全文核实"
+    },
+    {
+      "name_or_handle": "GrassEric",
+      "source_id": "S8",
+      "state": "snippet_only; direct open failed",
+      "note": "缓存2022-09-16自报收到MDevEng offer并去UCB；未还原背景"
+    }
+  ]
+}
