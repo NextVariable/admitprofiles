@@ -10,6 +10,20 @@ from pathlib import Path
 from test_skill_helpers import fixture, records, months, SCRIPTS
 
 class EvidenceRegressions(unittest.TestCase):
+    def test_group_can_cite_verified_member_experience(self):
+        d=fixture(); s=copy.deepcopy(d['sources'][0]); s['id']='S2'; s['url']='https://example.org/resume'; d['sources'].append(s)
+        d['cases'][0]['identity_link']['source_ids'].append('S2')
+        d['cases'][0]['identity_link']['evidence'].append({'source_id':'S2','locator':'same-person resume direct link'})
+        d['cases'][0]['experiences']=[{'type':'full_time','relative_timing':'before_application','status':'self_reported','source_ids':['S2'],'evidence':[{'source_id':'S2','locator':'employment section'}]}]
+        d['archetypes'][0].update(source_ids=['S2'],evidence=[{'source_id':'S2','locator':'employment section'}])
+        self.assertEqual(records.validate(d),[])
+
+    def test_unknown_experience_is_not_member_group_support(self):
+        d=fixture(); s=copy.deepcopy(d['sources'][0]); s['id']='S2'; d['sources'].append(s)
+        d['cases'][0]['experiences']=[{'type':'employment_unspecified','relative_timing':'unknown','status':'unknown','source_ids':['S2'],'evidence':[{'source_id':'S2','locator':'no employment detail'}]}]
+        d['archetypes'][0].update(source_ids=['S2'],evidence=[{'source_id':'S2','locator':'no employment detail'}])
+        self.assertTrue(records.validate(d))
+
     def test_duplicate_conflict_fields(self):
         d=fixture(); f=d['cases'][0]['fields']['undergraduate_school']
         f.update(value=None,status='conflicting',source_ids=['S1'],evidence=[{'source_id':'S1','locator':'school'}])

@@ -136,8 +136,13 @@ def _validate_record(data):
             if admission.get('status') not in {'documented', 'self_reported', 'secondary'}:
                 error(path, f'{cid} admission status must be directly reported, not inferred')
             member_sources = {sid for f in case.get('fields', {}).values() for sid in f.get('source_ids', [])}
+            member_sources.update(
+                sid for experience in case.get('experiences', [])
+                if experience.get('status') in {'documented', 'self_reported', 'secondary'}
+                for sid in experience.get('source_ids', [])
+            )
             if not member_sources.intersection(group.get('source_ids', [])):
-                error(path, f'{cid} needs a source from this member case')
+                error(path, f'{cid} needs a source from this member case field or directly reported experience')
             if state not in ADMITTED:
                 error(path, f'{cid} has no usable admission/enrollment status')
             if case.get('excluded_from_on_campus_distribution'):

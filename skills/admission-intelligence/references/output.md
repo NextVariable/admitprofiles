@@ -45,6 +45,8 @@ cases.json 结构示例（字段值下方仅为结构说明，实际文件不得
 
 experiences 每项保存类型（full_time／part_time／internship／research／project）、单位／岗位、原始起止日期、相对申请时间（before_application／before_enrollment_only／during_program／after_program／unknown）、status 与 source_ids。可附公开 GPA 原始量表和教育地区等相关字段，使用同样证据结构。
 
+经历的相对时间键名必须为relative_timing；不要使用relative_to_application等同义键替代。完整键形为 `{type, organization, role, start, end, relative_timing, status, source_ids, evidence}`；单位、岗位或日期未公开可用null，source_ids和evidence仍按证据约定填写。申请时点未知的既往职业年限单列在经历中，申请前年限字段保留unknown，或按已明确入学边界给近似并附说明，不把附注中的不确定性藏在已确认数字之后。
+
 ## 机器检查约定
 
 新记录使用 schema_version 1.1；历史 1.0 记录保留原样，不伪称通过新检查。每个非 unknown 字段的 source_ids 至少一个，evidence 至少一项并为每个 source_id 提供 `{source_id, locator}`。未知字段 value 为 null。字段层冲突需在 case.conflicts 中保存 `{field, values: [{value, source_ids, evidence}]}`，保留两种以上不同值。
@@ -58,6 +60,8 @@ access_state 为 full_text／partial_text／snippet_only／blocked／failed；�
 字段 status 使用 documented／self_reported／secondary／calculated／inferred／unknown／conflicting。enrollment_status.value 使用 offer_self_reported／offer_documented／enrolled／graduated／waitlisted／rejected；无准入证据时使用 null、status unknown。预计入学与毕业在附注或日期对象中标 planned／expected，不当作完成。计算年限必须附 cutoff 与 calculation。
 
 身份连接 identity_link 必须含非空 basis 与对应 source_ids、evidence。画像准入状态必须直接记载或自报，不能靠 inferred／calculated／conflicting 字段入组；每个成员至少有一个字段来源被画像引用。这个连接只检查出处关系，仍需人工核实这些来源是否支持分类。来源与研究访问日期使用有效 YYYY-MM-DD。JSON不允许重复键或NaN／Infinity。未知字段若保留来源，同样需要字段定位。
+
+画像也可引用成员experiences中的直接记载、自报或二手经历出处，不强迫将工作经历复制到学历字段才能通过检查；unknown、inferred或calculated经历不能单独充当成员来源连接。经历是否确实属于该人且是否支持申请前分类，仍须按身份与时间边界复核。
 
 官方项目资料存在内部冲突时，可增加 program_conflicts 数组，每项含 field、两种以上不同的原始文字 alternatives、resolution（未解决也明确写出）、source_ids 与 evidence。它与人物字段冲突分开，不把官网矛盾塞进某个人的履历。
 

@@ -1,0 +1,93 @@
+{
+  "checked_on": "2026-10-05",
+  "test_methods": 53,
+  "failures": 0,
+  "errors": 0,
+  "local_environments": [
+    "Python 3.14.3 current workspace",
+    "Python 3.12 isolated temporary copy, discovered from another directory"
+  ],
+  "batch_shape_mutations": 752,
+  "random_interval_cases": 5000,
+  "prior_interval_cases": 200,
+  "new_regression_baseline": {
+    "batch_test_methods": 13,
+    "failures": 1,
+    "issue": "direct member experience source falsely rejected"
+  },
+  "independent_source_audit": {
+    "berkeley_claims": 14,
+    "northwestern_claims": 12,
+    "result": "corrections required; old artifacts preserved"
+  },
+  "fresh_independent_brown": {
+    "recorded_identities": 4,
+    "recent_cohort_coverage": "incomplete",
+    "first_run_error": "relative_to_application instead of relative_timing",
+    "human_review_corrections": [
+      "desired format not confirmed enrollment track",
+      "indexed exact date not full-text publication date"
+    ]
+  },
+  "records": [
+    {
+      "path": "research/berkeley-mdeveng/2026-10-05-forward-test/cases.json",
+      "schema_version": "1.1",
+      "result": "consistency passed; source support not asserted"
+    },
+    {
+      "path": "research/berkeley-mdeveng/2026-10-05-forward-test/independent-draft/cases.json",
+      "schema_version": "1.1",
+      "result": "consistency passed; source support not asserted"
+    },
+    {
+      "path": "research/berkeley-mdeveng/2026-10-05-source-review/cases.json",
+      "schema_version": "1.1",
+      "result": "consistency passed; source support not asserted"
+    },
+    {
+      "path": "research/brown-prime/2026-10-05-forward-test/cases.json",
+      "schema_version": "1.1",
+      "result": "consistency passed; source support not asserted"
+    },
+    {
+      "path": "research/brown-prime/2026-10-05-forward-test/independent-draft/cases.json",
+      "schema_version": "1.1",
+      "result": "consistency passed; source support not asserted"
+    },
+    {
+      "path": "research/brown-prime/2026-10-05-scope-test/cases.json",
+      "schema_version": "1.1",
+      "result": "consistency passed; source support not asserted"
+    },
+    {
+      "path": "research/cmu-miips/2026-10-05-pilot/cases.json",
+      "schema_version": "1.0",
+      "result": "legacy preserved"
+    },
+    {
+      "path": "research/cmu-miips/2026-10-05-review/cases.json",
+      "schema_version": "1.1",
+      "result": "consistency passed; source support not asserted"
+    },
+    {
+      "path": "research/northwestern-msis/2026-10-05-forward-test/cases.json",
+      "schema_version": "1.1",
+      "result": "consistency passed; source support not asserted"
+    },
+    {
+      "path": "research/northwestern-msis/2026-10-05-source-review/cases.json",
+      "schema_version": "1.1",
+      "result": "consistency passed; source support not asserted"
+    }
+  ],
+  "official_skill_reference_validator": "passed",
+  "workflow_configuration": "passed",
+  "remote_ci": "not yet run at time of local record; verify GitHub Actions after upload",
+  "not_verified": [
+    "platform implicit trigger accuracy",
+    "complete recent three-cohort research across three program types",
+    "population representativeness",
+    "admissions causality"
+  ]
+}
