@@ -1,23 +1,54 @@
-# 录取画像研究
+# Admission Intelligence · 录取画像研究
 
-本项目是可在 Codex 中使用的 `admission-intelligence` skill，源码位于 `skills/admission-intelligence/`。输入具体项目，研究公开录取／入学案例，归纳背景路径，并为学校专业、时间线、工作实习及申请表达提供出处。个人匹配只在用户要求且提供真实背景后执行。
+[![验证状态](https://github.com/NextVariable/admission-intelligence/actions/workflows/validate.yml/badge.svg)](https://github.com/NextVariable/admission-intelligence/actions/workflows/validate.yml)
 
-调用示例：`使用 $admission-intelligence 研究 Northwestern MSIS，先确认具体项目，结论先行，给画像分类、代表案例和逐项来源，未公开的不要猜。`
+一个用于 Codex 的研究技能：从公开录取与入学案例中还原申请前背景，归纳有出处的经历路径。输入学校和项目即可开始；用户提供真实履历并要求匹配时，再补充个人定位。
 
-源文件保存在本项目并由 Git 管理。本机安装位置为 `~/.codex/skills/admission-intelligence`，指向本项目 skill 目录；移动项目后需要更新链接。当前聊天的技能目录已识别此 skill；其他环境需自行安装，也可直接提供 SKILL.md 完整路径。
+它将学校、专业、工作与实习、时间线和申请表达逐项连接到来源，保留未知、冲突及访问限制。公开案例能说明某条路径曾经出现，不能用于推算录取概率或解释录取原因。
 
-`research/cmu-miips/2026-10-05-review/` 保存多渠道有限实测，包括官网、公开简历、LinkedIn摘要与论坛自报，记录缺失字段及排除案例。两项辅助工具检查引用一致性与工作区间计算，均仅使用Python标准库。
+## 开始使用
 
-`research/cmu-miips/2026-10-05-pilot/` 是三个官方人物介绍的小样本人工核查。它验证的是规则应用示例，尚未完成全网项目研究，也没有证明不同 Agent 或不同项目的稳定效果。
+先将仓库克隆到固定位置：
 
-产品需求和设计方向由项目发起者提出，技能规则与实现为本项目独立编写，研究方法与技术规范的来源保存在设计记录中。
+```sh
+git clone https://github.com/NextVariable/admission-intelligence.git
+cd admission-intelligence
+```
 
-第二轮复查补强身份连接、画像成员出处、错误格式与官方资料冲突检查，40项测试通过；Brown PRIME只完成专项官方来源测试。最新边界见 `复查与测试第二轮-2026-10-05.md`。
+私有仓库需要具有访问权限的 GitHub 账号。在 macOS／Linux 上，将技能链接到 Codex 的技能目录；目标已存在时，先保留原版本，避免覆盖：
 
-第三轮检查确认研究方向未偏离，修复输入与证据记录漏洞；51项测试包含752种输入变异、5,000组随机区间及原有200组对照，另完成32个合成情景独立评估与Northwestern、Berkeley有限真实检索。独立研究初稿经人工复核仍发现学历层级和迎新日期过推断，已修正并保留初稿。自动通过不等于来源支持性通过；最新实测范围及未完成验收见 `第三轮方向复查与批量测试-2026-10-05.md`。
+```sh
+mkdir -p "$HOME/.codex/skills"
+ln -s "$PWD/skills/admission-intelligence" "$HOME/.codex/skills/admission-intelligence"
+```
 
-在其他机器上，将本仓库克隆到固定目录，再把其中 `skills/admission-intelligence` 复制或链接到自己的 `~/.codex/skills/admission-intelligence` 即可。若该位置已有技能，先保留原版本再更新；只需技能文件，无需复制研究资料。辅助工具和测试使用 Python 3.11 或更新版本，均无需第三方依赖。
+也可将 `skills/admission-intelligence` 整个目录复制到自己的技能目录，无需复制研究与测试资料。移动仓库后需更新链接；新会话中确认技能已被发现。
 
-在仓库目录运行 `python3 -m unittest discover -s tests -v` 执行回归与批量检查，运行 `python3 tests/check_records.py` 检查保存的1.1证据记录。1.0历史产物明确跳过，不伪称符合新规则。GitHub工作流为Python 3.11、3.12、3.13执行这两项检查；网页支持性和完整研究质量仍需人工复核。
+```text
+使用 $admission-intelligence 研究 Northwestern MSIS。
+先确认具体项目，给出画像分类、代表案例和逐项来源。
+未公开的不要猜，说明年份和渠道覆盖的缺口。
+```
 
-第四轮完成26项独立来源复查和一次不读旧报告的Brown跨渠道试运行，修正报告计数、申请前年限、发布日期与摘要证据混用。53项回归已在换目录的Python 3.12环境通过，增加Github自动检查及保存记录检查入口；真实研究仍有近期年级覆盖不足。最新修正版目录为Berkeley／Northwestern的 `2026-10-05-source-review` 与Brown的 `2026-10-05-forward-test`，详情见 `第四轮验证与GitHub交付-2026-10-05.md`。
+## 交付内容
+
+完整研究保存 `report.md`、`cases.json` 和 `search-log.md`：报告说明观察到的背景路径与结论边界，证据记录保存逐字段出处，检索记录说明渠道覆盖与停止原因。有限研究会明确缺失年份、渠道和字段，不把小样本描述为完整画像。
+
+可以先阅读 [Northwestern MSIS 修正版报告](research/northwestern-msis/2026-10-05-source-review/report.md)，或通过 [研究索引](research/README.md)选择其他案例。现有报告均为有限验证产物，尚未完成最近三个入学年级的全面覆盖。
+
+## 验证与边界
+
+辅助工具仅依赖 Python 3.11 或更新版本的标准库：
+
+```sh
+python3 -m unittest discover -s tests -v
+python3 tests/check_records.py
+```
+
+当前有 53 项回归测试，包含 752 种嵌套输入变异、5,000 组随机工作区间及 200 组既有对照。GitHub Actions 在 Python 3.11、3.12、3.13 上运行回归与记录检查。批量测试数量不是实际录取研究数量，也不是模型输出正确率。
+
+`validate_cases.py` 检查记录结构与引用一致性；`work_months.py` 计算已提供月级日期区间的并集。两者均不验证网页真实性、正文支持性或模型研究质量。人工来源复查与独立研究试运行的证据见 [评估说明](tests/skill-evaluation.md)和 [历史验证记录](docs/history/README.md)。旧版 1.0 记录保留并明确跳过新版结构检查；独立初稿保留供审计，不应作为最终报告引用。
+
+## 仓库结构
+
+可安装的技能与辅助脚本位于 [skills/admission-intelligence](skills/admission-intelligence/SKILL.md)，研究材料位于 [research](research/README.md)，自动回归及评估证据位于 [tests](tests/skill-evaluation.md)，设计与历次修正记录位于 [docs/history](docs/history/README.md)。运行时不依赖研究存档或测试日志。
