@@ -16,25 +16,25 @@ research/northwestern-msis/2026-10-05-delivery-review/cases.json#/sources/6 — 
 
 research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/identity_link — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — official profile lines 26-28: named Austin, MSIS 21, caption graduated
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/track — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — lines 32,37: online studies and online master
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/enrollment_status — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — line 26 caption explicitly graduated
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/fields/prior_education — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — line 27: enrolling pre-med at Indiana University Northwest
 
@@ -42,49 +42,49 @@ research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/0/experi
 
 research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/identity_link — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — official profile lines 26-27: named Swetha MSIS 22 and graduate caption
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/track — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/track — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/enrollment_status — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — lines 26,33: graduate caption and fellowship after graduation
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/1/experiences/0 — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — line 33: began Common Spirit fellowship after graduation
 
 research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/identity_link — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — official profile lines 27-29,35-36: Nancy named and earning MSIS online
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/track — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — lines 29,35-36 online program and online studies
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/enrollment_status — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — lines 35-36 earning degree / studies underway
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-delivery-review/cases.json#/cases/2/experiences/0 — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — lines 27-29: CPA then current SpaceX job motivated program choice
 
@@ -106,25 +106,25 @@ research/northwestern-msis/2026-10-05-forward-test/cases.json#/sources/6 — sup
 
 research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/identity_link — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — official profile lines 26-28: named Austin, MSIS 21, caption graduated
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/track — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — lines 32,37: online studies and online master
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/enrollment_status — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — line 26 caption explicitly graduated
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/fields/prior_education — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — line 27: enrolling pre-med at Indiana University Northwest
 
@@ -132,73 +132,73 @@ research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/0/experienc
 
 research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/identity_link — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — official profile lines 26-27: named Swetha MSIS 22 and graduate caption
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/track — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/track — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/enrollment_status — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — lines 26,33: graduate caption and fellowship after graduation
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/1/experiences/0 — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — line 33: began Common Spirit fellowship after graduation
 
 research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/identity_link — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — official profile lines 27-29,35-36: Nancy named and earning MSIS online
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/track — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — lines 29,35-36 online program and online studies
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/enrollment_status — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — lines 35-36 earning degree / studies underway
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/2/experiences/0 — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — lines 27-29: CPA then current SpaceX job motivated program choice
 
 research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/identity_link — inaccessible — Only old indexed snippet identity and offer/planned entry; direct original post unavailable and exact URL search not reproduced. Cannot upgrade to verified case or actual 2020 enrollment. Preserve original as unverified lead. — original post direct fetch cache miss; exact URL search no source result
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/track — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/track — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/masters_start — inaccessible — Only old indexed snippet identity and offer/planned entry; direct original post unavailable and exact URL search not reproduced. Cannot upgrade to verified case or actual 2020 enrollment. Preserve original as unverified lead. — original post direct fetch cache miss; exact URL search no source result
 
 research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/enrollment_status — inaccessible — Only old indexed snippet identity and offer/planned entry; direct original post unavailable and exact URL search not reproduced. Cannot upgrade to verified case or actual 2020 enrollment. Preserve original as unverified lead. — original post direct fetch cache miss; exact URL search no source result
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-forward-test/cases.json#/cases/3/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-forward-test/report.md#report — overstated — Most historical facts supported. Prose says undergraduate/work details not public: sources merely omit them, so narrow to not found in accessed evidence. Anonymous offer details presently inaccessible, retain as old snippet claims rather than current corroborated facts. Source/forward versions retain anonymous identity inside cases despite only snippet identity, violating current skill. Next-step scope says 2024–2025, missing 2026 entry. Official current/historical accelerated opening relationship unresolved; do not merge. Old claimed test rounds/channel attempts are historical workflow statements, not independently proven by today source opens. — Austin lines 26-28,32,37,42; Swetha lines 26-33; Nancy lines 27-36; Reddit lines 21,77; program FAQ fall 2024 vs official 2019–20 PDF p22
 
@@ -218,25 +218,25 @@ research/northwestern-msis/2026-10-05-source-review/cases.json#/sources/6 — su
 
 research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/identity_link — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — official profile lines 26-28: named Austin, MSIS 21, caption graduated
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/track — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — lines 32,37: online studies and online master
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/enrollment_status — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — line 26 caption explicitly graduated
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/fields/prior_education — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — line 27: enrolling pre-med at Indiana University Northwest
 
@@ -244,73 +244,72 @@ research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/0/experien
 
 research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/identity_link — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — official profile lines 26-27: named Swetha MSIS 22 and graduate caption
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/track — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/track — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/enrollment_status — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — lines 26,33: graduate caption and fellowship after graduation
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/1/experiences/0 — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — line 33: began Common Spirit fellowship after graduation
 
 research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/identity_link — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — official profile lines 27-29,35-36: Nancy named and earning MSIS online
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/track — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — lines 29,35-36 online program and online studies
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/masters_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/enrollment_status — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — lines 35-36 earning degree / studies underway
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/2/experiences/0 — supported — Directly opened cited official body supports the narrowly scoped recorded claim; does not validate unspecified education or application details. — lines 27-29: CPA then current SpaceX job motivated program choice
 
 research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/identity_link — inaccessible — Only old indexed snippet identity and offer/planned entry; direct original post unavailable and exact URL search not reproduced. Cannot upgrade to verified case or actual 2020 enrollment. Preserve original as unverified lead. — original post direct fetch cache miss; exact URL search no source result
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/work_duration_before_application — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/track — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/track — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/undergraduate_end — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/masters_graduation — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/undergraduate_school — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/application_narrative — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/masters_start — inaccessible — Only old indexed snippet identity and offer/planned entry; direct original post unavailable and exact URL search not reproduced. Cannot upgrade to verified case or actual 2020 enrollment. Preserve original as unverified lead. — original post direct fetch cache miss; exact URL search no source result
 
 research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/enrollment_status — inaccessible — Only old indexed snippet identity and offer/planned entry; direct original post unavailable and exact URL search not reproduced. Cannot upgrade to verified case or actual 2020 enrollment. Preserve original as unverified lead. — original post direct fetch cache miss; exact URL search no source result
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/undergraduate_major — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
-research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. — 
+research/northwestern-msis/2026-10-05-source-review/cases.json#/cases/3/fields/undergraduate_start — unknown_preserved — Recorded null remains evidence insufficient; no claim that the person lacks this attribute and no verified absence. —
 
 research/northwestern-msis/2026-10-05-source-review/report.md#report — overstated — Most historical facts supported. Prose says undergraduate/work details not public: sources merely omit them, so narrow to not found in accessed evidence. Anonymous offer details presently inaccessible, retain as old snippet claims rather than current corroborated facts. Source/forward versions retain anonymous identity inside cases despite only snippet identity, violating current skill. Next-step scope says 2024–2025, missing 2026 entry. Official current/historical accelerated opening relationship unresolved; do not merge. Old claimed test rounds/channel attempts are historical workflow statements, not independently proven by today source opens. — Austin lines 26-28,32,37,42; Swetha lines 26-33; Nancy lines 27-36; Reddit lines 21,77; program FAQ fall 2024 vs official 2019–20 PDF p22
-
