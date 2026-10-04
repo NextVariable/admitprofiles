@@ -1,0 +1,354 @@
+{
+  "schema_version": "1.0",
+  "researched_on": "2026-10-05",
+  "run_type": "limited_manual_pilot",
+  "scope": {
+    "institution": "Carnegie Mellon University",
+    "program": "MIIPS",
+    "tracks": [
+      "具体线下时长待核实；线上单列"
+    ],
+    "years": [
+      "来源届别 2024、2025，不是已核实入学年"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "url": "https://www.cmu.edu/iii/about/news/2025/student-spotlight-miriam-desta.html",
+      "title": "Miriam Desta student spotlight",
+      "publisher": "Carnegie Mellon University",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "开头学历及研究背景；Working within Innovative Healthcare；What’s Next"
+    },
+    {
+      "id": "S2",
+      "url": "https://www.cmu.edu/iii/about/news/2025/student-spotlight-julia-ang.html",
+      "title": "Julia Ang student spotlight",
+      "publisher": "Carnegie Mellon University",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "开头学历、工作经历与转型动机"
+    },
+    {
+      "id": "S3",
+      "url": "https://www.cmu.edu/iii/about/news/2024/student-spotlight-allan-gulley.html",
+      "title": "Allan Gulley student spotlight",
+      "publisher": "Carnegie Mellon University",
+      "source_type": "official_profile",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "副标题及开头明确 MIIPS Online"
+    },
+    {
+      "id": "S4",
+      "url": "https://www.cmu.edu/iii/graduate-programs/miips/index.html",
+      "title": "MIIPS program overview",
+      "publisher": "Carnegie Mellon University",
+      "source_type": "official_program",
+      "accessed_on": "2026-10-05",
+      "published_on": null,
+      "access_state": "full_text",
+      "locator": "Choose the master’s in product innovation format"
+    }
+  ],
+  "cases": [
+    {
+      "id": "C1",
+      "public_name_or_handle": "Miriam Desta",
+      "identity_link": {
+        "basis": "官方人物介绍直接将姓名与项目关联",
+        "source_ids": [
+          "S1"
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "报道时在读；标注 MIIPS ’25",
+          "status": "documented",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "undergraduate_school": {
+          "value": "University of Virginia",
+          "status": "documented",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        "undergraduate_major": {
+          "value": "Cognitive Science，Neuroscience 方向",
+          "status": "documented",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "masters_graduation": {
+          "value": {
+            "expected": "2025-12",
+            "completed": null
+          },
+          "status": "documented",
+          "source_ids": [
+            "S1"
+          ],
+          "note": "报道记载预期毕业，未另核实完成"
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        }
+      },
+      "experiences": [
+        {
+          "type": "research",
+          "organization_or_role": "epilepsy research",
+          "start": null,
+          "end": null,
+          "relative_timing": "before_enrollment_only",
+          "status": "documented",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        {
+          "type": "internship",
+          "organization_or_role": "Sun Life Product Design intern",
+          "start": null,
+          "end": null,
+          "relative_timing": "during_program",
+          "status": "documented",
+          "source_ids": [
+            "S1"
+          ]
+        }
+      ],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C2",
+      "public_name_or_handle": "Julia Ang",
+      "identity_link": {
+        "basis": "官方人物介绍直接将姓名与项目关联",
+        "source_ids": [
+          "S2"
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "报道时在读；标注 MIIPS ’25",
+          "status": "documented",
+          "source_ids": [
+            "S2"
+          ]
+        },
+        "track": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "undergraduate_school": {
+          "value": "National University of Singapore",
+          "status": "documented",
+          "source_ids": [
+            "S2"
+          ]
+        },
+        "undergraduate_major": {
+          "value": "Project and Facilities Management",
+          "status": "documented",
+          "source_ids": [
+            "S2"
+          ]
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        }
+      },
+      "experiences": [
+        {
+          "type": "employment_unspecified",
+          "organization_or_role": "JLL commercial office construction projects",
+          "start": null,
+          "end": null,
+          "relative_timing": "before_enrollment_only",
+          "duration": {
+            "value": 3.5,
+            "unit": "years",
+            "basis": "来源明确说返校前在建筑行业三年半；未证明全程为同一雇主或全职",
+            "source_ids": [
+              "S2"
+            ]
+          },
+          "status": "documented",
+          "source_ids": [
+            "S2"
+          ]
+        }
+      ],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": []
+    },
+    {
+      "id": "C3",
+      "public_name_or_handle": "Allan Gulley",
+      "identity_link": {
+        "basis": "官方人物介绍直接将姓名与项目关联",
+        "source_ids": [
+          "S3"
+        ]
+      },
+      "fields": {
+        "enrollment_status": {
+          "value": "报道时在读；标注 ’24",
+          "status": "documented",
+          "source_ids": [
+            "S3"
+          ]
+        },
+        "track": {
+          "value": "MIIPS Online",
+          "status": "documented",
+          "source_ids": [
+            "S3"
+          ]
+        },
+        "undergraduate_school": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "undergraduate_major": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "undergraduate_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "undergraduate_end": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "masters_start": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "masters_graduation": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "work_duration_before_application": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        },
+        "application_narrative": {
+          "value": null,
+          "status": "unknown",
+          "source_ids": []
+        }
+      },
+      "experiences": [],
+      "primary_archetype": null,
+      "tags": [],
+      "conflicts": [],
+      "excluded_from_on_campus_distribution": true,
+      "exclusion_reason": "明确属于线上项目，不能并入线下画像"
+    }
+  ],
+  "archetypes": [
+    {
+      "label": "认知科学／健康研究转向 UX 与产品",
+      "status": "inferred",
+      "case_ids": [
+        "C1"
+      ],
+      "source_ids": [
+        "S1"
+      ],
+      "scope": "单一已观察路径，具体项目时长未知",
+      "limitations": "不能称稳定群体或估算频率"
+    },
+    {
+      "label": "建筑行业经验转向产品／UX",
+      "status": "inferred",
+      "case_ids": [
+        "C2"
+      ],
+      "source_ids": [
+        "S2"
+      ],
+      "scope": "单一已观察路径，具体项目时长未知",
+      "limitations": "不能称稳定群体；工作区间与申请时点缺失"
+    }
+  ]
+}
