@@ -33,5 +33,20 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Check research record consistency
         run: python tests/check_records.py
-      - name: Check frozen source audit coverage
-        run: python tests/check_source_audit.py
+      - name: Check recorded model decisions
+        run: python tests/check_decisions.py evals/decision-benchmark/2026-10-05
+
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.14'
+      - name: Check archived records and frozen audit
+        run: |
+          python tests/check_records.py --root archive/research
+          python tests/check_source_audit.py archive/evals/source-audits/2026-10-05 --records-root archive

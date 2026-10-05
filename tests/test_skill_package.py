@@ -72,7 +72,7 @@ class SkillPackageTests(unittest.TestCase):
             "docs/architecture.md",
             "research/README.md",
             "evals/README.md",
-            "docs/history/README.md",
+            "archive/README.md",
         ):
             document = ROOT / name
             for link in re.findall(

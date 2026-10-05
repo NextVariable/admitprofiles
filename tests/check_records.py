@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate archived JSON consistency; no network or semantic source audit."""
 
+import argparse
 import importlib.util
 import json
 import sys
@@ -15,10 +16,13 @@ spec.loader.exec_module(records)
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--root", type=Path, default=ROOT / "research")
+    args = parser.parse_args()
     failed = False
     checked = legacy = 0
-    for path in sorted((ROOT / "research").rglob("cases.json")):
-        name = path.relative_to(ROOT)
+    for path in sorted(args.root.resolve().rglob("cases.json")):
+        name = path.relative_to(ROOT) if path.is_relative_to(ROOT) else path
         try:
             data = json.loads(
                 path.read_text(encoding="utf-8"),

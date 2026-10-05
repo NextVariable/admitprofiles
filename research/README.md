@@ -1,14 +1,12 @@
-# 研究材料索引
+# 查询示例
 
-优先阅读本轮2024、2025、2026入学范围的跨渠道复核版本。各项目都完成了实际检索与连续两轮无新增的停止流程；这不等于全班覆盖，缺失字段和访问限制见报告开头。目录日期是研究日期。
+以下是四个项目的查询结果，均附逐字段来源和检索记录。公开样本不代表完整年级背景。
 
-| 项目 | 最新报告 | 实际范围 |
+| 项目 | 查询结果 | 资料范围 |
 | --- | --- | --- |
-| CMU MIIPS | [近期复核](cmu-miips/2026-10-05-cohort-review/report.md) | 六个身份，两个线下明确入学日期；另一个2024起模式未知，offer分开 |
-| Berkeley MDevEng | [近期复核](berkeley-mdeveng/2026-10-05-cohort-review/report.md) | 11身份，2024/2025/2026入学3/4/3，另1年未知；非全班 |
-| Northwestern MSIS | [近期复核](northwestern-msis/2026-10-05-cohort-review/report.md) | 近期三年暂无可正文确认人物；官方历史版本冲突保留 |
-| Brown PRIME | [近期复核](brown-prime/2026-10-05-cohort-review/report.md) | 四个身份，个人入学年均未正文确认；本科层级勘误已应用 |
+| Berkeley MDevEng | [阅读](berkeley-mdeveng/2026-10-05-cohort-review/report.md) | 11个人物，其中10人有2024—2026入学年份证据 |
+| CMU MIIPS | [阅读](cmu-miips/2026-10-05-cohort-review/report.md) | 六个身份，区分在读、offer自报和授课模式未知 |
+| Brown PRIME | [阅读](brown-prime/2026-10-05-cohort-review/report.md) | 四个人物，个人入学年份未确认 |
+| Northwestern MSIS | [阅读](northwestern-msis/2026-10-05-cohort-review/report.md) | 近期背景证据不足，保留项目版本冲突和检索线索 |
 
-每份研究保存报告、证据记录和实际检索日志。历史目录和独立初稿保留，不合并同一人物重复计数。Brown本轮冻结盲稿保存在independent-draft，正式cases使用复核修正版本；勘误公开保留。
-
-此前全部11份记录与其报告已经完成[703条逐版本来源审计](../evals/source-audits/2026-10-05/README.md)，包含过度主张、当前不可访问和未知。历史仍保留原貌，因此旧稿可能结构通过但事实已被修正，不能绕过审计当最新结论引用。
+每个目录包含可读报告、结构化记录与检索日志。这里只保留当前版本；旧稿和修正过程见[历史档案](../archive/README.md)。

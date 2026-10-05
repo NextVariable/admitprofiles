@@ -1,8 +1,9 @@
 """Coverage regressions prevent omission, duplicate approval, or history rewrite."""
 
 import copy
+import hashlib
 import importlib.util
-import json
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -14,16 +15,35 @@ spec.loader.exec_module(audit)
 
 
 class SourceAuditTests(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.inventory = json.loads((audit.AUDIT / "inventory.json").read_text())
-        cls.reviews = [
-            json.loads((audit.AUDIT / f"{name}.json").read_text())
-            for name in ("berkeley", "brown", "cmu", "northwestern")
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        (self.root / "record.json").write_text("{}")
+        self.inventory = {
+            "date": "2026-10-05",
+            "units": [{"unit_id": "record.json#/field"}],
+            "files": [
+                {"path": "record.json", "sha256": hashlib.sha256(b"{}").hexdigest()}
+            ],
+        }
+        self.reviews = [
+            {
+                "units": [
+                    {
+                        "unit_id": "record.json#/field",
+                        "verdict": "supported",
+                        "rationale": "Source supports the field",
+                        "checked_on": "2026-10-05",
+                        "checked_urls": ["https://example.org/source"],
+                        "evidence_locators": ["Education"],
+                    }
+                ]
+            }
         ]
 
     def test_complete_frozen_audit(self):
-        self.assertEqual(audit.check(self.inventory, self.reviews, audit.ROOT), [])
+        self.assertEqual(audit.check(self.inventory, self.reviews, self.root), [])
 
     def test_omission_is_rejected(self):
         reviews = copy.deepcopy(self.reviews)
@@ -31,7 +51,7 @@ class SourceAuditTests(unittest.TestCase):
         self.assertTrue(
             any(
                 "Missing audit unit" in e
-                for e in audit.check(self.inventory, reviews, audit.ROOT)
+                for e in audit.check(self.inventory, reviews, self.root)
             )
         )
 
@@ -41,7 +61,7 @@ class SourceAuditTests(unittest.TestCase):
         self.assertTrue(
             any(
                 "Duplicate audit unit" in e
-                for e in audit.check(self.inventory, reviews, audit.ROOT)
+                for e in audit.check(self.inventory, reviews, self.root)
             )
         )
 
@@ -51,7 +71,7 @@ class SourceAuditTests(unittest.TestCase):
         self.assertTrue(
             any(
                 "Historical file changed" in e
-                for e in audit.check(inventory, self.reviews, audit.ROOT)
+                for e in audit.check(inventory, self.reviews, self.root)
             )
         )
 
@@ -62,6 +82,6 @@ class SourceAuditTests(unittest.TestCase):
         self.assertTrue(
             any(
                 "Missing source check" in e
-                for e in audit.check(self.inventory, reviews, audit.ROOT)
+                for e in audit.check(self.inventory, reviews, self.root)
             )
         )

@@ -1,19 +1,27 @@
 # 维护与验证
 
-修改技能时保持默认任务为项目公开录取画像研究。新增规则应针对已观察到的失败或明确用户要求，不将单次案例固化成全局流程。通用流程保留在 SKILL.md，条件细节放入 references 并注明读取时机。
-
-Python 运行时只依赖标准库，Ruff 是维护工具。使用 Python 3.11+，在自己的虚拟环境中安装 `requirements-dev.txt` 后运行：
+运行时仅依赖 Python 3.11+ 标准库。安装维护工具后，在仓库根目录执行：
 
 ```sh
+python3 -m pip install -r requirements-dev.txt
 ruff check .
 ruff format --check .
 python3 -m unittest discover -s tests -v
 python3 tests/check_records.py
-python3 tests/check_source_audit.py
+python3 tests/check_decisions.py evals/decision-benchmark/2026-10-05
 ```
 
-提交前核对差异、包内引用和从独立目录执行的行为；校验器结构通过不代表网页支持结论。新增研究保留报告、证据和检索记录，修正版使用独立目录，并更新 research/README.md。禁止覆盖独立初稿或旧研究以掩盖修正。
+日常检查覆盖技能工具、当前研究与固定模型输出。历史证据独立检查：
 
-自动测试代码放在 tests，人工／模型评估与原始日志放在 evals，设计历史放在 docs/history。评估应明确输入、执行条件、实际产物、失败与修正；不把未执行的验收计划列为通过。项目没有宣布开源许可证，贡献规范不授予再分发权限。
+```sh
+python3 tests/check_records.py --root archive/research
+python3 tests/check_source_audit.py archive/evals/source-audits/2026-10-05 --records-root archive
+```
 
-架构依据与本次整理的范围见 [架构说明](docs/architecture.md)。
+结构检查不证明来源真实，固定输出重评分也不等于重新运行模型。变更证据规则时，应增加针对实际错误的回归，并做真实查询复核。
+
+技能规则留在 `skills/`，当前示例留在 `research/`，过时版本移入 `archive/`，原内容保留。更新示例后同步研究索引，不把独立初稿当正式结果。历史文件中的原始相对路径按归档前目录解释；审计清单保留原路径与哈希。
+
+[架构说明](docs/architecture.md) · [评估范围](evals/README.md) · [历史档案](archive/README.md)
+
+仓库尚未声明开源许可证；源码可访问不代表获得再分发授权。

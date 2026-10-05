@@ -1,6 +1,6 @@
 interface:
-  display_name: "录取画像研究"
-  short_description: "跨来源研究硕士项目真实录取案例，归纳画像并核查申请前背景"
+  display_name: "AdmitProfiles · 录取背景查询"
+  short_description: "查询留学项目录取者的学校、专业、工作与实习背景，附来源"
   default_prompt: "使用 $admission-intelligence 研究指定项目的真实录取画像，结论先行，逐项标注来源和未知信息。"
 policy:
   allow_implicit_invocation: true

@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """Verify audit coverage and frozen evidence; never certify source semantics."""
 
+import argparse
 import hashlib
 import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-AUDIT = ROOT / "evals/source-audits/2026-10-05"
 VERDICTS = {
     "supported",
     "overstated",
@@ -58,12 +57,19 @@ def check(inventory, audits, root):
 
 
 def main():
-    inventory = json.loads((AUDIT / "inventory.json").read_text())
-    audits = [
-        json.loads((AUDIT / f"{name}.json").read_text())
-        for name in ("berkeley", "brown", "cmu", "northwestern")
-    ]
-    errors = check(inventory, audits, ROOT)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("audit_dir", type=Path)
+    parser.add_argument("--records-root", type=Path, required=True)
+    args = parser.parse_args()
+    inventory = json.loads((args.audit_dir / "inventory.json").read_text())
+    audits = []
+    for path in sorted(args.audit_dir.glob("*.json")):
+        if path.name == "inventory.json":
+            continue
+        data = json.loads(path.read_text())
+        if isinstance(data, dict) and "units" in data:
+            audits.append(data)
+    errors = check(inventory, audits, args.records_root)
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1

@@ -6,4 +6,6 @@
 
 题包是显式使用skill的合成判断，不包含真实网页检索、隐式触发、自由生成长报告或完全背景还原。题目有明显规则边界，32/32不能推广为实际研究100%正确，更不能称skill完美。三份真实盲搜和CMU主审研究在research；冻结后仍发现本科专业错误，正说明合成题成绩不能替代来源审阅。
 
-运行python3 evals/decision-benchmark/2026-10-05/grade.py重现results.json；脚本检查输入哈希、题号集合、重复遗漏和yes/no一致性，不自动裁定理由的全部语义。
+运行python3 tests/check_decisions.py evals/decision-benchmark/2026-10-05重现results.json；脚本检查输入哈希、题号集合、重复遗漏和yes/no一致性，不自动裁定理由的全部语义。
+
+维护更新：评分入口移至tests，按execution.json要求全部运行输出存在。错误答案与缺失输出均返回失败；原汇总脚本保留archive。

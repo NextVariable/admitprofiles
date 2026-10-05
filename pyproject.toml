@@ -1,7 +1,7 @@
 [tool.ruff]
 target-version = "py311"
 line-length = 88
-include = ["skills/admission-intelligence/scripts/*.py", "tests/*.py"]
+extend-exclude = ["archive"]
 
 [tool.ruff.lint]
 select = ["E4", "E7", "E9", "F", "I"]
