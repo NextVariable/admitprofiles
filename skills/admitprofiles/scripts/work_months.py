@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Union month-level employment intervals without guessing date precision."""
+"""合并月级工作区间，不猜日期精度。
+
+Union month-level employment intervals without guessing date precision.
+"""
 
 import argparse
 import json

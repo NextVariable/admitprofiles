@@ -12,7 +12,7 @@
 
 默认路径为 research/<项目标识>/<YYYY-MM-DD>/。已存在目录使用不同运行后缀，或在明确更新任务中保留旧版本。research 不包含自动安装器、虚构示例或生成身份。
 
-report.md 是中文可读结论；search-log.md 记录查询、渠道、访问情况、新增独立案例数和停止原因；cases.json 用于未来复核与复用。简短回答可只保存报告，完整项目研究需保存三者。
+report.md 是按用户请求语言撰写的可读结论（未指定时用中文）；search-log.md 记录查询、渠道、访问情况、新增独立案例数和停止原因；cases.json 用于未来复核与复用。简短回答可只保存报告，完整项目研究需保存三者。
 
 cases.json 结构示例（字段值下方仅为结构说明，实际文件不得用占位符充数）：
 
@@ -77,7 +77,7 @@ access_state 为 full_text／partial_text／snippet_only／blocked／failed；�
 
 需要记录文件时按格式生成，交付前运行 `python3 scripts/validate_cases.py <cases.json>`。它检查结构和引用，不检查网页是否真实或是否支持结论；正文支持性仍逐项人工核查。若需要计算完整月级工作日期，先读 [证据规则](evidence.md)，再运行 `python3 scripts/work_months.py <intervals.json>`；不要为运行计算器补出缺失日期。两者仅依赖 Python 3 标准库。
 
-先用自然中文概括已观察到的主要画像、样本覆盖和结论边界，再说明每类，随后给具体案例。用户要求具体背景对照时用表格；不需要时用完整段落。读者无需先看方法才能知道研究结论。
+先用用户请求的语言（未指定时用自然中文）概括已观察到的主要画像、样本覆盖和结论边界，再说明每类，随后给具体案例。用户要求具体背景对照时用表格；不需要时用完整段落。读者无需先看方法才能知道研究结论。
 
 报告开头明确哪些目标字段已经查到、哪些仍缺失，不能把字段很多但几乎全为未知的输出称为背景已还原。人物学历含多次本科或申请前硕士时分别记录，避免漏掉已有研究生教育。
 
@@ -86,3 +86,63 @@ access_state 为 full_text／partial_text／snippet_only／blocked／failed；�
 用户只问项目时，至此结束。有申请者真实背景且用户要求匹配时，再解释已有路径的联系、证据缺口和差异化：以具体贡献而非稀缺标签说明价值，允许判断不匹配；缺事实先问或保留未知，不从先前聊天候选标签生成个人事实。默认不生成 SOP、不提供录取概率。
 
 完成前检查：身份和学位是否一致，申请后经历是否误作申请条件，年限是否重复／推算，分类能否回到案例，链接是否真正支持对应字段，未知和来源冲突是否仍可见。正式报告与小样本试运行区分，结构检查不代表研究结果已全面验证。
+
+---
+
+# Delivery and record format — English
+
+This section is the English counterpart of the Chinese rules. Use the JSON schema example above without translating keys or enum values. The documentation is bilingual; deliver research in the user's requested language, defaulting to Chinese.
+
+## User-facing report
+
+Lead with the exact program/track, observed groups or paths, independent case count and years, and key gaps. Then explain shared backgrounds and representative cases with sources. Do not present a universal admissions formula.
+
+Use case tables when requested. Include status, version, undergraduate school/major and start/end, master's entry/graduation, pre-application employment duration and calculation boundary, internships/research/projects, application narrative evidence and sources. Say “not found in material accessed” or “unconfirmed”; use “not publicly disclosed” only when a source explicitly establishes that. A search omission does not prove internet-wide absence. Expand conflicts. Split overly wide tables into education timelines and experience/application paths without dropping requested fields.
+
+Then explain official requirements/curriculum, research coverage and limitations. Put requested personal comparisons after research conclusions, separating personal facts from analysis.
+
+## Saved records
+
+Default to `research/<program-id>/<YYYY-MM-DD>/`. Use another run suffix for an existing directory, or retain the previous version in an explicit update. Research directories contain no automatic installer, fabricated examples or generated identities.
+
+`report.md` is the readable conclusion in the requested language, Chinese by default. `search-log.md` records queries, channels, access, new independent-case counts and stopping reasons. `cases.json` supports later review/reuse. Short answers may save only a report; full program research requires all three.
+
+The JSON block above illustrates structure only: never fill real records with placeholders. Experiences record type, organization/role, raw dates, timing relative to application, status and sources, with the same evidence structure for GPA scales and education regions.
+
+Use the exact key `relative_timing`, not alternatives such as `relative_to_application`. The full shape is `{type, organization, role, start, end, relative_timing, status, source_ids, evidence}`. Unknown organization, role or dates may be null; follow source/evidence rules. If application timing is unknown, keep career duration separately in experiences and leave pre-application duration unknown, or explicitly approximate using a known enrollment boundary. Do not bury uncertainty behind an apparently confirmed number.
+
+## Machine-checking contract
+
+New records use `schema_version` 1.1. Preserve legacy 1.0 records without claiming they passed the new checks. Every non-unknown field requires at least one `source_id` and evidence locator for every source. Unknown values are null. Field conflicts live in `case.conflicts` as `{field, values: [{value, source_ids, evidence}]}` with at least two different values.
+
+Access states are `full_text`, `partial_text`, `snippet_only`, `blocked`, `failed`. Blocked/failed sources cannot support fields. Snippets remain limited evidence, not upgraded documentary facts. Source/case IDs are unique; URLs use HTTP(S). Experience types are `full_time`, `part_time`, `self_employed`, `internship`, `research`, `project`, `employment_unspecified`; experiences also have evidence locators.
+
+Archetype `case_ids` are nonempty and exclude rejected, waitlisted, unknown-admission or explicitly excluded-version cases. Unknown-track cases form explicitly track-unconfirmed paths, not confirmed-track proportions.
+
+Every source ID must exist. Inferred archetypes point to actual cases. Unknown means null, not zero, no work or an automatic estimate. Preserve conflicting source values rather than discarding conflict and declaring confirmation.
+
+Field statuses are `documented`, `self_reported`, `secondary`, `calculated`, `inferred`, `unknown`, `conflicting`. Enrollment values are `offer_self_reported`, `offer_documented`, `enrolled`, `graduated`, `waitlisted`, `rejected`; absent evidence uses null/unknown. Mark planned/expected entry or graduation as such, not completed. Calculated durations require `cutoff` and a nonempty textual `calculation`, not whitespace or booleans.
+
+Identity links need nonempty `basis`, corresponding sources and evidence. Archetype admission status must be documented or self-reported, not inferred/calculated/conflicting. Each member must connect to at least one documented, self-reported or secondary field source cited by the archetype; unknown, inferred, calculated or conflicting fields alone cannot establish this link. Relationship checks do not establish semantic support; review manually. Source/research dates are valid YYYY-MM-DD. Reject duplicate JSON keys and NaN/Infinity. Unknown fields retaining sources also require locators.
+
+Archetypes may also cite documented, self-reported or secondary member experiences; do not duplicate work into education fields merely to pass validation. Unknown, inferred or calculated experiences alone cannot establish member connections. Verify identity, timing and support for pre-application classification manually.
+
+For conflicting official program information, optionally use `program_conflicts` entries with `field`, at least two distinct original `alternatives`, `resolution` (including unresolved), sources and evidence. Keep program conflicts separate from personal résumé fields.
+
+One conflicting field per person has one conflict record containing all distinct alternatives/sources in `values`. Known values and conflict alternatives cannot be whitespace, empty arrays or empty objects. Do not duplicate the same source/locator pair in a field. Source access cannot postdate `researched_on`; update the research date on follow-up and retain earlier versions. Duration cutoffs accept valid YYYY, YYYY-MM or YYYY-MM-DD with source precision; the month calculator still requires YYYY-MM. Both tools reject duplicate keys and non-finite numbers.
+
+For school/subject with unconfirmed degree level, use `fields.prior_education.value`, explicitly noting unconfirmed `degree_level`, with the same statuses, sources and evidence; undergraduate fields remain unknown. Store event/date observations separately as `fields.enrollment_observation`, not exact start dates. Custom top-level extensions such as leads are outside validator guarantees; keep unverified leads in `search-log.md`. Numeric durations cannot be negative, boolean or non-finite; state units in the value object or notes.
+
+URLs need valid HTTP(S) host/port; encode spaces and reject control characters/backslashes. Syntax validity does not prove a page exists or supports a claim. Search-snippet identity leads stay in search logs, outside verified cases. Old structurally passing records still require text-based identity review.
+
+## Review and personal comparison
+
+Resolve script paths against the skill's `SKILL.md`, not the current working directory, and invoke absolute paths. Generate records in this format and run `scripts/validate_cases.py <cases.json>` before delivery. It checks structure/references, not page truth or claim support. For verified complete month-level work dates read [Evidence rules](evidence.md) and run `scripts/work_months.py <intervals.json>`. Never invent dates to use the calculator. Both use only the Python standard library.
+
+Summarize observed groups, coverage and boundaries in natural prose, then explain groups and cases. Use tables for requested background comparisons; otherwise use paragraphs. Readers should understand findings before methodology. At the start state which requested fields were recovered and which remain missing. Numerous mostly unknown fields are not completed background reconstruction. Record multiple bachelor's degrees and prior master's education separately.
+
+Put accessible source links beside facts, identifying official, LinkedIn, personal retrospective or forum self-report sources. Do not only collect links at the end. Preserve access dates, locators, field evidence and gaps/conflicts. Save full research as report, cases and search log under program/date directories without overwriting earlier research. Reuse prior records with reverification of changed material and recorded corrections.
+
+For program-only questions stop there. With actual applicant background and a comparison request, explain connections, evidence gaps and differentiation using concrete contributions rather than rarity labels. A mismatch is an acceptable conclusion. Ask for missing facts or retain unknowns; never derive personal facts from earlier candidate labels. Do not generate an SOP or probability by default.
+
+Before finishing verify identity/degree consistency, pre-application timing, nonduplicated durations, traceable groups, claim-specific citations and visible unknowns/conflicts. Distinguish formal reports from small trial runs; structural success is not comprehensive research validation.

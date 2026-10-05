@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Check evidence record consistency, not truth or semantic source support."""
+"""检查证据记录一致性，不验证真值或来源语义支持。
+
+Check evidence record consistency, not truth or semantic source support.
+"""
 
 import argparse
 import json

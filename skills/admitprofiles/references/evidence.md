@@ -54,3 +54,59 @@
 国家／地区的本科分类按学校和校区，不凭姓名推断国籍、族裔或身份。GPA 不擅自换算不同量表。不要记录无关联系方式和敏感个人信息。
 
 “包装路线”只在本人公开 SOP、申请复盘或明确访谈时描述其自述表达方式。事后访谈的选择动机不等于申请文书内容。履历能支持经历路径，不能支持文书故事或录取原因；模型提出的叙事解释标为推断。
+
+---
+
+# Research and evidence rules — English
+
+This section translates the Chinese rules above; it is not a second set of requirements.
+
+## Evidence grades are claim-specific
+
+Official pages support explicitly stated identity, education or experience, not unstated GPA or exact dates. Personal sites, public résumés and LinkedIn are public self-disclosures; forum claims retain self-reported status; agency/community summaries retain secondary status. An official-source label does not validate every unknown field.
+
+Every claim records `value`, `status`, `source_ids` and `evidence` with `source_id` and field-specific `locator`. A page title alone is insufficient. Status values are `documented` (explicitly stated), `self_reported`, `secondary`, `calculated`, `inferred`, `unknown` and `conflicting`. An official interview quoting a person's history retains that nature; documented means source-stated, not independently audited truth.
+
+Source records contain `id`, `url`, `title`, `publisher`, `source_type`, `accessed_on`, `published_on` (null when unknown), `access_state` and `locator`. Use headings/paragraphs and very short excerpts, not full pages or essays. Restricted-page snippets support only displayed content and remain `snippet_only`; do not use them to claim full identity/timeline verification.
+
+Long search-tool caches remain snippet-only regardless of length. Log query, evidence date, target URL, direct-open result and a short supporting fragment. Disclose when raw output cannot be retained. Keep leads in search logs rather than filling cases or group counts with unverified identities. Preserve name variants and locators. Captions and body text on the same page may support a connection with an explicit basis; cross-source identity links still require separate verification.
+
+Retain conflicting values and their sources together, explaining any resolution or decision to withhold a value. Do not hide missing key evidence behind an overall confidence percentage.
+
+## Search patterns
+
+Adapt syntax to current tools and the program: full/short program name with student profile, alumni, class of, admitted, application retrospective or admission case; program name with `site:linkedin.com/in`, `site:reddit.com`, `site:1point3acres.com` or relevant sites; name with school/program and résumé, CV, undergraduate, experience or SOP; and separate searches for former names, tracks, campuses and application years.
+
+Discover first, verify second. Discussion may describe program experience but does not establish the participant's admission. Reposts and the same school press release count as one evidence source.
+
+## Dates and duration
+
+Preserve precision as YYYY-MM-DD, YYYY-MM or YYYY. A year is not January 1. Keep expected and completed master's graduation separate: a statement of expected graduation in 2025 does not prove completion merely because the current year is 2026.
+
+For complete month-level work intervals, retain raw dates and end-month meaning before normalizing to half-open intervals and computing their union. Include the last month if the source explicitly says it was worked; otherwise report inclusive/exclusive bounds rather than assuming month-start. “Present” does not make all work before access pre-application. If application timing is unknown, explicitly identify a pre-enrollment approximation. With year-only evidence report ranges or raw intervals, not decimal precision.
+
+Retain inputs, sources, cutoff and calculation method for review. Required master's internships and course projects belong to study, not earlier application background.
+
+## Sampling boundaries
+
+Publicly discoverable admitted/enrolled/graduated people are not all applicants. Do not infer P(admission|background) from this sample. Rejection self-reports may prompt questions, but without a common denominator and complete material do not calculate admission rates.
+
+Tracks, delivery modes and eras can change paths. Do not combine different applicant populations to enlarge a sample. Confirmed identities with unknown tracks may be shown but excluded from track-specific distributions.
+
+## Month calculator input
+
+`work_months.py` accepts a JSON object with `cutoff` (YYYY-MM, truncated at that month's start) and `intervals` containing `start`, `end` (YYYY-MM; null for ongoing until cutoff) and `end_inclusive` (true/false/null when unclear). Supply only verified relevant work intervals. Do not force day-precision or year-only cutoffs into this tool. Output is a union-month range, not an admission-advantage score; it cannot determine full-time status or pre-application relevance.
+
+## Reconstruct prior backgrounds
+
+Record undergraduate school, major, education region/type, undergraduate start/end, target master's start and graduation status, prior employment/internships, research/projects, public GPA with its original scale, and public application accounts or essays.
+
+“Studied finance” or “graduate of a school” establishes education, not automatically undergraduate level, completed degree or formal major. Store known school/subject as education pending verification and leave undergraduate fields unknown. Pre-med preparation is not an awarded major. Orientation, registration, classes, admission and degree award are different events. Orientation reports establish an enrollment/participation observation, not an exact personal start date.
+
+Only proven pre-application experiences count as application background. If application dates are unknown, use an explicitly labeled pre-enrollment approximation: not confirmed before submission. Undated experiences remain pending. Class labels such as ’25 establish neither actual graduation nor entry year.
+
+Separate full-time, part-time, self-employed, internships and research-assistant work. For verified dates, compute the union of relevant employment intervals without double-counting overlap. State cutoff and whether enrollment substitutes for application. Give ranges for year-only evidence, preserve “many years” as stated, and record source-stated 3.5 years without inventing start/end dates. Undisclosed does not mean zero; missing work records do not establish new-graduate status.
+
+Classify undergraduate regions by institution and campus, not name-based nationality, ethnicity or identity guesses. Do not silently convert GPA scales. Do not collect irrelevant contact details or sensitive personal information.
+
+Describe application presentation only from public SOPs, application retrospectives or explicit interviews as self-described expression. Post-admission motivation interviews are not evidence of essay content. Résumés support experience paths, not application stories or admission causes. Label model-proposed narrative interpretations as inference.

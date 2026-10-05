@@ -10,3 +10,18 @@
 | Northwestern MSIS | [阅读](northwestern-msis/2026-10-05-cohort-review/report.md) | 近期背景证据不足，保留项目版本冲突和检索线索 |
 
 每个目录包含可读报告、结构化记录与检索日志。这里只保留当前版本；旧稿和修正过程见[历史档案](../archive/README.md)。
+
+---
+
+# Research examples
+
+The four program reports include field-level sources and search logs. Public samples do not represent complete entering cohorts. Reports and original evidence remain in their original language.
+
+| Program | Report | Evidence coverage |
+| --- | --- | --- |
+| Berkeley MDevEng | [Read](berkeley-mdeveng/2026-10-05-cohort-review/report.md) | 11 public identities; 10 with entering-year evidence for 2024–2026 |
+| CMU MIIPS | [Read](cmu-miips/2026-10-05-cohort-review/report.md) | Six identities; separates enrolled status, self-reported offers and unknown study modes |
+| Brown PRIME | [Read](brown-prime/2026-10-05-cohort-review/report.md) | Four individuals; personal entering years remain unconfirmed |
+| Northwestern MSIS | [Read](northwestern-msis/2026-10-05-cohort-review/report.md) | Insufficient recent background evidence; retains program-version conflicts and search leads |
+
+Each directory contains a readable report, structured records and a search log. Only current versions appear here; earlier drafts and corrections are in the [archive](../archive/README.md).

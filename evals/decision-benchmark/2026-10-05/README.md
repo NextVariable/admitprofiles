@@ -9,3 +9,17 @@
 运行python3 tests/check_decisions.py evals/decision-benchmark/2026-10-05重现results.json；脚本检查输入哈希、题号集合、重复遗漏和yes/no一致性，不自动裁定理由的全部语义。
 
 维护更新：评分入口移至tests，按execution.json要求全部运行输出存在。错误答案与缺失输出均返回失败；原汇总脚本保留archive。
+
+---
+
+# Repeated-session validation on a fixed packet
+
+Freeze 32 synthetic evidence decisions and reference answers before distributing the same packet to four fresh sessions, without the oracle or other outputs. Dispatch requested `gpt-6-astra/high` and `gpt-6-sol/high` twice each with `fork_turns=none`; two same-context repetitions using the inherited model were also retained. All 128 independent-session decisions and 64 same-context decisions matched the frozen reference. The reviewer sampled reasons for T02/T09/T25/T29/T31 in each output, checking enrollment dates, interval unions, admission denominators, stopping conditions and pre-application boundaries.
+
+The tool accepted model requests, but the execution environment did not expose independently verifiable deployed model identities. These are repeated sessions requested under two model labels, not a verified comparison of two deployed models or a model ranking. `execution.json` records conditions, requested models and this limitation; original outputs are retained.
+
+The packet explicitly invokes the skill and uses synthetic decisions. It does not test real web retrieval, implicit invocation, unrestricted long reports or complete background reconstruction. Obvious rule boundaries mean 32/32 cannot imply 100% real-research accuracy or a perfect skill. Three blind web-search runs and the lead reviewer's CMU research are in `research/`. An undergraduate-major error discovered after freezing illustrates why synthetic scores do not replace source review.
+
+Run `python3 tests/check_decisions.py evals/decision-benchmark/2026-10-05` to reproduce `results.json`. The checker validates input hashes, the question-ID set, duplicates, omissions and yes/no agreement; it does not automatically judge all reasoning semantics.
+
+The grading entrypoint now lives in `tests/` and requires every output listed in `execution.json`. Wrong answers and missing outputs fail. The original summary script remains in the archive.
