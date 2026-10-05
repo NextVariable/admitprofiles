@@ -30,6 +30,8 @@ mkdir -p "$HOME/.agents/skills"
 ln -s "$PWD/skills/admitprofiles" "$HOME/.agents/skills/admitprofiles"
 ```
 
-仓库目前为私有，需要访问权限。若已有同名安装，请先保留旧版本。安装后在新会话中使用。
+若已有同名安装，请先保留旧版本。安装后在新会话中使用。
 
 [更多查询示例](research/README.md) · [维护与测试](CONTRIBUTING.md)
+
+项目原创代码与文档采用 [MIT 许可证](LICENSE)。引用的第三方材料保留原权利归属。

@@ -24,4 +24,4 @@ python3 tests/check_source_audit.py archive/evals/source-audits/2026-10-05 --rec
 
 [架构说明](docs/architecture.md) · [评估范围](evals/README.md) · [历史档案](archive/README.md)
 
-仓库尚未声明开源许可证；源码可访问不代表获得再分发授权。
+项目原创代码、技能规则与文档采用 [MIT 许可证](LICENSE)。第三方网页摘录与其他引用材料不因收录而获得重新授权，保留原权利归属与来源。
