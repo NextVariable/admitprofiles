@@ -15,8 +15,6 @@
 
 日常回归使用小型自包含输入，历史审计单独运行。审计检查器接受目录和证据根目录，不依赖固定日期或项目名；模型评分器读取运行清单，缺失输出或错误答案均返回失败。
 
-结构采用 [Agent Skills规范](https://agentskills.io/specification)和[OpenAI skill-creator](https://github.com/openai/skills/blob/main/skills/.system/skill-creator/SKILL.md)中的简洁入口、按需参考和可独立安装原则。没有加入当前用不到的插件框架或空目录。
-
 详细开发过程保存在[历史索引](../archive/README.md)。
 
 ---
@@ -37,7 +35,5 @@ This is a single research skill. Its installation unit is `skills/admitprofiles`
 The record validator checks structure before source and case relationships. The month calculator merges supplied intervals. Neither searches the web or decides whether a page supports a claim. Both remain standalone CLIs rather than adding installation dependencies for a small amount of shared code.
 
 Routine regression tests use small, self-contained inputs; historical audits run separately. The audit checker accepts audit and evidence-root directories without depending on a fixed date or program. The model grader reads the execution manifest and fails on missing outputs or incorrect answers.
-
-The layout follows the concise entrypoint, on-demand references and standalone installation principles in the [Agent Skills specification](https://agentskills.io/specification) and [OpenAI skill-creator](https://github.com/openai/skills/blob/main/skills/.system/skill-creator/SKILL.md). It adds no unused plugin framework or empty directories.
 
 Development history is available in the [archive index](../archive/README.md).
