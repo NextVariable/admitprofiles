@@ -10,7 +10,7 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SCRIPTS = ROOT / "skills/admission-intelligence/scripts"
+SCRIPTS = ROOT / "skills/admitprofiles/scripts"
 
 
 def load(name):

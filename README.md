@@ -1,6 +1,6 @@
 # AdmitProfiles · 录取背景查询
 
-[![验证状态](https://github.com/NextVariable/admission-intelligence/actions/workflows/validate.yml/badge.svg)](https://github.com/NextVariable/admission-intelligence/actions/workflows/validate.yml)
+[![验证状态](https://github.com/NextVariable/admitprofiles/actions/workflows/validate.yml/badge.svg)](https://github.com/NextVariable/admitprofiles/actions/workflows/validate.yml)
 
 **输入学校和项目，查真实录取者的学校、专业、工作与实习背景。**
 
@@ -9,7 +9,7 @@
 ## 这样问
 
 ```text
-使用 $admission-intelligence 查 Berkeley MDevEng 最近三届录取者的背景。
+使用 $admitprofiles 查 Berkeley MDevEng 最近三届录取者的背景。
 重点看本科学校和专业、工作年限、实习经历，附上每项来源。
 ```
 
@@ -24,12 +24,12 @@
 需要 Codex 和联网检索能力；记录检查工具需要 Python 3.11+。先克隆仓库，再将技能链接到个人技能目录：
 
 ```sh
-git clone https://github.com/NextVariable/admission-intelligence.git
-cd admission-intelligence
+git clone https://github.com/NextVariable/admitprofiles.git
+cd admitprofiles
 mkdir -p "$HOME/.agents/skills"
-ln -s "$PWD/skills/admission-intelligence" "$HOME/.agents/skills/admission-intelligence"
+ln -s "$PWD/skills/admitprofiles" "$HOME/.agents/skills/admitprofiles"
 ```
 
-仓库目前为私有，需要访问权限。若已有同名安装，请先保留旧版本。安装后在新会话中使用；调用名暂沿用 `$admission-intelligence`。
+仓库目前为私有，需要访问权限。若已有同名安装，请先保留旧版本。安装后在新会话中使用。
 
 [更多查询示例](research/README.md) · [维护与测试](CONTRIBUTING.md)

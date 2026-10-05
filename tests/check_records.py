@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location(
-    "validate_cases", ROOT / "skills/admission-intelligence/scripts/validate_cases.py"
+    "validate_cases", ROOT / "skills/admitprofiles/scripts/validate_cases.py"
 )
 records = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(records)

@@ -1,6 +1,6 @@
 # 维护与验证
 
-运行时仅依赖 Python 3.11+ 标准库。安装维护工具后，在仓库根目录执行：
+辅助脚本仅依赖 Python 3.11+ 标准库。安装维护工具后，在仓库根目录执行：
 
 ```sh
 python3 -m pip install -r requirements-dev.txt

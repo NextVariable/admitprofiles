@@ -1,5 +1,5 @@
 ---
-name: admission-intelligence
+name: admitprofiles
 description: >-
   跨来源研究留学项目公开录取和入学案例，还原申请前背景并归纳有证据的画像。
   用户问“这个项目录什么样的人”“扒 LinkedIn 录取画像”“找学校专业、工作实习和申请路线”时使用。

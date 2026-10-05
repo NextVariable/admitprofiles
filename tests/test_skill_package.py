@@ -11,14 +11,14 @@ from pathlib import Path
 
 from test_skill_helpers import ROOT, fixture
 
-SKILL = ROOT / "skills/admission-intelligence"
+SKILL = ROOT / "skills/admitprofiles"
 
 
 class SkillPackageTests(unittest.TestCase):
     def test_copied_package_runs_both_helpers_without_repository(self):
         with tempfile.TemporaryDirectory() as directory:
             work = Path(directory)
-            package = work / "installed/admission-intelligence"
+            package = work / "installed/admitprofiles"
             shutil.copytree(
                 SKILL, package, ignore=shutil.ignore_patterns("__pycache__")
             )
