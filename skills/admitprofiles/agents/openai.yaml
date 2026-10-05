@@ -1,6 +1,6 @@
 interface:
-  display_name: "AdmitProfiles · 录取背景查询 / Applicant Backgrounds"
-  short_description: "录取背景查询，附来源 / Sourced applicant backgrounds"
-  default_prompt: "使用 $admitprofiles 查询指定项目的录取背景，附来源和未知项。 / Use $admitprofiles to research admitted applicants for a specific program, citing sources and gaps."
+  display_name: "AdmitProfiles · 录取画像研究 / Admission Profiles"
+  short_description: "录取画像、背景路径与匹配 / Sourced admission profiles"
+  default_prompt: "使用 $admitprofiles 研究指定项目的录取画像，结论先行，给背景路径、代表案例、来源和未知项。 / Use $admitprofiles to research admission profiles for a specific program, leading with observed paths, representative cases, sources and gaps."
 policy:
   allow_implicit_invocation: true

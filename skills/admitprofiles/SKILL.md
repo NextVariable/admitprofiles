@@ -9,7 +9,7 @@ description: >-
   Use for admitted-student backgrounds and application paths; add personal comparison only on request with actual experience. Exclude editing, translation or deadline-only queries.
 ---
 
-# AdmitProfiles · 录取背景查询 / Admitted Applicant Background Research
+# AdmitProfiles · 录取画像研究 / Admission Profile Research
 
 输入具体项目，研究公开案例中实际出现过哪些申请前背景，再解释共同路径。无需个人履历即可运行。默认使用用户请求的语言（未指定时使用自然中文），结论先行，事实与推断分开，逐项附来源、未知和冲突。
 
